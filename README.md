@@ -5,7 +5,7 @@ This is the KiCad Repository for the JHU 22XT DAQ Sub-team.
 ## Installation and User Guide
 GitHub & KiCad Guide: https://docs.google.com/document/d/1nFm-e38JEY4i58-0UFxqdLA5TKqWCrV3EDKR8jGpRfA/edit?usp=sharing 
 
-As a summary, you should be using **KiCad Version 9.0**. All project will be modular, and you should be storing all your step files, symbols, & footprints within the created folders.
+As a summary, you should be using **KiCad Version 10.03**. All project will be modular, and you should be storing all your step files, symbols, & footprints within the created folders.
 
 Schematic settings & layout settings are described in the guide, as well as component derating.
 
