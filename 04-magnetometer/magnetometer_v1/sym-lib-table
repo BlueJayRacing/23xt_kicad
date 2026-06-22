@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "00-symbols")(type "KiCad")(uri "/Users/suhuang/Documents/baja/23xt_kicad/04-magnetometer/00-symbols.kicad_sym")(options "")(descr ""))
+)
