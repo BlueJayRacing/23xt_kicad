@@ -1,0 +1,23 @@
+# ---- KiCad ----
+# Backups & autosaves
+*-backups/
+*.bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+_autosave-*
+\#auto_saved_files\#
+*.lck
+~*.lck
+
+# Caches / per-user local settings
+fp-info-cache
+*.kicad_prl
+
+# ---- Library download leftovers ----
+# Raw SnapEDA / Ultra Librarian archives (extract, then ignore)
+*.zip
+
+# ---- OS junk ----
+.DS_Store
+Thumbs.db
+desktop.ini

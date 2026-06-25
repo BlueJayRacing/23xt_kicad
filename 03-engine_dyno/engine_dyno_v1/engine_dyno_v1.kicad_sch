@@ -1,0 +1,404 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "d283b024-74fa-4d4c-9089-b2007a8f756c")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 176.53 43.18) (xy 194.31 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5168675f-4497-479a-a515-6b2d7f5c6808")
+	)
+	(wire
+		(pts
+			(xy 95.25 40.64) (xy 105.41 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52f909c2-821d-4efb-9621-bca73b29920f")
+	)
+	(wire
+		(pts
+			(xy 176.53 50.8) (xy 194.31 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5360c6c-c185-4ca7-ac32-ef8bdcd3e921")
+	)
+	(wire
+		(pts
+			(xy 176.53 58.42) (xy 194.31 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "decb852b-d905-4739-8b22-75dd9eb6ef3c")
+	)
+	(sheet
+		(at 194.31 35.56)
+		(size 71.12 48.26)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0c6943d1-72c8-4350-bd84-a52e2c8b9947")
+		(property "Sheetname" "References"
+			(at 194.31 34.8484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "references.kicad_sch"
+			(at 194.31 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BIAS_REF" input
+			(at 213.36 83.82 270)
+			(uuid "562b8b36-3b5c-4851-a3b2-49e7967ff645")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MID_REF" input
+			(at 242.57 83.82 270)
+			(uuid "fe6afad7-e49a-4150-a748-25d6fbe31fc2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCLK" input
+			(at 194.31 43.18 180)
+			(uuid "c7f76f51-219f-4c6d-a7d8-632c416342cd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDIN" input
+			(at 194.31 50.8 180)
+			(uuid "b19ebf24-ff4e-43fb-a787-8ed31e027f54")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SYNC" input
+			(at 194.31 58.42 180)
+			(uuid "fb00e5db-eefe-4f1a-8981-6d73a5c8b5fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "engine_dyno_v1"
+				(path "/d283b024-74fa-4d4c-9089-b2007a8f756c"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 35.56)
+		(size 19.05 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3b8b6910-3a04-4ae3-b73f-448b33afb94f")
+		(property "Sheetname" "power"
+			(at 76.2 34.8484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 76.2 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+5V_USB" input
+			(at 95.25 40.64 0)
+			(uuid "94b12513-12c4-4583-9330-641aac7b5155")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWR_SIG" output
+			(at 95.25 45.72 0)
+			(uuid "5b3f1f34-9df6-4881-bfc4-cbb31bc94fa6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "engine_dyno_v1"
+				(path "/d283b024-74fa-4d4c-9089-b2007a8f756c"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 74.93 89.154)
+		(size 67.31 52.07)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "58a03bf8-4b85-4710-8d7c-83e8ef4560fe")
+		(property "Sheetname" "Hall"
+			(at 74.93 88.4424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "hall.kicad_sch"
+			(at 74.93 141.8086 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "engine_dyno_v1"
+				(path "/d283b024-74fa-4d4c-9089-b2007a8f756c"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 105.41 35.56)
+		(size 71.12 45.72)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "98235854-983d-4e64-9110-73cbe2c5a722")
+		(property "Sheetname" "MCU"
+			(at 105.41 34.8484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 105.41 81.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CS_1" input
+			(at 176.53 63.5 0)
+			(uuid "5c4d640c-3ef7-4c3b-9933-e836da09992d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CS_2" input
+			(at 176.53 67.31 0)
+			(uuid "ac8c6a24-a634-4d0b-9f46-7d2f2e746e28")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CS_3" input
+			(at 176.53 58.42 0)
+			(uuid "35c41850-b9ab-48ee-9b62-f841db83bd32")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MISO" input
+			(at 176.53 74.93 0)
+			(uuid "39f0f8bc-c481-4996-a0e5-e2700360b0c8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MOSI" input
+			(at 176.53 50.8 0)
+			(uuid "94b98d24-078f-4ac9-a4be-41257451713e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCK" input
+			(at 176.53 43.18 0)
+			(uuid "33ad283a-c4fc-454b-b38d-1c46fb2904d8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+5V_USB" output
+			(at 105.41 40.64 180)
+			(uuid "73fdfa62-6738-4a14-bdb6-2edb2733f719")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "engine_dyno_v1"
+				(path "/d283b024-74fa-4d4c-9089-b2007a8f756c"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 195.072 91.313)
+		(size 67.945 47.625)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d7a598d2-e16c-4272-a780-ed8480e4996a")
+		(property "Sheetname" "Transducer"
+			(at 195.072 90.6014 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "transducer.kicad_sch"
+			(at 195.072 139.5226 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "engine_dyno_v1"
+				(path "/d283b024-74fa-4d4c-9089-b2007a8f756c"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

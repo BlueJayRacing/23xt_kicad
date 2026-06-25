@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "engine_dyno")(type "KiCad")(uri "${KIPRJMOD}/libraries/engine_dyno.pretty")(options "")(descr ""))
+)
