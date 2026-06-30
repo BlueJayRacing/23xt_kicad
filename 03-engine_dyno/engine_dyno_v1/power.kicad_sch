@@ -4128,7 +4128,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1b2a9640-bed6-4b4e-8476-dd152b18377f")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 132.08 62.23 90)
 			(effects
 				(font
@@ -4191,6 +4191,14 @@
 		)
 		(pin "1"
 			(uuid "edbd98a6-69a3-457d-9452-cb544318b518")
+		)
+		(instances
+			(project "engine_dyno_v1"
+				(path "/d283b024-74fa-4d4c-9089-b2007a8f756c/3b8b6910-3a04-4ae3-b73f-448b33afb94f"
+					(reference "U2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4529,6 +4537,14 @@
 		(pin "1"
 			(uuid "20010331-6925-47ed-b01a-002526666689")
 		)
+		(instances
+			(project "engine_dyno_v1"
+				(path "/d283b024-74fa-4d4c-9089-b2007a8f756c/3b8b6910-3a04-4ae3-b73f-448b33afb94f"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
@@ -4590,6 +4606,14 @@
 		)
 		(pin "1"
 			(uuid "f3ee75e1-24f7-4880-be1a-f31d0e82d4d4")
+		)
+		(instances
+			(project "engine_dyno_v1"
+				(path "/d283b024-74fa-4d4c-9089-b2007a8f756c/3b8b6910-3a04-4ae3-b73f-448b33afb94f"
+					(reference "R1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5289,6 +5313,14 @@
 		(pin "3"
 			(uuid "d7ca2bef-931d-4982-9e98-8d85c1376091")
 		)
+		(instances
+			(project "engine_dyno_v1"
+				(path "/d283b024-74fa-4d4c-9089-b2007a8f756c/3b8b6910-3a04-4ae3-b73f-448b33afb94f"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -5613,6 +5645,14 @@
 		)
 		(pin "1"
 			(uuid "6099631b-a31f-4570-861c-6a3344f05f79")
+		)
+		(instances
+			(project "engine_dyno_v1"
+				(path "/d283b024-74fa-4d4c-9089-b2007a8f756c/3b8b6910-3a04-4ae3-b73f-448b33afb94f"
+					(reference "J1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6028,7 +6068,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a22fd5f4-d21d-4729-a4dd-fd87cff7b49f")
-		(property "Reference" "U3"
+		(property "Reference" "U1"
 			(at 95.25 105.41 0)
 			(effects
 				(font
@@ -6091,6 +6131,14 @@
 		(pin "4"
 			(uuid "b849943f-1454-4bb7-b878-a0737c6c5274")
 		)
+		(instances
+			(project "engine_dyno_v1"
+				(path "/d283b024-74fa-4d4c-9089-b2007a8f756c/3b8b6910-3a04-4ae3-b73f-448b33afb94f"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:D_Zener")
@@ -6152,6 +6200,14 @@
 		)
 		(pin "2"
 			(uuid "137f49c5-39ae-4ff2-a04d-cefbd756e4a1")
+		)
+		(instances
+			(project "engine_dyno_v1"
+				(path "/d283b024-74fa-4d4c-9089-b2007a8f756c/3b8b6910-3a04-4ae3-b73f-448b33afb94f"
+					(reference "D1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6550,6 +6606,14 @@
 		(pin "2"
 			(uuid "66161176-702a-4527-8803-2f5415a8b598")
 		)
+		(instances
+			(project "engine_dyno_v1"
+				(path "/d283b024-74fa-4d4c-9089-b2007a8f756c/3b8b6910-3a04-4ae3-b73f-448b33afb94f"
+					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
@@ -6679,6 +6743,14 @@
 		)
 		(pin "1"
 			(uuid "1affc497-d185-451b-a852-1069898c38d3")
+		)
+		(instances
+			(project "engine_dyno_v1"
+				(path "/d283b024-74fa-4d4c-9089-b2007a8f756c/3b8b6910-3a04-4ae3-b73f-448b33afb94f"
+					(reference "L1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6964,6 +7036,14 @@
 		)
 		(pin "3"
 			(uuid "37f380eb-4390-4ca2-a0c9-8d218d04f331")
+		)
+		(instances
+			(project "engine_dyno_v1"
+				(path "/d283b024-74fa-4d4c-9089-b2007a8f756c/3b8b6910-3a04-4ae3-b73f-448b33afb94f"
+					(reference "U4")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7310,7 +7390,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fff1fbbc-18fc-4c78-a36d-177e5db89aef")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 209.55 58.42 0)
 			(effects
 				(font
@@ -7497,6 +7577,14 @@
 		)
 		(pin "5"
 			(uuid "3a5c1745-486c-45d1-9cde-d35ba95847e9")
+		)
+		(instances
+			(project "engine_dyno_v1"
+				(path "/d283b024-74fa-4d4c-9089-b2007a8f756c/3b8b6910-3a04-4ae3-b73f-448b33afb94f"
+					(reference "U3")
+					(unit 1)
+				)
+			)
 		)
 	)
 )

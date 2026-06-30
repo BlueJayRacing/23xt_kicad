@@ -2338,6 +2338,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 99.06) (xy 115.57 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "339d7ef1-f315-4934-8ff0-d239a2057a04")
+	)
+	(wire
+		(pts
 			(xy 198.12 109.22) (xy 198.12 110.49)
 		)
 		(stroke
@@ -2388,6 +2398,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 76.2) (xy 171.45 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "861a7c1e-f303-4f80-a801-6646a4d1b510")
+	)
+	(wire
+		(pts
 			(xy 198.12 116.84) (xy 201.93 116.84)
 		)
 		(stroke
@@ -2418,6 +2438,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 96.52) (xy 115.57 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a242b0dd-730f-4452-b4bc-21aa016d0d4a")
+	)
+	(wire
+		(pts
 			(xy 168.91 121.92) (xy 172.72 121.92)
 		)
 		(stroke
@@ -2445,6 +2475,28 @@
 			(type default)
 		)
 		(uuid "ff1a1baa-cbb0-4cab-9c8b-e79a06a1e289")
+	)
+	(hierarchical_label "A14"
+		(shape input)
+		(at 171.45 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0b06c34b-2e19-4121-b3a9-9ce16b39e7ac")
+	)
+	(hierarchical_label "A3"
+		(shape input)
+		(at 113.03 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1725982d-81a0-45f0-82ff-33d298d279c2")
 	)
 	(hierarchical_label "CS_2"
 		(shape output)
@@ -2511,6 +2563,17 @@
 			(justify left)
 		)
 		(uuid "a658db21-e37e-4830-96f2-9238257a445f")
+	)
+	(hierarchical_label "A2"
+		(shape input)
+		(at 113.03 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f4720822-ebd3-47ef-af6b-e86765e317b4")
 	)
 	(hierarchical_label "MISO"
 		(shape input)
