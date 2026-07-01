@@ -915,6 +915,28 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 95.758 77.216)
+		(end 207.01 128.016)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 897db02b-80cc-4c40-9bb8-3906eaaae6bb)
+	)
+	(text "DAC Reference\n"
+		(exclude_from_sim no)
+		(at 199.136 126.746 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b8ebba06-832a-428a-8f47-875b7485e1f6")
+	)
 	(junction
 		(at 185.42 105.41)
 		(diameter 0)
