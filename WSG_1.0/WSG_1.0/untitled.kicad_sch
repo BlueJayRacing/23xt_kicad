@@ -8610,7 +8610,7 @@
 		(fields_autoplaced yes)
 		(uuid "56d48108-831d-41ab-8213-d68e36520647")
 		(property "Reference" "Y1"
-			(at 128.27 176.4598 0)
+			(at 134.62 176.4598 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8619,8 +8619,8 @@
 				)
 			)
 		)
-		(property "Value" "SiT8008xx-1x-xxS"
-			(at 128.27 178.9998 0)
+		(property "Value" "SiT8008AI-13-33S-16.384000"
+			(at 134.62 178.9998 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
