@@ -1299,8 +1299,8 @@
 		)
 		(uuid "ab60e0ae-82b7-44a0-8270-a188fb4a0f87")
 	)
-	(hierarchical_label "HALL1"
-		(shape input)
+	(hierarchical_label "HALL"
+		(shape output)
 		(at 157.48 85.09 0)
 		(effects
 			(font
