@@ -498,7 +498,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "Connector_Generic"
+    ]
   },
   "meta": {
     "filename": "MeshNetBoard.kicad_pro",
@@ -661,7 +663,7 @@
         "uuid": "023b8ec8-025c-47f8-a870-fc739c3f206f"
       }
     ],
-    "used_designators": "#PWR2,J1",
+    "used_designators": "U5,J1,#PWR11-13,D2-3,C4-7,R5-9",
     "variants": []
   },
   "sheets": [
