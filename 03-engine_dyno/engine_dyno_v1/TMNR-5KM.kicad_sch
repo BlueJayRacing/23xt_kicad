@@ -4151,7 +4151,7 @@
 		)
 		(uuid "0dd3927d-1f52-4455-a5be-f588c8c3206e")
 	)
-	(hierarchical_label "CS"
+	(hierarchical_label "CS!"
 		(shape input)
 		(at 200.66 102.87 180)
 		(effects
@@ -4379,7 +4379,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 259.08 91.44 0)
 			(effects
 				(font
@@ -4449,7 +4449,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 29.21 96.52 0)
 			(effects
 				(font
@@ -4518,7 +4518,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 77.47 60.96 0)
 			(effects
 				(font
@@ -4654,7 +4654,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 165.1 121.92 0)
 			(effects
 				(font
@@ -4788,7 +4788,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_RND:TerminalBlock_RND_205-00235_1x05_P5.08mm_Horizontal"
 			(at 36.83 86.36 0)
 			(effects
 				(font
@@ -4998,7 +4998,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 250.19 54.61 0)
 			(effects
 				(font
@@ -5201,7 +5201,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 219.71 62.23 0)
 			(effects
 				(font
@@ -5403,7 +5403,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 67.31 66.04 0)
 			(effects
 				(font
@@ -5671,7 +5671,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 210.82 52.07 0)
 			(effects
 				(font
@@ -5962,7 +5962,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 237.49 64.77 0)
 			(effects
 				(font
@@ -6029,7 +6029,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 67.31 68.58 0)
 			(effects
 				(font
@@ -6162,7 +6162,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 207.01 57.15 0)
 			(effects
 				(font
@@ -6231,7 +6231,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 45.72 111.76 0)
 			(effects
 				(font
@@ -6299,7 +6299,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 237.49 44.45 0)
 			(effects
 				(font
@@ -6435,7 +6435,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 165.1 78.74 0)
 			(effects
 				(font
@@ -6892,7 +6892,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_RND:TerminalBlock_RND_205-00232_1x02_P5.08mm_Horizontal"
 			(at 36.83 68.58 0)
 			(effects
 				(font
@@ -6962,7 +6962,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 259.08 102.87 0)
 			(effects
 				(font
@@ -7296,7 +7296,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 214.63 57.15 0)
 			(effects
 				(font
@@ -7499,7 +7499,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 29.21 106.68 0)
 			(effects
 				(font
@@ -7848,7 +7848,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 77.47 73.66 0)
 			(effects
 				(font

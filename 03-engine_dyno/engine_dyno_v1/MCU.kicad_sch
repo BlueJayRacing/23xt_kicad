@@ -3289,7 +3289,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 134.62 104.14 0)
 			(effects
 				(font
@@ -3561,7 +3561,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 135.89 41.91 0)
 			(effects
 				(font
@@ -4495,7 +4495,7 @@
 				)
 			)
 		)
-		(property "Footprint" "22XT_Main:Teensy41"
+		(property "Footprint" "engine_dyno:Teensy41"
 			(at 72.39 90.17 0)
 			(effects
 				(font
