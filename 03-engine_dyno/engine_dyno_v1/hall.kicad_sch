@@ -1080,7 +1080,7 @@
 		)
 	)
 	(rectangle
-		(start 81.534 61.214)
+		(start 81.534 49.53)
 		(end 167.386 107.95)
 		(stroke
 			(width 0)
@@ -1090,6 +1090,16 @@
 			(type none)
 		)
 		(uuid f82a821e-2225-48ef-b33e-f34cdcee9d25)
+	)
+	(text "Pull-up: Rpu = 4.7 kΩ to +5V (open-collector high level)\nNoise filter: fc = 1/(2π·R·C) = 1/(2π·4.7k·1n) = 33.9 kHz\nLevel shift: 74LVC1G17 @ VCC=3.3V → out 0/3.3V; input 5.5V-tolerant\nMax pulse freq = N_targets × RPM/60  (keep ≪ 33.9 kHz)"
+		(exclude_from_sim no)
+		(at 124.968 55.372 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "00bdf77f-ad02-43b5-9503-b2935a87f471")
 	)
 	(text "Buffer Level Shifter\n"
 		(exclude_from_sim no)

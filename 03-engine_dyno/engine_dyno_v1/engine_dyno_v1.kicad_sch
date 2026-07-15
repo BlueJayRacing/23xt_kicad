@@ -451,7 +451,7 @@
 				(justify left)
 			)
 		)
-		(pin "SCLK" input
+		(pin "SCK" input
 			(at 194.31 76.2 180)
 			(uuid "c7f76f51-219f-4c6d-a7d8-632c416342cd")
 			(effects
@@ -461,7 +461,7 @@
 				(justify left)
 			)
 		)
-		(pin "SDIN" input
+		(pin "MOSI" input
 			(at 194.31 68.58 180)
 			(uuid "b19ebf24-ff4e-43fb-a787-8ed31e027f54")
 			(effects
@@ -471,7 +471,7 @@
 				(justify left)
 			)
 		)
-		(pin "SYNC" input
+		(pin "CS_1" input
 			(at 194.31 44.45 180)
 			(uuid "fb00e5db-eefe-4f1a-8981-6d73a5c8b5fc")
 			(effects
@@ -839,7 +839,7 @@
 			)
 		)
 		(property "Sheetfile" "Model1605.kicad_sch"
-			(at 193.04 152.908 0)
+			(at 193.04 135.636 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -857,7 +857,7 @@
 				(justify right)
 			)
 		)
-		(pin "CS" input
+		(pin "CS!" input
 			(at 214.63 99.06 90)
 			(uuid "33d90836-a23d-4b28-b966-5a952dd4776d")
 			(effects
@@ -867,7 +867,7 @@
 				(justify right)
 			)
 		)
-		(pin "DIN" input
+		(pin "MOSI" input
 			(at 193.04 114.3 180)
 			(uuid "6eb81c56-8318-445e-835c-7b00a22ee29c")
 			(effects
@@ -877,7 +877,7 @@
 				(justify left)
 			)
 		)
-		(pin "DOUT{slash}~DRDY" input
+		(pin "MISO" input
 			(at 193.04 129.54 180)
 			(uuid "48127275-0004-4362-a533-1b43ecbf9606")
 			(effects
@@ -887,7 +887,7 @@
 				(justify left)
 			)
 		)
-		(pin "DRDY" input
+		(pin "A14" input
 			(at 207.01 99.06 90)
 			(uuid "9beae9b4-6cad-441a-a4e8-73da68652f9d")
 			(effects
@@ -907,7 +907,7 @@
 				(justify right)
 			)
 		)
-		(pin "SCLK" input
+		(pin "SCK" input
 			(at 193.04 121.92 180)
 			(uuid "ab8c0eb9-1221-4db2-b8af-d00304304691")
 			(effects
@@ -969,7 +969,7 @@
 				(justify right)
 			)
 		)
-		(pin "CS" input
+		(pin "CS!" input
 			(at 144.78 99.06 90)
 			(uuid "ba76ecd6-2b4a-4c13-85a3-2519f2fa37e0")
 			(effects
@@ -979,7 +979,7 @@
 				(justify right)
 			)
 		)
-		(pin "DIN" input
+		(pin "MOSI" input
 			(at 176.53 114.3 0)
 			(uuid "05c14b82-771b-4fe9-b383-ffe295b7a363")
 			(effects
@@ -989,7 +989,7 @@
 				(justify right)
 			)
 		)
-		(pin "DOUT{slash}~DRDY" input
+		(pin "MISO" input
 			(at 176.53 129.54 0)
 			(uuid "a68a8757-76f7-48e0-b456-fb48ec76212f")
 			(effects
@@ -999,7 +999,7 @@
 				(justify right)
 			)
 		)
-		(pin "DRDY" input
+		(pin "A15" input
 			(at 138.43 99.06 90)
 			(uuid "6421ac03-54de-4ea6-98ad-f04babc9651e")
 			(effects
@@ -1019,7 +1019,7 @@
 				(justify right)
 			)
 		)
-		(pin "SCLK" input
+		(pin "SCK" input
 			(at 176.53 121.92 0)
 			(uuid "f378c961-8aca-407a-95f5-e5e7f3c8ffa8")
 			(effects

@@ -12,8 +12,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 64.77 0)
+			(property "Reference" "U6"
+				(at 0 66.04 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -21,14 +21,14 @@
 				)
 			)
 			(property "Value" "Teensy4.1"
-				(at 0 62.23 0)
+				(at 0 63.5 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "engine_dyno:Teensy41"
 				(at -10.16 10.16 0)
 				(effects
 					(font
@@ -773,24 +773,6 @@
 					)
 				)
 				(pin output line
-					(at 27.94 52.07 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "47"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
 					(at 27.94 49.53 180)
 					(length 5.08)
 					(name "3V3"
@@ -1298,6 +1280,26 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(symbol "Teensy4.1_1_0"
+				(pin power_in line
+					(at 27.94 52.07 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -2411,12 +2413,6 @@
 		(uuid "1181f7ea-909a-4954-8159-d8824bdaac7f")
 	)
 	(junction
-		(at 128.27 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4232fa6c-bd1f-453e-816e-e090089f6be5")
-	)
-	(junction
 		(at 134.62 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2764,16 +2760,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 45.72) (xy 128.27 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ad3a5a1-8379-4bd3-a139-1a5b3d3c19cc")
-	)
-	(wire
-		(pts
 			(xy 123.19 115.57) (xy 123.19 113.03)
 		)
 		(stroke
@@ -2904,7 +2890,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 45.72) (xy 135.89 45.72)
+			(xy 110.49 45.72) (xy 135.89 45.72)
 		)
 		(stroke
 			(width 0)
@@ -4265,71 +4251,6 @@
 			(project "engine_dyno_v1"
 				(path "/d283b024-74fa-4d4c-9089-b2007a8f756c/98235854-983d-4e64-9110-73cbe2c5a722"
 					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 128.27 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a64dffa1-35da-46e7-bd82-b290e2109ebb")
-		(property "Reference" "#FLG04"
-			(at 128.27 43.815 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 128.27 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 128.27 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 128.27 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 128.27 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7fdd0740-d859-4d07-aa8e-56f677b7defb")
-		)
-		(instances
-			(project ""
-				(path "/d283b024-74fa-4d4c-9089-b2007a8f756c/98235854-983d-4e64-9110-73cbe2c5a722"
-					(reference "#FLG04")
 					(unit 1)
 				)
 			)

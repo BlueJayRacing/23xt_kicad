@@ -12,7 +12,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
+			(property "Reference" "U5"
 				(at 22.86 10.16 0)
 				(effects
 					(font
@@ -132,24 +132,6 @@
 						(type none)
 					)
 				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 7.62)
-					(name "VREF"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin no_connect line
 					(at 0 -2.54 0)
 					(length 7.62)
@@ -179,24 +161,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 0 -7.62 0)
-					(length 7.62)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -413,6 +377,44 @@
 						)
 					)
 					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "AD5689RBRUZ_1_1"
+				(pin passive line
+					(at 0 0 0)
+					(length 7.62)
+					(name "VREF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 0)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1133,7 +1135,7 @@
 		)
 		(uuid "e9bf1f17-8649-4a0d-982c-e42d7734ead2")
 	)
-	(hierarchical_label "SDIN"
+	(hierarchical_label "MOSI"
 		(shape input)
 		(at 175.26 97.79 0)
 		(effects
@@ -1144,7 +1146,7 @@
 		)
 		(uuid "0198de92-7093-4786-bf25-a4caee8dbf67")
 	)
-	(hierarchical_label "SYNC"
+	(hierarchical_label "CS_1"
 		(shape input)
 		(at 175.26 100.33 0)
 		(effects
@@ -1177,7 +1179,7 @@
 		)
 		(uuid "6f7ab4d8-df47-4373-87d6-7c66a7142cc7")
 	)
-	(hierarchical_label "SCLK"
+	(hierarchical_label "SCK"
 		(shape input)
 		(at 175.26 102.87 0)
 		(effects

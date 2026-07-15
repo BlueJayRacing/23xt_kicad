@@ -12,22 +12,20 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -27.9638 19.0662 0)
+			(property "Reference" "U12"
+				(at 0 22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
 			(property "Value" "AD630ARZ"
-				(at -27.9504 -22.8685 0)
+				(at 0 20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
 			(property "Footprint" "engine_dyno:SOIC127P1032X265-20N"
@@ -215,24 +213,6 @@
 					)
 				)
 				(pin input line
-					(at -30.48 7.62 0)
-					(length 2.54)
-					(name "CH_A-"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at -30.48 5.08 0)
 					(length 2.54)
 					(name "CH_B+"
@@ -243,24 +223,6 @@
 						)
 					)
 					(number "18"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -30.48 2.54 0)
-					(length 2.54)
-					(name "CH_B-"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "19"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -521,6 +483,44 @@
 					)
 				)
 			)
+			(symbol "AD630ARZ_1_0"
+				(pin passive line
+					(at -30.48 7.62 0)
+					(length 2.54)
+					(name "CH_A-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -30.48 2.54 0)
+					(length 2.54)
+					(name "CH_B-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
 			(embedded_fonts no)
 		)
 		(symbol "ADS1120IPWR:ADS1120IPWR"
@@ -530,22 +530,20 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -12.7 23.86 0)
+			(property "Reference" "U13"
+				(at 0 28.194 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
 			(property "Value" "ADS1120IPWR"
-				(at -12.7 -26.86 0)
+				(at 0 25.654 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
 			(property "Footprint" "engine_dyno:SOP65P640X120-16N"
@@ -866,24 +864,6 @@
 						)
 					)
 				)
-				(pin output line
-					(at 17.78 10.16 180)
-					(length 5.08)
-					(name "DOUT/~DRDY"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
 				(pin bidirectional line
 					(at 17.78 0 180)
 					(length 5.08)
@@ -949,6 +929,26 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ADS1120IPWR_1_0"
+				(pin tri_state line
+					(at 17.78 10.16 180)
+					(length 5.08)
+					(name "DOUT/~DRDY"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "15"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -2852,7 +2852,7 @@
 	)
 	(rectangle
 		(start 14.224 50.8)
-		(end 181.356 135.89)
+		(end 181.356 136.398)
 		(stroke
 			(width 0)
 			(type default)
@@ -2863,7 +2863,7 @@
 		(uuid 8bee798b-6fe7-4820-bd0e-2568d8f48dbf)
 	)
 	(rectangle
-		(start 188.722 30.48)
+		(start 188.722 21.844)
 		(end 272.034 79.248)
 		(stroke
 			(width 0)
@@ -2876,7 +2876,7 @@
 	)
 	(rectangle
 		(start 183.896 81.534)
-		(end 279.908 149.352)
+		(end 279.908 152.908)
 		(stroke
 			(width 0)
 			(type default)
@@ -2896,9 +2896,59 @@
 		)
 		(uuid "19b20fd8-8688-46ba-928e-c97b07e4f49a")
 	)
+	(text "fc = 1/(2π·R·√(C1·C2)) ;  Q = ½·√(C1/C2)\nR = 16 kΩ, C1 = 150 nF, C2 = 68 nF\nfc = 98.5 Hz ; Q = 0.74\nRipple reject @10 kHz: (98.5/10000)² → −80.3 dB"
+		(exclude_from_sim no)
+		(at 227.838 27.178 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2faaa20c-1333-481b-9534-4aa6db90a243")
+	)
+	(text "G = 5 + 80kΩ/RG\nRG = 100 Ω → G = 5 + 80k/100 = 805\nVout = 2.6 mVrms × 805 = 2.09 Vrms ≈ 2.96 Vpk\nBW check: BW(G=805) ≈ 15M/805 ≈ 18.6 kHz > 5 kHz  ✓  (−0.3 dB @ 5 kHz)"
+		(exclude_from_sim no)
+		(at 55.88 124.714 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "41e3955d-d310-40e1-8a79-42bbc202743b")
+	)
+	(text "Full-scale = 1.3 mV/V × 2 Vrms = 2.6 mVrms"
+		(exclude_from_sim no)
+		(at 37.592 195.326 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5ae0ccfc-3eef-4010-9717-a76b179fae31")
+	)
+	(text "Vref = 2.048 V internal, PGA = 1 → FSR = ±2.048 V\nLSB = 62.5 µV\nFull-scale DC 1.88 V → 92% FSR  ✓\nCodes @ full torque ≈ 30,100"
+		(exclude_from_sim no)
+		(at 221.742 148.336 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9d57a33c-8a25-4a91-a82b-bab385958a2b")
+	)
+	(text "|G| = RF_eff/RA = (10k‖10k)/5k = 1\nDemod DC = (2/π)·Vpk = 0.637 × 2.96 = 1.88 V\nRipple at 2×fc = 2 × 5 kHz = 10 kHz"
+		(exclude_from_sim no)
+		(at 131.572 124.968 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d1555a8f-18f0-4860-99b9-98d33dc45113")
+	)
 	(text "Instrumentational Amplifier and Demodulator"
 		(exclude_from_sim no)
-		(at 158.75 134.366 0)
+		(at 157.734 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2908,7 +2958,7 @@
 	)
 	(text "ADC\n"
 		(exclude_from_sim no)
-		(at 277.114 148.082 0)
+		(at 276.86 151.384 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3031,6 +3081,10 @@
 	(no_connect
 		(at 101.6 104.14)
 		(uuid "2f34b6bb-286f-4cd0-a89f-9ae3b0e8c7ba")
+	)
+	(no_connect
+		(at 46.99 81.28)
+		(uuid "719b3b48-4f95-4ed2-9266-c6cddaa402ba")
 	)
 	(no_connect
 		(at 101.6 101.6)
@@ -4140,7 +4194,7 @@
 		)
 		(uuid "fc36624a-2f4f-4a7c-a978-654184bd8014")
 	)
-	(hierarchical_label "DOUT{slash}~DRDY"
+	(hierarchical_label "MISO"
 		(shape input)
 		(at 241.3 105.41 0)
 		(effects
@@ -4162,7 +4216,7 @@
 		)
 		(uuid "35ebc5d1-37e2-4da4-bd40-709dc2d6b33e")
 	)
-	(hierarchical_label "DIN"
+	(hierarchical_label "MOSI"
 		(shape input)
 		(at 200.66 107.95 180)
 		(effects
@@ -4195,7 +4249,7 @@
 		)
 		(uuid "ccb4c925-b781-4ca8-a694-aa8e98b940ab")
 	)
-	(hierarchical_label "DRDY"
+	(hierarchical_label "A15"
 		(shape input)
 		(at 241.3 102.87 0)
 		(effects
@@ -4206,7 +4260,7 @@
 		)
 		(uuid "d119d6f1-3bb0-4f30-b9fa-61f043f85d06")
 	)
-	(hierarchical_label "SCLK"
+	(hierarchical_label "SCK"
 		(shape input)
 		(at 200.66 110.49 180)
 		(effects

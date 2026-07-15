@@ -530,22 +530,20 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -12.7 23.86 0)
+			(property "Reference" "U9"
+				(at 0 28.194 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
 			(property "Value" "ADS1120IPWR"
-				(at -12.7 -26.86 0)
+				(at 0 25.654 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
 			(property "Footprint" "engine_dyno:SOP65P640X120-16N"
@@ -866,24 +864,6 @@
 						)
 					)
 				)
-				(pin output line
-					(at 17.78 10.16 180)
-					(length 5.08)
-					(name "DOUT/~DRDY"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
 				(pin bidirectional line
 					(at 17.78 0 180)
 					(length 5.08)
@@ -949,6 +929,26 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ADS1120IPWR_1_0"
+				(pin tri_state line
+					(at 17.78 10.16 180)
+					(length 5.08)
+					(name "DOUT/~DRDY"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "15"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -2852,7 +2852,7 @@
 	)
 	(rectangle
 		(start 14.224 54.61)
-		(end 181.356 139.7)
+		(end 181.356 148.082)
 		(stroke
 			(width 0)
 			(type default)
@@ -2863,7 +2863,7 @@
 		(uuid 8bee798b-6fe7-4820-bd0e-2568d8f48dbf)
 	)
 	(rectangle
-		(start 188.722 34.29)
+		(start 188.722 24.892)
 		(end 272.034 83.058)
 		(stroke
 			(width 0)
@@ -2875,8 +2875,8 @@
 		(uuid ad215105-a30a-42cc-b9ea-18cbc278db63)
 	)
 	(rectangle
-		(start 183.896 85.344)
-		(end 279.908 153.162)
+		(start 184.404 84.328)
+		(end 280.416 159.766)
 		(stroke
 			(width 0)
 			(type default)
@@ -2896,9 +2896,49 @@
 		)
 		(uuid "19b20fd8-8688-46ba-928e-c97b07e4f49a")
 	)
+	(text "Vref = 2.048 V (internal), PGA = 1 → FSR = ±2.048 V\nLSB = 2·Vref / 2^16 = 4.096/65536 = 62.5 µV\nFull-scale DC 1.89 V → 1.89/2.048 = 92% FSR  ✓ (fits, no clip)\nCodes @ full torque ≈ 1.89 V / 62.5 µV ≈ 30,200"
+		(exclude_from_sim no)
+		(at 221.234 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5b9c5539-ff2f-4c95-a847-4ddce563edff")
+	)
+	(text "G = 5 + 80kΩ/RG            [INA827 datasheet]\nRG = 390 Ω → G = 5 + 80k/390 = 210\nVout = 10 mVrms × 210 = 2.10 Vrms ≈ 2.97 Vpk\nBW check: GBW ≈ 15 MHz; BW(G=210) ≈ 15M/210 ≈ 71 kHz ≫ 3.277 kHz  ✓"
+		(exclude_from_sim no)
+		(at 54.864 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5cfd523b-c8d9-4794-a2df-92d6a9b34fa1")
+	)
+	(text "Full-scale bridge output = sensitivity × excitation = 2 mV/V × 5 Vrms = 10 mVrms"
+		(exclude_from_sim no)
+		(at 56.388 195.326 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6cdaf951-06e7-4c95-b488-a6756071ee2b")
+	)
+	(text "fc = 1 / (2π·R·√(C1·C2)) ;  Q = ½·√(C1/C2)   [unity-gain SK, R1=R2=R]\nR = 16 kΩ, C1 = 150 nF, C2 = 68 nF\nfc = 1/(2π·16k·√(150n·68n)) = 98.5 Hz\nQ  = ½·√(150/68) = 0.74  (≈Butterworth)\nRipple reject @6.55 kHz: (fc/f)² = (98.5/6550)² → −72.9 dB"
+		(exclude_from_sim no)
+		(at 230.632 31.496 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7d8054a5-6563-4f46-be4f-20807262e3d1")
+	)
 	(text "Instrumentational Amplifier and Demodulator"
 		(exclude_from_sim no)
-		(at 158.75 138.176 0)
+		(at 158.496 146.304 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2908,13 +2948,23 @@
 	)
 	(text "ADC\n"
 		(exclude_from_sim no)
-		(at 277.114 151.892 0)
+		(at 277.622 158.242 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "daebdd6a-9d50-40a8-a8f4-154f9d312f61")
+	)
+	(text "Gain strap ±1: |G| = RF_eff / RA\nRF_eff = RF‖RB = 10k‖10k = 5kΩ ; RA = 5kΩ → |G| = 1\nDemod DC (full-wave, phase-aligned) = (2/π)·Vpk = 0.637 × 2.97 = 1.89 V\nRipple at 2×fc = 2 × 3.277 kHz = 6.55 kHz\nOutput swing needed ≈ 2.97 Vpk (verify vs ±5V swing, Fig 9)"
+		(exclude_from_sim no)
+		(at 132.588 134.112 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e55128f4-b763-4934-8028-9bc7b9cc1cec")
 	)
 	(junction
 		(at 241.3 144.78)
@@ -2971,6 +3021,12 @@
 		(uuid "6376b8eb-4266-4cc5-83cb-015a79f64e55")
 	)
 	(junction
+		(at 77.47 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67ec0ecb-d8da-459d-8f4e-f69c5122cb6a")
+	)
+	(junction
 		(at 210.82 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2995,12 +3051,6 @@
 		(uuid "90a7bb16-1aea-4436-a620-9097ae7b48af")
 	)
 	(junction
-		(at 77.47 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "988c477d-7591-4eb8-9287-10e8d01f064d")
-	)
-	(junction
 		(at 232.41 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3011,12 +3061,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b4dd11f2-1c8c-449a-b116-ae72a0ad2f76")
-	)
-	(junction
-		(at 69.85 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c2181443-f442-4b88-b2a6-7c2efecdd043")
 	)
 	(junction
 		(at 77.47 69.85)
@@ -3041,6 +3085,10 @@
 	(no_connect
 		(at 101.6 105.41)
 		(uuid "7fbe2929-34c5-468b-98f6-63a24046505e")
+	)
+	(no_connect
+		(at 46.99 85.09)
+		(uuid "919de2a0-8395-4678-be3f-d4f07931f3e5")
 	)
 	(no_connect
 		(at 203.2 132.08)
@@ -3538,16 +3586,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 72.39) (xy 77.47 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79392f20-91ff-4033-bab9-0ca1d55cecea")
-	)
-	(wire
-		(pts
 			(xy 245.11 40.64) (xy 245.11 58.42)
 		)
 		(stroke
@@ -3685,16 +3723,6 @@
 			(type default)
 		)
 		(uuid "9ccc9dff-1b9d-4b14-8b97-40bc991d00f7")
-	)
-	(wire
-		(pts
-			(xy 68.58 72.39) (xy 69.85 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0e414d7-231f-4b59-8c50-7931e720f666")
 	)
 	(wire
 		(pts
@@ -3855,6 +3883,16 @@
 			(type default)
 		)
 		(uuid "e0de8f68-cd8d-4cb1-9185-60bc46ad3339")
+	)
+	(wire
+		(pts
+			(xy 69.85 72.39) (xy 77.47 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4ff31fd-0ad7-4577-a465-4e72583d59eb")
 	)
 	(wire
 		(pts
@@ -4156,7 +4194,7 @@
 		)
 		(uuid "ec961779-63f1-4663-a2b9-55b7d7b8ef0d")
 	)
-	(hierarchical_label "DIN"
+	(hierarchical_label "MOSI"
 		(shape input)
 		(at 200.66 111.76 180)
 		(effects
@@ -4189,7 +4227,7 @@
 		)
 		(uuid "32d730ed-31e1-4284-ac23-b790c599d811")
 	)
-	(hierarchical_label "DOUT{slash}~DRDY"
+	(hierarchical_label "MISO"
 		(shape input)
 		(at 241.3 109.22 0)
 		(effects
@@ -4200,7 +4238,7 @@
 		)
 		(uuid "47d112da-d811-4ae0-b2b3-c167c63adc37")
 	)
-	(hierarchical_label "SCLK"
+	(hierarchical_label "SCK"
 		(shape input)
 		(at 200.66 114.3 180)
 		(effects
@@ -4211,7 +4249,7 @@
 		)
 		(uuid "6da25ea3-452c-4ed3-9783-29a770569539")
 	)
-	(hierarchical_label "DRDY"
+	(hierarchical_label "A14"
 		(shape input)
 		(at 241.3 106.68 0)
 		(effects
@@ -4222,7 +4260,7 @@
 		)
 		(uuid "c3fb8143-13ec-4f3a-8c8f-c7c9e345493a")
 	)
-	(hierarchical_label "CS"
+	(hierarchical_label "CS!"
 		(shape input)
 		(at 200.66 106.68 180)
 		(effects
