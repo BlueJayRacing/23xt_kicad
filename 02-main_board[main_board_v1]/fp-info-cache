@@ -1,4 +1,4 @@
-26639958954666186
+26657791906036024
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106253,6 +106253,34 @@ Varistor VF
 2
 2
 footprints
+74LVC4245APW_118
+
+
+0
+24
+24
+footprints
+AD7175-8BCPZ-RL7
+CP-40-14 (LFCSP)
+Integrated Circuit
+0
+41
+41
+footprints
+ATA6561-GAQW-N
+
+ATA6561-GAQW-N 
+0
+8
+8
+footprints
+FH4115S05SH05
+FH41-15S-0.5SH(05)-2
+Connector
+0
+20
+20
+footprints
 LT3973EMSE-5#PBF
 
 LT3973EMSE-5-PBF 
@@ -106267,9 +106295,51 @@ MAX6105EUR+T
 3
 3
 footprints
-footpr
+RCLAMP3354S_TCT
+
+RCLAMP3354S.TCT 
+0
+5
+5
+footprints
+SOIC_PT61018PEL
+
+PT61018PEL 
+0
+16
+16
+footprints
+TPS2115ADRBR
 
 TPS2115ADRBR 
 0
 15
 10
+footprints
+Teensy41
+
+
+0
+67
+67
+footprints
+XIAO_ESP32S3
+XIAO ESP32-S3
+Transistor E-mode GaN (3-Pin)
+0
+14
+14
+footprints
+c-2-84952-0-a-3d
+
+2-84952-0 
+0
+22
+22
+footprints
+c-2-84952-4-a-3d
+
+2-84952-4 
+0
+26
+26

@@ -617,6 +617,22 @@
     [
       "02e3daba-7757-4a30-ac30-9fc5cd45a7ce",
       "power"
+    ],
+    [
+      "92ce0411-43bd-4a5b-b429-16cad50bc1ec",
+      "analog processing"
+    ],
+    [
+      "03cafb34-d16a-431c-852a-9b04c88f44e1",
+      "digital processing"
+    ],
+    [
+      "5fc2e8ea-ad51-4d94-b167-6ce076215cd3",
+      "esp32"
+    ],
+    [
+      "30cd09ab-8475-4f60-a19c-f1ae2b3560f0",
+      "connectors"
     ]
   ],
   "text_variables": {}
