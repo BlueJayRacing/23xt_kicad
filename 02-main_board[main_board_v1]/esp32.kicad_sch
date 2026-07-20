@@ -251,6 +251,130 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GNDD"
 			(power)
 			(pin_numbers
@@ -931,6 +1055,12 @@
 		(color 0 0 0 0)
 		(uuid "d5498272-a799-4cdb-acdd-c9413f707e8d")
 	)
+	(junction
+		(at 41.91 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1a901d7-3c48-4131-a804-ce2ea78fa4fb")
+	)
 	(no_connect
 		(at 45.72 54.61)
 		(uuid "09655625-7186-4f7e-8af6-554740eb6a10")
@@ -957,6 +1087,36 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 58.42) (xy 41.91 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96cfa43e-ec94-42e3-846c-4266c12f04d0")
+	)
+	(wire
+		(pts
+			(xy 41.91 68.58) (xy 40.64 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b0a8c0f-93ba-4af1-8aa1-ed2d3829f941")
+	)
+	(wire
+		(pts
+			(xy 41.91 57.15) (xy 45.72 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a12c0477-3146-4de8-a63e-15d5a7371d81")
+	)
+	(wire
+		(pts
 			(xy 101.6 46.99) (xy 102.87 46.99)
 		)
 		(stroke
@@ -974,6 +1134,26 @@
 			(type default)
 		)
 		(uuid "cf2e849f-13b1-4fce-acef-63fe08dd10dc")
+	)
+	(wire
+		(pts
+			(xy 38.1 57.15) (xy 41.91 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d12bebd3-ada8-4a59-b7dc-6b41744a96bd")
+	)
+	(wire
+		(pts
+			(xy 41.91 68.58) (xy 41.91 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3a35373-849e-416f-b5ed-b38f92656ef5")
 	)
 	(global_label "MOSI_esp32"
 		(shape input)
@@ -1043,7 +1223,7 @@
 	)
 	(global_label "MISO_esp32"
 		(shape input)
-		(at 43.18 74.93 0)
+		(at 71.12 85.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1053,12 +1233,34 @@
 		)
 		(uuid "50eb2f25-4f40-445d-9dd9-22ae0342610e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.4137 74.93 0)
+			(at 85.3537 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3.3V_teensy"
+		(shape input)
+		(at 40.64 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "659a0521-d474-4981-9095-7eff8537c3e1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 26.5272 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -1109,7 +1311,7 @@
 	)
 	(global_label "MOSI_esp32"
 		(shape input)
-		(at 43.18 85.09 0)
+		(at 71.12 95.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1119,7 +1321,7 @@
 		)
 		(uuid "ab7148b4-e60f-4873-928d-bcdf809bea81")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.4137 85.09 0)
+			(at 85.3537 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1131,7 +1333,7 @@
 	)
 	(global_label "CS_esp32"
 		(shape input)
-		(at 45.72 57.15 180)
+		(at 38.1 57.15 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1141,7 +1343,7 @@
 		)
 		(uuid "bfba37b5-42db-4c73-8946-1eb0695a6aff")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 33.603 57.15 0)
+			(at 25.983 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1151,7 +1353,7 @@
 			)
 		)
 	)
-	(global_label "JTAG_esp32"
+	(global_label "handshake_esp32"
 		(shape bidirectional)
 		(at 45.72 52.07 180)
 		(fields_autoplaced yes)
@@ -1163,7 +1365,7 @@
 		)
 		(uuid "da37c37f-93fc-4979-a162-d11a82083079")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.6774 52.07 0)
+			(at 24.9324 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1260,6 +1462,75 @@
 			(project ""
 				(path "/0ba8c130-372e-4349-9fc9-4ef188509568/5fc2e8ea-ad51-4d94-b167-6ce076215cd3"
 					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 41.91 62.23 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5f93ae1c-3f3d-494d-948a-65f221e7a643")
+		(property "Reference" "R21"
+			(at 36.83 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 36.83 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.688 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 41.91 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "aee38c76-f46f-4eea-be83-53b0f07e8f94")
+		)
+		(pin "1"
+			(uuid "5ed5f062-63cd-4726-bb06-a878c59472cf")
+		)
+		(instances
+			(project ""
+				(path "/0ba8c130-372e-4349-9fc9-4ef188509568/5fc2e8ea-ad51-4d94-b167-6ce076215cd3"
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -1398,7 +1669,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 43.18 74.93 90)
+		(at 71.12 85.09 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1406,7 +1677,7 @@
 		(dnp no)
 		(uuid "c4137367-491c-4139-ac7e-bdb6bda9b115")
 		(property "Reference" "TP8"
-			(at 39.878 69.85 90)
+			(at 67.818 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1414,7 +1685,7 @@
 			)
 		)
 		(property "Value" "MISO_esp32"
-			(at 39.878 72.39 90)
+			(at 67.818 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1422,7 +1693,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 69.85 0)
+			(at 71.12 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1431,7 +1702,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 69.85 0)
+			(at 71.12 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1440,7 +1711,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 43.18 74.93 0)
+			(at 71.12 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1704,7 +1975,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 43.18 85.09 90)
+		(at 71.12 95.25 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1712,7 +1983,7 @@
 		(dnp no)
 		(uuid "e7a8a866-ff28-4bdd-a011-23597230f41a")
 		(property "Reference" "TP9"
-			(at 39.878 80.01 90)
+			(at 67.818 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1720,7 +1991,7 @@
 			)
 		)
 		(property "Value" "MOSI_esp32"
-			(at 39.878 82.55 90)
+			(at 67.818 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1728,7 +1999,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 80.01 0)
+			(at 71.12 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1737,7 +2008,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 80.01 0)
+			(at 71.12 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1746,7 +2017,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 43.18 85.09 0)
+			(at 71.12 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)

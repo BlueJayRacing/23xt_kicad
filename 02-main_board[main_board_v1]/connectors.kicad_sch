@@ -6296,6 +6296,28 @@
 			)
 		)
 	)
+	(global_label "5V_stable"
+		(shape output)
+		(at 58.42 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5d8ae17b-9902-4739-9f4f-fcacab22fe46")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 46.3635 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USB_D_N"
 		(shape bidirectional)
 		(at 199.39 78.74 0)
@@ -6397,6 +6419,28 @@
 		(uuid "7563b539-f184-4a02-902f-32059424485c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 111.6778 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V_stable"
+		(shape output)
+		(at 58.42 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "81931296-05f5-4a67-a431-76a1bdbb0637")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 46.3635 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6516,28 +6560,6 @@
 			)
 		)
 	)
-	(global_label "5V"
-		(shape output)
-		(at 58.42 80.01 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "af7fd85c-b4bc-4e26-9df5-42592c2bcd0d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 53.1367 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "HFX_5V_eng"
 		(shape output)
 		(at 58.42 46.99 180)
@@ -6573,28 +6595,6 @@
 		(uuid "c94bc80a-5b5e-41cd-9f33-5b03765f034d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 111.6175 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "5V_ref"
-		(shape input)
-		(at 123.19 82.55 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cf049bcc-d5a1-42a0-a73f-ec2ed319fc56")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.3386 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6688,28 +6688,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "5V"
-		(shape output)
-		(at 58.42 82.55 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f297c363-2ae8-4eb3-8cd0-43efd7ecc149")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 53.1367 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -7397,6 +7375,73 @@
 			(project "02-main_board[main_board_v1]"
 				(path "/0ba8c130-372e-4349-9fc9-4ef188509568/30cd09ab-8475-4f60-a19c-f1ae2b3560f0"
 					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 123.19 82.55 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62805ec7-c285-48bc-a93f-8897ed863fa2")
+		(property "Reference" "#PWR03"
+			(at 118.11 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 119.38 82.4229 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 123.19 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d73ca960-9a6a-41f9-b8c3-c55217075225")
+		)
+		(instances
+			(project "02-main_board[main_board_v1]"
+				(path "/0ba8c130-372e-4349-9fc9-4ef188509568/30cd09ab-8475-4f60-a19c-f1ae2b3560f0"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)

@@ -1,4 +1,4 @@
-26657791906036024
+26661360850997223
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106281,6 +106281,13 @@ Connector
 20
 20
 footprints
+LDL1117S50R_
+
+
+0
+4
+4
+footprints
 LT3973EMSE-5#PBF
 
 LT3973EMSE-5-PBF 
@@ -106294,6 +106301,13 @@ MAX6105EUR+T
 0
 3
 3
+footprints
+PinHeader_1x01_P2.54mm_Vertical
+Through hole straight pin header, 1x01, 2.54mm pitch, single row
+Through hole pin header THT 1x01 2.54mm single row
+0
+1
+1
 footprints
 RCLAMP3354S_TCT
 
