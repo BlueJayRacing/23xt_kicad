@@ -6527,7 +6527,7 @@
 				)
 			)
 		)
-		(property "Footprint" "USB4110-GF-A_GCT"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4110"
 			(at 43.18 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -6954,7 +6954,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:JST_S2B-PH-K-S_LF__SN_-2pin_male"
 			(at 176.53 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -7033,7 +7033,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
 			(at 171.45 133.858 90)
 			(hide yes)
 			(show_name no)
@@ -7192,7 +7192,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 96.52 7.62 0)
 			(hide yes)
 			(show_name no)
@@ -7353,7 +7353,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SOT23_DIO"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 33.02 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -7439,7 +7439,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
 			(at 191.4652 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -7754,7 +7754,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
 			(at 21.082 27.94 90)
 			(hide yes)
 			(show_name no)
@@ -7913,7 +7913,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
 			(at 171.1452 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -8072,7 +8072,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
 			(at 248.6152 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -8153,7 +8153,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
 			(at 228.2952 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -8313,7 +8313,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
 			(at 129.2352 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -8551,7 +8551,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
 			(at 103.632 35.56 90)
 			(hide yes)
 			(show_name no)
@@ -8632,7 +8632,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
 			(at 163.5252 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -8712,7 +8712,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DBV0005A-IPC_A"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 210.82 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -8803,7 +8803,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YBG0008-IPC_A"
+		(property "Footprint" "footprints:IC_BQ25180YBGR"
 			(at 129.54 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -8982,7 +8982,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
 			(at 209.2452 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -9140,7 +9140,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
 			(at 39.37 183.642 90)
 			(hide yes)
 			(show_name no)
@@ -9377,7 +9377,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
 			(at 185.42 102.108 90)
 			(hide yes)
 			(show_name no)
@@ -9534,7 +9534,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
 			(at 90.678 153.67 90)
 			(hide yes)
 			(show_name no)
@@ -10163,7 +10163,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
 			(at 175.26 60.198 90)
 			(hide yes)
 			(show_name no)
@@ -10322,7 +10322,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_Coilcraft_XxL4020"
 			(at 50.8 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -10480,7 +10480,7 @@
 				)
 			)
 		)
-		(property "Footprint" "W25N04KVZEIR:IC_W25N04KVZEIR"
+		(property "Footprint" "footprints:SON127P500X600X80-9N"
 			(at 138.43 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -10831,7 +10831,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
 			(at 182.5752 127 0)
 			(hide yes)
 			(show_name no)
@@ -10988,7 +10988,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
 			(at 90.678 143.51 90)
 			(hide yes)
 			(show_name no)
@@ -11068,7 +11068,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YFP0004ABAB"
+		(property "Footprint" "footprints:IC_TPS22916BYFPR"
 			(at 63.5 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -11312,7 +11312,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
 			(at 182.118 62.23 90)
 			(hide yes)
 			(show_name no)
@@ -11863,7 +11863,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
 			(at 84.7852 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -11944,7 +11944,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
 			(at 23.8252 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -12023,7 +12023,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
 			(at 185.42 90.678 90)
 			(hide yes)
 			(show_name no)
@@ -12102,7 +12102,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
 			(at 185.42 110.998 90)
 			(hide yes)
 			(show_name no)
@@ -12278,7 +12278,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
 			(at 25.4 85.598 90)
 			(hide yes)
 			(show_name no)
@@ -12357,7 +12357,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
 			(at 219.71 79.248 90)
 			(hide yes)
 			(show_name no)
@@ -12515,7 +12515,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DLA0010A"
+		(property "Footprint" "Package_DFN_QFN:DFN-10-1EP_2x3mm_P0.5mm_EP0.64x2.4mm"
 			(at 52.07 135.89 0)
 			(hide yes)
 			(show_name no)
