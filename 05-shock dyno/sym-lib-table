@@ -16,4 +16,8 @@
   (lib (name "teensy4.1m")(type "KiCad")(uri "${KIPRJMOD}/00-symbols/teensy4.1m.kicad_sym")(options "")(descr ""))
   (lib (name "SPX3819S-L_TR")(type "KiCad")(uri "${KIPRJMOD}/00-symbols/SPX3819S-L_TR.kicad_sym")(options "")(descr ""))
   (lib (name "TPS54331D")(type "KiCad")(uri "${KIPRJMOD}/00-symbols/TPS54331D.kicad_sym")(options "")(descr ""))
+  (lib (name "LMZM23601V5SILR")(type "KiCad")(uri "${KIPRJMOD}/00-symbols/LMZM23601V5SILR.kicad_sym")(options "")(descr ""))
+  (lib (name "OPA320AIDBVR")(type "KiCad")(uri "${KIPRJMOD}/00-symbols/OPA320AIDBVR.kicad_sym")(options "")(descr ""))
+  (lib (name "XT30PW-M")(type "KiCad")(uri "${KIPRJMOD}/00-symbols/XT30PW-M.kicad_sym")(options "")(descr ""))
+  (lib (name "TSR_1-2450")(type "KiCad")(uri "${KIPRJMOD}/00-symbols/TSR_1-2450.kicad_sym")(options "")(descr ""))
 )
