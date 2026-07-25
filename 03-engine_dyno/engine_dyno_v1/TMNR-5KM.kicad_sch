@@ -2997,6 +2997,12 @@
 		(uuid "2f2aefa5-e8ef-44d1-abe9-dc2de1f742bb")
 	)
 	(junction
+		(at 90.17 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "31893617-ad7a-4acd-951e-37b9882615c1")
+	)
+	(junction
 		(at 29.21 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3266,7 +3272,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 91.44) (xy 90.17 96.52)
+			(xy 90.17 91.44) (xy 90.17 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3283,6 +3289,16 @@
 			(type default)
 		)
 		(uuid "3838d8c0-2d61-4c41-aeca-f12c8f0a136b")
+	)
+	(wire
+		(pts
+			(xy 87.63 93.98) (xy 87.63 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bbd4f7a-b048-4d11-b3b6-9bb70cb522b7")
 	)
 	(wire
 		(pts
@@ -3396,7 +3412,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 111.76) (xy 165.1 111.76)
+			(xy 162.56 111.76) (xy 179.07 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3716,6 +3732,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 132.08) (xy 179.07 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "909a6925-ea82-4da0-bc10-59152959ea4d")
+	)
+	(wire
+		(pts
 			(xy 41.91 91.44) (xy 50.8 91.44)
 		)
 		(stroke
@@ -3723,6 +3749,16 @@
 			(type default)
 		)
 		(uuid "95f17979-c56a-4736-a353-ee48a000a5a6")
+	)
+	(wire
+		(pts
+			(xy 90.17 93.98) (xy 87.63 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99ab374b-b591-41de-bdb3-08d088cc5b9b")
 	)
 	(wire
 		(pts
@@ -3896,6 +3932,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 132.08) (xy 179.07 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3171c16-c316-4b19-a94c-870682876fea")
+	)
+	(wire
+		(pts
 			(xy 99.06 88.9) (xy 101.6 88.9)
 		)
 		(stroke
@@ -3943,6 +3989,16 @@
 			(type default)
 		)
 		(uuid "eb0b1a26-15af-4466-8842-215f6b4520c9")
+	)
+	(wire
+		(pts
+			(xy 90.17 93.98) (xy 90.17 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edcb285b-a529-4d85-bc19-ae3ed18d46be")
 	)
 	(wire
 		(pts
@@ -4183,16 +4239,6 @@
 			(justify right bottom)
 		)
 		(uuid "f94fe993-f329-450d-b915-02d2506ccd10")
-	)
-	(label "AD630_OUT"
-		(at 165.1 111.76 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fc36624a-2f4f-4a7c-a978-654184bd8014")
 	)
 	(hierarchical_label "MISO"
 		(shape input)
@@ -6276,7 +6322,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "390"
 			(at 43.18 113.0299 0)
 			(effects
 				(font
