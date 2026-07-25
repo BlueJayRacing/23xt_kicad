@@ -20,4 +20,5 @@
   (lib (name "OPA320AIDBVR")(type "KiCad")(uri "${KIPRJMOD}/00-symbols/OPA320AIDBVR.kicad_sym")(options "")(descr ""))
   (lib (name "XT30PW-M")(type "KiCad")(uri "${KIPRJMOD}/00-symbols/XT30PW-M.kicad_sym")(options "")(descr ""))
   (lib (name "TSR_1-2450")(type "KiCad")(uri "${KIPRJMOD}/00-symbols/TSR_1-2450.kicad_sym")(options "")(descr ""))
+  (lib (name "RJ45-8N-B")(type "KiCad")(uri "${KIPRJMOD}/00-symbols/RJ45-8N-B.kicad_sym")(options "")(descr ""))
 )

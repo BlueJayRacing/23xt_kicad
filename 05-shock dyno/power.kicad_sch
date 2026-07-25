@@ -1224,107 +1224,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GNDA"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GNDA"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GNDA_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GNDA_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(text "Vout: 3.30V\n"
 		(exclude_from_sim no)
@@ -1335,6 +1234,18 @@
 			)
 		)
 		(uuid "cf1f2ae8-52e7-4292-8e62-d0e1295a98bd")
+	)
+	(junction
+		(at 113.03 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03202fa7-8c00-430b-b088-c291e610213e")
+	)
+	(junction
+		(at 113.03 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e7fb55a-d538-4ccb-9735-efd725c71b42")
 	)
 	(junction
 		(at 172.72 129.54)
@@ -1377,6 +1288,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b4815a90-7415-4170-a371-31e5efefb63c")
+	)
+	(junction
+		(at 113.03 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b75b003e-59f8-4911-af49-eaab3fa9e62b")
 	)
 	(junction
 		(at 78.74 129.54)
@@ -1462,6 +1379,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 154.94) (xy 69.85 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2da90bf4-feab-4441-9e4a-73da199ab946")
+	)
+	(wire
+		(pts
 			(xy 172.72 129.54) (xy 177.8 129.54)
 		)
 		(stroke
@@ -1469,6 +1396,16 @@
 			(type default)
 		)
 		(uuid "321bc1fc-ff0d-41b8-bc89-8a819b3061fc")
+	)
+	(wire
+		(pts
+			(xy 113.03 127) (xy 113.03 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c0fed7a-5a0e-442e-add9-f27e98482c0e")
 	)
 	(wire
 		(pts
@@ -1509,6 +1446,16 @@
 			(type default)
 		)
 		(uuid "82c649ba-b43c-451f-a425-c50cf20be32a")
+	)
+	(wire
+		(pts
+			(xy 113.03 124.46) (xy 113.03 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84126fc2-f835-42fe-ba50-a5bf5f55b2b8")
 	)
 	(wire
 		(pts
@@ -1599,6 +1546,26 @@
 			(type default)
 		)
 		(uuid "c0192273-4231-46b1-aed4-9f18de1df228")
+	)
+	(wire
+		(pts
+			(xy 113.03 129.54) (xy 113.03 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c095ca25-731d-442c-8da2-29c08f5feab5")
+	)
+	(wire
+		(pts
+			(xy 113.03 124.46) (xy 114.3 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c14b6e66-b517-4b9d-b2ca-2c972f75fb78")
 	)
 	(wire
 		(pts
@@ -1897,7 +1864,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00bccd4f-cb15-4090-8867-a22fe52fc0e8")
-		(property "Reference" "C26"
+		(property "Reference" "C13"
 			(at 71.374 134.366 0)
 			(effects
 				(font
@@ -1951,74 +1918,7 @@
 		(instances
 			(project "05-shock dyno"
 				(path "/2e817d29-6b29-4abf-9910-5b5fe2f64a49/e51cabe7-6957-4695-818e-c47f74d4fc76"
-					(reference "C26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDA")
-		(at 113.03 132.08 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "027f45dc-9799-4f30-81dd-be722671ac66")
-		(property "Reference" "#PWR018"
-			(at 119.38 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 116.84 132.0799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 113.03 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1e12b5a4-4b60-4f21-8081-729b68ba1b72")
-		)
-		(instances
-			(project "05-shock dyno"
-				(path "/2e817d29-6b29-4abf-9910-5b5fe2f64a49/e51cabe7-6957-4695-818e-c47f74d4fc76"
-					(reference "#PWR018")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -2033,7 +1933,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "157463c6-d6f5-4400-ad04-f7a88da6a0ed")
-		(property "Reference" "C16"
+		(property "Reference" "C14"
 			(at 98.298 81.534 0)
 			(effects
 				(font
@@ -2087,7 +1987,7 @@
 		(instances
 			(project "05-shock dyno"
 				(path "/2e817d29-6b29-4abf-9910-5b5fe2f64a49/e51cabe7-6957-4695-818e-c47f74d4fc76"
-					(reference "C16")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -2095,15 +1995,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 105.41 78.74 180)
+		(at 119.38 88.9 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "1deb57fb-4668-4003-879a-f65c9c7a3d00")
-		(property "Reference" "#PWR028"
-			(at 105.41 72.39 0)
+		(fields_autoplaced yes)
+		(uuid "3f517263-127c-4669-9545-d1282da12694")
+		(property "Reference" "#PWR030"
+			(at 113.03 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2111,16 +2012,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "PGND"
-			(at 105.41 73.66 0)
+		(property "Value" "GND"
+			(at 115.57 88.8999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 105.41 78.74 0)
+			(at 119.38 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2129,7 +2031,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 78.74 0)
+			(at 119.38 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2138,7 +2040,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 105.41 78.74 0)
+			(at 119.38 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2147,77 +2049,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "0fa4cb4c-196d-42b3-b668-e4e81deab521")
+			(uuid "dd60a4be-179d-4998-8094-491a10168e7d")
 		)
 		(instances
 			(project "05-shock dyno"
 				(path "/2e817d29-6b29-4abf-9910-5b5fe2f64a49/e51cabe7-6957-4695-818e-c47f74d4fc76"
-					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 115.57 78.74 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "21c33632-22e3-444a-be5e-b51251acbb62")
-		(property "Reference" "#PWR034"
-			(at 115.57 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PGND"
-			(at 115.57 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 115.57 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 115.57 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 115.57 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2e5ba8fe-aa3e-475a-a2ae-7c79cb656f7a")
-		)
-		(instances
-			(project "05-shock dyno"
-				(path "/2e817d29-6b29-4abf-9910-5b5fe2f64a49/e51cabe7-6957-4695-818e-c47f74d4fc76"
-					(reference "#PWR034")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -2232,7 +2069,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "40b816fc-0a93-478c-aedf-3dcd96ececc4")
-		(property "Reference" "C18"
+		(property "Reference" "C15"
 			(at 103.378 94.234 0)
 			(effects
 				(font
@@ -2286,7 +2123,7 @@
 		(instances
 			(project "05-shock dyno"
 				(path "/2e817d29-6b29-4abf-9910-5b5fe2f64a49/e51cabe7-6957-4695-818e-c47f74d4fc76"
-					(reference "C18")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -2301,7 +2138,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5606e6da-0247-4f6c-9a0b-b3a4d27b74b9")
-		(property "Reference" "C17"
+		(property "Reference" "C12"
 			(at 65.278 134.62 0)
 			(effects
 				(font
@@ -2355,7 +2192,7 @@
 		(instances
 			(project ""
 				(path "/2e817d29-6b29-4abf-9910-5b5fe2f64a49/e51cabe7-6957-4695-818e-c47f74d4fc76"
-					(reference "C17")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -2371,7 +2208,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56706464-4e84-4187-9e54-7f0fe6ad13ea")
-		(property "Reference" "U3"
+		(property "Reference" "U2"
 			(at 199.39 109.22 0)
 			(effects
 				(font
@@ -2519,140 +2356,7 @@
 		(instances
 			(project ""
 				(path "/2e817d29-6b29-4abf-9910-5b5fe2f64a49/e51cabe7-6957-4695-818e-c47f74d4fc76"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDA")
-		(at 113.03 124.46 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "570d1cce-3a03-41e7-b713-038632a65894")
-		(property "Reference" "#PWR015"
-			(at 119.38 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 116.84 124.4599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 113.03 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c2c00af3-66ba-4b44-a4fc-83eacccb7844")
-		)
-		(instances
-			(project ""
-				(path "/2e817d29-6b29-4abf-9910-5b5fe2f64a49/e51cabe7-6957-4695-818e-c47f74d4fc76"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDA")
-		(at 57.15 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5f33c657-9584-4af4-b58f-1938590c5a9c")
-		(property "Reference" "#PWR022"
-			(at 57.15 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 57.15 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.15 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 57.15 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9ef45de2-f5c8-49b4-bd5d-e83b8abdba21")
-		)
-		(instances
-			(project "05-shock dyno"
-				(path "/2e817d29-6b29-4abf-9910-5b5fe2f64a49/e51cabe7-6957-4695-818e-c47f74d4fc76"
-					(reference "#PWR022")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -2668,7 +2372,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ada7208-7f03-4e85-be82-d4412017bca4")
-		(property "Reference" "D2"
+		(property "Reference" "D1"
 			(at 103.8225 40.64 0)
 			(effects
 				(font
@@ -2720,7 +2424,7 @@
 		(instances
 			(project "05-shock dyno"
 				(path "/2e817d29-6b29-4abf-9910-5b5fe2f64a49/e51cabe7-6957-4695-818e-c47f74d4fc76"
-					(reference "D2")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -2735,7 +2439,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "708eec6d-e09d-4af3-a6dd-1ad7b75b3df7")
-		(property "Reference" "C28"
+		(property "Reference" "C17"
 			(at 160.782 125.222 0)
 			(effects
 				(font
@@ -2789,7 +2493,7 @@
 		(instances
 			(project "05-shock dyno"
 				(path "/2e817d29-6b29-4abf-9910-5b5fe2f64a49/e51cabe7-6957-4695-818e-c47f74d4fc76"
-					(reference "C28")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -2805,7 +2509,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77faf942-6979-417e-ba24-2cda4f566acc")
-		(property "Reference" "IC2"
+		(property "Reference" "IC3"
 			(at 97.79 116.84 0)
 			(effects
 				(font
@@ -2927,14 +2631,80 @@
 		(instances
 			(project ""
 				(path "/2e817d29-6b29-4abf-9910-5b5fe2f64a49/e51cabe7-6957-4695-818e-c47f74d4fc76"
-					(reference "IC2")
+					(reference "IC3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GNDA")
+		(lib_id "power:GND")
+		(at 110.49 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b73b37e-889f-42bb-910d-8d34dd2eb357")
+		(property "Reference" "#PWR027"
+			(at 110.49 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 110.49 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 110.49 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cee7f18c-7048-424b-a0fd-dc18b9fd3681")
+		)
+		(instances
+			(project "05-shock dyno"
+				(path "/2e817d29-6b29-4abf-9910-5b5fe2f64a49/e51cabe7-6957-4695-818e-c47f74d4fc76"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 219.71 132.08 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2942,8 +2712,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7f52b89c-c679-483f-8870-3d42c6e96b76")
-		(property "Reference" "#PWR032"
+		(uuid "9033f68e-3e80-426f-8740-428072f1c740")
+		(property "Reference" "#PWR031"
 			(at 226.06 132.08 0)
 			(effects
 				(font
@@ -2952,7 +2722,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDA"
+		(property "Value" "GND"
 			(at 223.52 132.0799 90)
 			(effects
 				(font
@@ -2979,7 +2749,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 219.71 132.08 0)
 			(effects
 				(font
@@ -2989,12 +2759,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "d6ff30ab-70ca-4669-b143-0d8035adb68e")
+			(uuid "db8108df-24ca-4324-9246-76ed3b6ef0a4")
 		)
 		(instances
-			(project ""
+			(project "05-shock dyno"
 				(path "/2e817d29-6b29-4abf-9910-5b5fe2f64a49/e51cabe7-6957-4695-818e-c47f74d4fc76"
-					(reference "#PWR032")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -3028,7 +2798,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TSR-1-24120"
+		(property "Footprint" "00-footprints:TSR-1-24120"
 			(at 140.97 181.28 0)
 			(effects
 				(font
@@ -3126,150 +2896,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDA")
-		(at 113.03 127 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a650dda6-d2b5-46d2-8911-7c030be860db")
-		(property "Reference" "#PWR016"
-			(at 119.38 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 116.84 126.9999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 113.03 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aedde8d0-7005-4bee-bd4f-366a2b92bb15")
-		)
-		(instances
-			(project "05-shock dyno"
-				(path "/2e817d29-6b29-4abf-9910-5b5fe2f64a49/e51cabe7-6957-4695-818e-c47f74d4fc76"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDA")
-		(at 119.38 88.9 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a78b88b6-5868-41cd-b471-2d5a40aeb7e8")
-		(property "Reference" "#PWR021"
-			(at 113.03 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 115.57 88.8999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 119.38 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 119.38 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "34d091f9-df38-44b1-9917-889772ff5bb4")
-		)
-		(instances
-			(project "05-shock dyno"
-				(path "/2e817d29-6b29-4abf-9910-5b5fe2f64a49/e51cabe7-6957-4695-818e-c47f74d4fc76"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 110.49 99.06 0)
+		(at 114.3 124.46 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a84e111a-decc-42ab-8a78-39b11fdb5f2c")
-		(property "Reference" "#PWR029"
-			(at 110.49 105.41 0)
+		(fields_autoplaced yes)
+		(uuid "a508c279-25f8-449b-bec9-adf690cc0ed8")
+		(property "Reference" "#PWR028"
+			(at 120.65 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3277,16 +2914,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "PGND"
-			(at 110.49 104.14 0)
+		(property "Value" "GND"
+			(at 118.11 124.4599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 110.49 99.06 0)
+			(at 114.3 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3295,7 +2933,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 99.06 0)
+			(at 114.3 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3304,7 +2942,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 110.49 99.06 0)
+			(at 114.3 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3313,12 +2951,144 @@
 			)
 		)
 		(pin "1"
-			(uuid "272da3ae-9961-450b-9b07-ca978694aa73")
+			(uuid "0278d51c-a0fc-4227-8c41-bb6f6738d075")
+		)
+		(instances
+			(project "05-shock dyno"
+				(path "/2e817d29-6b29-4abf-9910-5b5fe2f64a49/e51cabe7-6957-4695-818e-c47f74d4fc76"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 115.57 78.74 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c01749f2-9711-4046-8c99-8baf3d5f6cd4")
+		(property "Reference" "#PWR029"
+			(at 115.57 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 115.57 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 115.57 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a7ebe06b-11be-4560-a71a-f852e32351f0")
 		)
 		(instances
 			(project "05-shock dyno"
 				(path "/2e817d29-6b29-4abf-9910-5b5fe2f64a49/e51cabe7-6957-4695-818e-c47f74d4fc76"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 105.41 78.74 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8637259-e839-4510-acc6-eaa5e3889225")
+		(property "Reference" "#PWR026"
+			(at 105.41 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 105.41 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 105.41 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b453d28-958a-45fc-86f0-e0f247dce7c9")
+		)
+		(instances
+			(project "05-shock dyno"
+				(path "/2e817d29-6b29-4abf-9910-5b5fe2f64a49/e51cabe7-6957-4695-818e-c47f74d4fc76"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -3333,7 +3103,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d2e5cbf3-5a2c-4e8b-a149-72caf006c147")
-		(property "Reference" "R8"
+		(property "Reference" "R14"
 			(at 62.992 138.176 0)
 			(effects
 				(font
@@ -3387,24 +3157,24 @@
 		(instances
 			(project ""
 				(path "/2e817d29-6b29-4abf-9910-5b5fe2f64a49/e51cabe7-6957-4695-818e-c47f74d4fc76"
-					(reference "R8")
+					(reference "R14")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GNDA")
-		(at 113.03 129.54 90)
+		(lib_id "power:GND")
+		(at 57.15 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f9631906-697f-4a21-b92b-dfb66a21582c")
-		(property "Reference" "#PWR017"
-			(at 119.38 129.54 0)
+		(uuid "d6421170-c62d-463e-bf63-e457c9bcdf7b")
+		(property "Reference" "#PWR024"
+			(at 57.15 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3412,17 +3182,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDA"
-			(at 116.84 129.5399 90)
+		(property "Value" "GND"
+			(at 57.15 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 129.54 0)
+			(at 57.15 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3431,7 +3200,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 129.54 0)
+			(at 57.15 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3439,8 +3208,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 113.03 129.54 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 57.15 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3449,12 +3218,78 @@
 			)
 		)
 		(pin "1"
-			(uuid "569d493b-dc59-4315-98bd-794e1e937ebb")
+			(uuid "d2188ff7-c085-4182-a827-89367e479999")
 		)
 		(instances
 			(project "05-shock dyno"
 				(path "/2e817d29-6b29-4abf-9910-5b5fe2f64a49/e51cabe7-6957-4695-818e-c47f74d4fc76"
-					(reference "#PWR017")
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 69.85 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de741309-453f-4529-9927-06333474cef4")
+		(property "Reference" "#PWR025"
+			(at 69.85 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 69.85 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 69.85 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9cee423-f712-46e6-8c84-e9062933aef8")
+		)
+		(instances
+			(project "05-shock dyno"
+				(path "/2e817d29-6b29-4abf-9910-5b5fe2f64a49/e51cabe7-6957-4695-818e-c47f74d4fc76"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -3469,7 +3304,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fbe310e0-636d-43dd-bf2e-2c280a5127aa")
-		(property "Reference" "C29"
+		(property "Reference" "C18"
 			(at 171.45 124.968 0)
 			(effects
 				(font
@@ -3523,7 +3358,7 @@
 		(instances
 			(project "05-shock dyno"
 				(path "/2e817d29-6b29-4abf-9910-5b5fe2f64a49/e51cabe7-6957-4695-818e-c47f74d4fc76"
-					(reference "C29")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -3538,7 +3373,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fc1feaf3-862b-4ce8-8f47-ec8716ca7365")
-		(property "Reference" "C19"
+		(property "Reference" "C16"
 			(at 108.458 81.534 0)
 			(effects
 				(font
@@ -3592,73 +3427,7 @@
 		(instances
 			(project "05-shock dyno"
 				(path "/2e817d29-6b29-4abf-9910-5b5fe2f64a49/e51cabe7-6957-4695-818e-c47f74d4fc76"
-					(reference "C19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDA")
-		(at 69.85 153.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fdce7588-94a8-45c3-bce6-6caaa9ab2809")
-		(property "Reference" "#PWR023"
-			(at 69.85 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 69.85 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 69.85 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 69.85 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 69.85 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9c0f1230-e3c1-43e8-8dff-3441000c4c28")
-		)
-		(instances
-			(project ""
-				(path "/2e817d29-6b29-4abf-9910-5b5fe2f64a49/e51cabe7-6957-4695-818e-c47f74d4fc76"
-					(reference "#PWR023")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -3674,7 +3443,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "feea2b52-a01a-479a-9d07-c54d2acb3b2c")
-		(property "Reference" "R9"
+		(property "Reference" "R15"
 			(at 72.39 148.5899 0)
 			(effects
 				(font
@@ -3728,7 +3497,7 @@
 		(instances
 			(project "05-shock dyno"
 				(path "/2e817d29-6b29-4abf-9910-5b5fe2f64a49/e51cabe7-6957-4695-818e-c47f74d4fc76"
-					(reference "R9")
+					(reference "R15")
 					(unit 1)
 				)
 			)
