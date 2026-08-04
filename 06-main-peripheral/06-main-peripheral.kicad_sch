@@ -2893,6 +2893,16 @@
 		)
 		(uuid "9b6576ec-6a51-45ca-b789-2c2a60f81528")
 	)
+	(text "EG1218"
+		(exclude_from_sim no)
+		(at 141.224 140.716 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9ef37d9b-2b62-45f1-ab09-96c34aaf1dcc")
+	)
 	(text "Ethernet"
 		(exclude_from_sim no)
 		(at 247.142 108.712 0)
@@ -3299,7 +3309,7 @@
 	)
 	(global_label "TX_P"
 		(shape bidirectional)
-		(at 78.74 132.08 0)
+		(at 78.74 134.62 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3309,7 +3319,7 @@
 		)
 		(uuid "03eac7dc-bdac-422c-8b2e-575470a33b45")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 87.2512 132.08 0)
+			(at 87.2512 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3347,7 +3357,7 @@
 	)
 	(global_label "TX_N"
 		(shape bidirectional)
-		(at 78.74 134.62 0)
+		(at 78.74 132.08 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3357,7 +3367,7 @@
 		)
 		(uuid "0735a81f-b463-4acf-a2d1-c04c077d9f28")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 87.3117 134.62 0)
+			(at 87.3117 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3633,7 +3643,7 @@
 			)
 		)
 	)
-	(global_label "CAN_L"
+	(global_label "CAN_N"
 		(shape bidirectional)
 		(at 78.74 144.78 0)
 		(fields_autoplaced yes)
@@ -3645,7 +3655,7 @@
 		)
 		(uuid "8b55d322-6e06-4bd7-b24e-36da92129e15")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.5213 144.78 0)
+			(at 88.8237 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3729,7 +3739,7 @@
 			)
 		)
 	)
-	(global_label "CAN_L"
+	(global_label "CAN_N"
 		(shape input)
 		(at 190.5 119.38 180)
 		(fields_autoplaced yes)
@@ -3741,7 +3751,7 @@
 		)
 		(uuid "b79ec949-aa28-4cc9-b9ef-6445683520d9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 181.83 119.38 0)
+			(at 181.5276 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3753,7 +3763,7 @@
 			)
 		)
 	)
-	(global_label "CAN_H"
+	(global_label "CAN_P"
 		(shape bidirectional)
 		(at 78.74 142.24 0)
 		(fields_autoplaced yes)
@@ -3765,7 +3775,7 @@
 		)
 		(uuid "c4f351cc-907a-44f7-83bd-9891739e10af")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.8237 142.24 0)
+			(at 88.7632 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3825,7 +3835,7 @@
 			)
 		)
 	)
-	(global_label "CAN_H"
+	(global_label "CAN_P"
 		(shape input)
 		(at 190.5 116.84 180)
 		(fields_autoplaced yes)
@@ -3837,7 +3847,7 @@
 		)
 		(uuid "d293f108-02fd-4fca-9327-33cdace9dc49")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 181.5276 116.84 0)
+			(at 181.5881 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4209,7 +4219,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 257.81 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -4288,7 +4298,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 227.33 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -4603,7 +4613,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Main_Peripheral:T4040014041000"
 			(at 246.888 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -4670,7 +4680,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "52a157db-ad63-4da6-aceb-d8457bbb817d")
 		(property "Reference" "Q1"
 			(at 111.76 69.85 90)
@@ -4682,7 +4691,7 @@
 				)
 			)
 		)
-		(property "Value" "DMT6007LFG"
+		(property "Value" "DMN3018SSD-13"
 			(at 111.76 72.39 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4692,7 +4701,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Main_Peripheral:SOIC127P600X170-8N"
 			(at 109.855 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -4856,7 +4865,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Main_Peripheral:DIOM4336X265N"
 			(at 91.44 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -5090,7 +5099,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 130.81 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -5323,7 +5332,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Main_Peripheral:LED 5050"
 			(at 242.57 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -5566,7 +5575,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Main_Peripheral:T4040014041000"
 			(at 57.912 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -5969,7 +5978,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 125.73 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -6050,7 +6059,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 101.6 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -6206,7 +6215,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Main_Peripheral:0ZCH0050FF2G"
 			(at 76.2 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -6289,7 +6298,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Main_Peripheral:T4040014041000"
 			(at 199.898 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -6377,7 +6386,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Main_Peripheral:SW_EG1218"
 			(at 143.51 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -6539,7 +6548,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Main_Peripheral:WCAP-ASLI_5X5.5_DXL_"
 			(at 120.65 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -6619,7 +6628,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" "Main_Peripheral:LM74610QDGKRQ1"
 			(at 144.78 48.895 0)
 			(hide yes)
 			(show_name no)
@@ -6713,7 +6722,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Main_Peripheral:FH4115S05SH05"
 			(at 66.04 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -6846,7 +6855,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 132.08 134.62 0)
 			(hide yes)
 			(show_name no)
