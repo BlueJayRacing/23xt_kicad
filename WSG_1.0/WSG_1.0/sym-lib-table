@@ -12,4 +12,5 @@
 	(lib (name "dmp2035u7") (type "KiCad") (uri "${KIPRJMOD}/my-symbols/dmp2035u7.kicad_sym") (options "") (descr ""))
 	(lib (name "ina827aidgk") (type "KiCad") (uri "${KIPRJMOD}/my-symbols/ina827aidgk.kicad_sym") (options "") (descr ""))
 	(lib (name "w25n04kvzeir") (type "KiCad") (uri "${KIPRJMOD}/my-symbols/W25N04KVZEIR.kicad_sym") (options "") (descr ""))
+	(lib (name "esp32s3mini1") (type "KiCad") (uri "${KIPRJMOD}/my-symbols/ESP32-S3-MINI-1-N8.kicad_sym") (options "") (descr ""))
 )
