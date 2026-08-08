@@ -72,4 +72,9 @@
   (pad "4" smd rect (at 1.47955 0.950001) (size 1.2065 0.5588) (layers "F.Cu" "F.Paste" "F.Mask"))
   (pad "5" smd rect (at 1.47955 0) (size 1.2065 0.5588) (layers "F.Cu" "F.Paste" "F.Mask"))
   (pad "6" smd rect (at 1.47955 -0.950001) (size 1.2065 0.5588) (layers "F.Cu" "F.Paste" "F.Mask"))
+  (model "${KIPRJMOD}/libraries/3dmodels/kicad/Package_TO_SOT_SMD.3dshapes/SOT-23-6.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

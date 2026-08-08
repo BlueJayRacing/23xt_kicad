@@ -2716,7 +2716,7 @@
 		)
 		(uuid "5b9c5539-ff2f-4c95-a847-4ddce563edff")
 	)
-	(text "G = 5 + 80kΩ/RG            [INA827 datasheet]\nRG = 390 Ω → G = 5 + 80k/390 = 210\nVout = 10 mVrms × 210 = 2.10 Vrms ≈ 2.97 Vpk\nBW check: GBW ≈ 15 MHz; BW(G=210) ≈ 15M/210 ≈ 71 kHz ≫ 3.277 kHz"
+	(text "Full-scale bridge = 2.0 mV/V × 5 Vrms = 10 mVrms\nG = 5 + 80kΩ/RG ;  RG = 1.5kΩ → G = 58\nINA out = 10 mVrms × 58 = 0.58 Vrms = 0.82 Vpk\nAD630 input window (−Vs+4 to +Vs−1) = −1 V to +4 V\nSignal −0.82 to +0.82 V"
 		(exclude_from_sim no)
 		(at 53.594 129.286 0)
 		(effects
@@ -2960,6 +2960,26 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 90.17) (xy 54.61 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "110e7704-67ff-4dd3-ab5f-c8720c2e0a34")
+	)
+	(wire
+		(pts
+			(xy 39.37 92.71) (xy 50.8 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13364fd1-32fa-44ae-a976-e407fdae9d62")
+	)
+	(wire
+		(pts
 			(xy 200.66 121.92) (xy 203.2 121.92)
 		)
 		(stroke
@@ -3180,16 +3200,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 90.17) (xy 54.61 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "488dc5c1-8226-4fb8-9237-f48cc6971f72")
-	)
-	(wire
-		(pts
 			(xy 162.56 115.57) (xy 179.07 115.57)
 		)
 		(stroke
@@ -3270,6 +3280,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 95.25) (xy 50.8 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6003a138-fc4a-40a3-a2b7-54c2db4c3c97")
+	)
+	(wire
+		(pts
 			(xy 219.71 40.64) (xy 245.11 40.64)
 		)
 		(stroke
@@ -3317,16 +3337,6 @@
 			(type default)
 		)
 		(uuid "6837de7b-4688-4623-bf3b-2ce5036453dd")
-	)
-	(wire
-		(pts
-			(xy 41.91 92.71) (xy 50.8 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b2808d3-8e10-4921-b254-ae7fa76fb748")
 	)
 	(wire
 		(pts
@@ -3500,16 +3510,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 87.63) (xy 52.07 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "907f459a-5332-4fd8-855a-a0bbd98ce2c1")
-	)
-	(wire
-		(pts
 			(xy 219.71 55.88) (xy 219.71 40.64)
 		)
 		(stroke
@@ -3517,16 +3517,6 @@
 			(type default)
 		)
 		(uuid "943f5518-1ac3-4173-8a38-4ed4ebb0f0cb")
-	)
-	(wire
-		(pts
-			(xy 41.91 95.25) (xy 50.8 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95f17979-c56a-4736-a353-ee48a000a5a6")
 	)
 	(wire
 		(pts
@@ -3540,7 +3530,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 85.09) (xy 46.99 85.09)
+			(xy 39.37 85.09) (xy 46.99 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3627,6 +3617,16 @@
 			(type default)
 		)
 		(uuid "cbf163f0-44d3-4c76-ade9-7a3772a02510")
+	)
+	(wire
+		(pts
+			(xy 39.37 87.63) (xy 52.07 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd031aaa-03bb-4b95-9335-f0d8172c2460")
 	)
 	(wire
 		(pts
@@ -5750,8 +5750,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x05")
-		(at 36.83 90.17 0)
-		(mirror y)
+		(at 34.29 90.17 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5759,7 +5758,7 @@
 		(dnp no)
 		(uuid "7ef172c7-2fab-45b9-b1d4-35cec9b05664")
 		(property "Reference" "J4"
-			(at 36.83 82.55 0)
+			(at 34.29 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5767,7 +5766,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x05"
-			(at 36.83 80.518 0)
+			(at 34.29 82.042 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5775,7 +5774,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_RND:TerminalBlock_RND_205-00235_1x05_P5.08mm_Horizontal"
-			(at 36.83 90.17 0)
+			(at 34.29 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5784,7 +5783,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 36.83 90.17 0)
+			(at 34.29 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5793,7 +5792,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 36.83 90.17 0)
+			(at 34.29 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)

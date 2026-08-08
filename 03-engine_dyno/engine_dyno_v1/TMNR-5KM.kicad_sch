@@ -2716,7 +2716,7 @@
 		)
 		(uuid "2faaa20c-1333-481b-9534-4aa6db90a243")
 	)
-	(text "G = 5 + 80kΩ/RG\nRG = 100 Ω → G = 5 + 80k/100 = 805\nVout = 2.6 mVrms × 805 = 2.09 Vrms ≈ 2.96 Vpk\nBW check: BW(G=805) ≈ 15M/805 ≈ 18.6 kHz > 5 kHz  ✓  (−0.3 dB @ 5 kHz)"
+	(text "Full-scale bridge = 1.3 mV/V × 2 Vrms = 2.6 mVrms\nG = 5 + 80kΩ/RG ;  RG = 390Ω → G = 210\nINA out = 2.6 mVrms × 210 = 0.55 Vrms = 0.77 Vpk\nSignal −0.77 to +0.77 V"
 		(exclude_from_sim no)
 		(at 55.88 124.714 0)
 		(effects

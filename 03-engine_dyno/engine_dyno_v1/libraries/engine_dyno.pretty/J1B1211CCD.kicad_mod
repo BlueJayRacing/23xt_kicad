@@ -27,4 +27,9 @@
   (fp_line (start -8.0 10.75) (end 8.0 10.75) (layer F.SilkS) (width 0.127))
   (fp_line (start 8.0 10.75) (end 8.0 -10.6) (layer F.SilkS) (width 0.127))
   (fp_line (start 8.0 -10.6) (end -8.0 -10.6) (layer F.SilkS) (width 0.127))
+  (model "${KIPRJMOD}/libraries/3dmodels/LPJ4012AHNL/LPJ4012AHNL.STEP"
+    (offset (xyz -9.625 -10.75 -4))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )

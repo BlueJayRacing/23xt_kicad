@@ -22,8 +22,8 @@
   (fp_line (start 0 -1.188) (end 0 1.188) (layer F.SilkS) (width 0.2))
   (pad 1 smd rect (at -1.485 0 0) (size 1.18 2.81) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 1.485 0 0) (size 1.18 2.81) (layers F.Cu F.Paste F.Mask))
-  (model 0ZCH0050FF2G.stp
-    (at (xyz 0 0 0))
+  (model "${KIPRJMOD}/libraries/3dmodels/kicad/Fuse.3dshapes/Fuse_1210_3225Metric.step"
+    (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )

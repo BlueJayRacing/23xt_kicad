@@ -36,4 +36,9 @@
   (fp_line (start -3.905 -2.75) (end -3.905 2.75) (layer F.CrtYd) (width 0.05))
   (fp_line (start 3.905 -2.75) (end 3.905 2.75) (layer F.CrtYd) (width 0.05))
   (fp_line (start 1.765 2.5) (end -1.765 2.5) (layer F.SilkS) (width 0.127))
+  (model "${KIPRJMOD}/libraries/3dmodels/SOP65P640X120-16N.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )

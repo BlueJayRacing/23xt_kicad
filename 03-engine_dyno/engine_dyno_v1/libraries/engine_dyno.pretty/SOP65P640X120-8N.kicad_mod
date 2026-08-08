@@ -28,4 +28,9 @@
   (fp_line (start -3.905 1.75) (end 3.905 1.75) (layer F.CrtYd) (width 0.05))
   (fp_line (start -3.905 -1.75) (end -3.905 1.75) (layer F.CrtYd) (width 0.05))
   (fp_line (start 3.905 -1.75) (end 3.905 1.75) (layer F.CrtYd) (width 0.05))
+  (model "${KIPRJMOD}/libraries/3dmodels/TPS2115APWR.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )
