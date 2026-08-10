@@ -1272,28 +1272,6 @@
 			)
 		)
 	)
-	(global_label "RX-"
-		(shape bidirectional)
-		(at 118.11 124.46 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5c3695b5-1ecf-49c5-b75f-7eed546e4edd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.9616 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "TD+"
 		(shape bidirectional)
 		(at 105.41 95.25 180)
@@ -1360,6 +1338,28 @@
 			)
 		)
 	)
+	(global_label "RX-"
+		(shape bidirectional)
+		(at 118.11 124.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "94955d43-8426-4f5c-b193-9438cbcfcbc4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 109.9616 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "TX-"
 		(shape bidirectional)
 		(at 153.67 100.33 0)
@@ -1404,28 +1404,6 @@
 			)
 		)
 	)
-	(global_label "RX+"
-		(shape bidirectional)
-		(at 143.51 119.38 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "af3c2379-ec99-427e-9e41-f5322337ec4d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.6584 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "TX-"
 		(shape bidirectional)
 		(at 143.51 121.92 0)
@@ -1436,7 +1414,7 @@
 			)
 			(justify left)
 		)
-		(uuid "ce7c48a4-79ac-46f7-b679-f8188292e886")
+		(uuid "c0919826-839a-4311-909c-4dadac76283d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 151.356 121.92 0)
 			(effects
@@ -1458,7 +1436,7 @@
 			)
 			(justify right)
 		)
-		(uuid "e38b2a2d-9c80-4437-9389-6b820d990ef8")
+		(uuid "e5461f62-520e-4125-9462-cc4d177c6518")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 110.264 119.38 0)
 			(effects
@@ -1466,6 +1444,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RX+"
+		(shape bidirectional)
+		(at 143.51 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f5ddb6b0-f697-4814-ae0a-86538957e7d9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.6584 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
