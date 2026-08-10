@@ -14,4 +14,5 @@
 	(lib (name "w25n04kvzeir") (type "KiCad") (uri "${KIPRJMOD}/my-symbols/W25N04KVZEIR.kicad_sym") (options "") (descr ""))
 	(lib (name "esp32s3mini1") (type "KiCad") (uri "${KIPRJMOD}/my-symbols/ESP32-S3-MINI-1-N8.kicad_sym") (options "") (descr ""))
 	(lib (name "TPD4E1U06DBVR") (type "KiCad") (uri "${KIPRJMOD}/my-symbols/TPD4E1U06DBVR.kicad_sym") (options "") (descr ""))
+	(lib (name "esp32s3mini1u") (type "KiCad") (uri "${KIPRJMOD}/my-symbols/esp32semini1un8.kicad_sym") (options "") (descr ""))
 )

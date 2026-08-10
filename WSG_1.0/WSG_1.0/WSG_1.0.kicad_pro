@@ -130,7 +130,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.1,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -139,13 +139,13 @@
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
-        "min_silk_clearance": 0.0,
+        "min_silk_clearance": 0.15,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.15,
-        "min_via_annular_width": 0.13,
-        "min_via_diameter": 0.45,
+        "min_via_annular_width": 0.075,
+        "min_via_diameter": 0.4,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -194,7 +194,12 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.16,
+        0.2,
+        0.34,
+        0.4,
+        0.5
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -226,6 +231,14 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.45,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false
@@ -443,8 +456,8 @@
       "endpoint_off_grid": "warning",
       "extra_units": "error",
       "field_name_whitespace": "warning",
-      "footprint_filter": "ignore",
-      "footprint_link_issues": "warning",
+      "footprint_filter": "error",
+      "footprint_link_issues": "error",
       "four_way_junction": "ignore",
       "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
@@ -552,10 +565,6 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "USB",
-        "pattern": "USB_D*"
-      },
-      {
         "netclass": "Power",
         "pattern": "3V3*"
       },
@@ -582,6 +591,18 @@
       {
         "netclass": "Power",
         "pattern": "EXC_2V5"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "BATT_P"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "BATT_N"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "USB_D*"
       }
     ]
   },
@@ -713,7 +734,7 @@
         "uuid": "cb65811d-b245-4002-a5a3-eef29f2c4ddb"
       }
     ],
-    "used_designators": "R31",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

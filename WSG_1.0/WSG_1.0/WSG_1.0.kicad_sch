@@ -284,7 +284,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "WSG_ADC.kicad_sch"
+		(property "Sheetfile" "WSG_1_0_PWR.kicad_sch"
 			(at 45.72 127.5846 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -330,7 +330,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "WSG_ESP.kicad_sch"
+		(property "Sheetfile" "WSG_1_0_ESP.kicad_sch"
 			(at 148.59 98.3746 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -376,7 +376,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "untitled.kicad_sch"
+		(property "Sheetfile" "WSG_1_0_ADC.kicad_sch"
 			(at 54.61 86.9446 0)
 			(show_name no)
 			(do_not_autoplace no)
