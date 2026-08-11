@@ -8266,7 +8266,7 @@
 		(descr "tactile push button, 6x6mm e.g. PHAP33xx series, height=5mm")
 		(tags "tact sw push 6mm")
 		(property "Reference" "SW1"
-			(at 14.26 8.8625 90)
+			(at 3.375 -2.325 90)
 			(layer "B.SilkS")
 			(uuid "9eefa8ed-98aa-40d5-becb-92a2851ec3b7")
 			(effects
