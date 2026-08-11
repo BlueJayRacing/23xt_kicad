@@ -4663,6 +4663,12 @@
 		(uuid "a37243e2-f2d0-42fc-961a-05465d1ced7e")
 	)
 	(junction
+		(at 86.36 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bdddaf76-d23e-417c-a1a7-69a79ac61131")
+	)
+	(junction
 		(at 34.29 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4842,6 +4848,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 175.26) (xy 83.82 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c3ba1d1-f447-4ac3-84ab-8f401d451235")
+	)
+	(wire
+		(pts
 			(xy 69.85 148.59) (xy 69.85 152.4)
 		)
 		(stroke
@@ -4979,6 +4995,16 @@
 			(type default)
 		)
 		(uuid "5660f3af-83c1-4560-b336-da87daec16d5")
+	)
+	(wire
+		(pts
+			(xy 91.44 175.26) (xy 86.36 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59c59f24-3b54-4287-b62e-b29baf068f64")
 	)
 	(wire
 		(pts
@@ -6450,7 +6476,7 @@
 	)
 	(global_label "3V3A"
 		(shape input)
-		(at 83.82 175.26 0)
+		(at 91.44 175.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6460,7 +6486,7 @@
 		)
 		(uuid "98917384-a30c-4cd5-81e5-2aaba3598260")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.4014 175.26 0)
+			(at 99.0214 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10222,6 +10248,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 86.36 167.64 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6467d5fb-fbb6-4757-b7f5-c6ee20cf1729")
+		(property "Reference" "#PWR066"
+			(at 86.36 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 83.312 166.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 86.36 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dc32f3c1-e534-479e-ad12-7ba061d77f74")
+		)
+		(instances
+			(project "WSG_1.0"
+				(path "/cb65811d-b245-4002-a5a3-eef29f2c4ddb/05f78620-165f-4d12-a698-3b5ab7aa33dd"
+					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 17.78 20.32 0)
 		(unit 1)
@@ -13355,6 +13458,88 @@
 			(project "WSG_1.0"
 				(path "/cb65811d-b245-4002-a5a3-eef29f2c4ddb/05f78620-165f-4d12-a698-3b5ab7aa33dd"
 					(reference "U12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 86.36 171.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6d1e299-213c-4792-b1b7-4ca86b70f303")
+		(property "Reference" "C2"
+			(at 90.17 170.1799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 90.17 172.7199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 87.3252 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 86.36 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a7990a1b-8e05-4f58-9d4e-c8b9c650006b")
+		)
+		(pin "1"
+			(uuid "fa9e7811-b1e2-4fac-b8fd-2d7e3514e545")
+		)
+		(instances
+			(project "WSG_1.0"
+				(path "/cb65811d-b245-4002-a5a3-eef29f2c4ddb/05f78620-165f-4d12-a698-3b5ab7aa33dd"
+					(reference "C2")
 					(unit 1)
 				)
 			)
