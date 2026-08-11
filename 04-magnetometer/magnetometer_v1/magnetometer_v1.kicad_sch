@@ -6797,7 +6797,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 187.96) (xy 130.81 187.96)
+			(xy 158.75 187.96) (xy 153.67 187.96)
 		)
 		(stroke
 			(width 0)
@@ -7194,16 +7194,6 @@
 			(type default)
 		)
 		(uuid "e588618c-75d3-4f64-b6dc-c8e059b8ad51")
-	)
-	(wire
-		(pts
-			(xy 120.65 187.96) (xy 116.84 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebeff5d5-6aee-4491-be1e-69ef02c60b99")
 	)
 	(wire
 		(pts
@@ -8129,7 +8119,7 @@
 	)
 	(global_label "VIN_SEL"
 		(shape output)
-		(at 135.89 187.96 0)
+		(at 158.75 187.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8139,7 +8129,29 @@
 		)
 		(uuid "9c210f8d-7f41-42a0-88fe-36ae1abfce41")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 146.2533 187.96 0)
+			(at 169.1133 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VIN_JUMP"
+		(shape output)
+		(at 116.84 187.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9d05b195-3212-4e44-b9eb-b16d100609c9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 128.8362 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8365,6 +8377,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VIN_JUMP"
+		(shape input)
+		(at 143.51 187.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e244e77a-a23d-4e1b-9763-4b8432da6503")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 131.5138 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -10129,7 +10163,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 125.73 187.96 0)
+		(at 148.59 187.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10138,7 +10172,7 @@
 		(fields_autoplaced yes)
 		(uuid "69f8cccf-7a7c-4e5c-82ff-5848b945c55c")
 		(property "Reference" "JP1"
-			(at 125.73 182.88 0)
+			(at 148.59 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10146,7 +10180,7 @@
 			)
 		)
 		(property "Value" "Jumper_2_Bridged"
-			(at 125.73 185.42 0)
+			(at 148.59 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10154,7 +10188,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 125.73 187.96 0)
+			(at 148.59 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10163,7 +10197,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 125.73 187.96 0)
+			(at 148.59 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10172,7 +10206,7 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 125.73 187.96 0)
+			(at 148.59 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
