@@ -1,4 +1,4 @@
-26661360850997223
+26664934581129353
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106274,12 +106274,26 @@ ATA6561-GAQW-N
 8
 8
 footprints
+BAT-HLD-012-SMT_TEC
+
+BAT-HLD-012-SMT 
+0
+3
+3
+footprints
 FH4115S05SH05
 FH41-15S-0.5SH(05)-2
 Connector
 0
 20
 20
+footprints
+IND_TAIYO_NRS4018_TAY
+
+NRS4018T150MDGJ 
+0
+2
+2
 footprints
 LDL1117S50R_
 
@@ -106327,15 +106341,15 @@ TPS2115ADRBR
 
 TPS2115ADRBR 
 0
-15
-10
+9
+9
 footprints
 Teensy41
 
 
 0
-67
-67
+56
+56
 footprints
 XIAO_ESP32S3
 XIAO ESP32-S3
