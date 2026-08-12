@@ -2212,7 +2212,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 71.12) (xy 111.76 71.12)
+			(xy 96.52 71.12) (xy 111.76 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2352,7 +2352,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 71.12) (xy 95.25 69.85)
+			(xy 96.52 71.12) (xy 96.52 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3072,7 +3072,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 90.17) (xy 95.25 90.17)
+			(xy 78.74 90.17) (xy 95.25 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3334,7 +3334,7 @@
 	)
 	(global_label "DAC_CS"
 		(shape input)
-		(at 87.63 69.85 180)
+		(at 88.9 69.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3344,7 +3344,7 @@
 		)
 		(uuid "23dc21ec-4aee-49d8-8811-bd73aa988846")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 77.5691 69.85 0)
+			(at 78.8391 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3358,7 +3358,7 @@
 	)
 	(global_label "3V3A"
 		(shape input)
-		(at 46.99 113.03 180)
+		(at 38.1 113.03 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3368,7 +3368,7 @@
 		)
 		(uuid "27c86ff6-bd3e-4021-8cb8-41b344e0a579")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 39.4086 113.03 0)
+			(at 30.5186 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3430,7 +3430,7 @@
 	)
 	(global_label "3V3A"
 		(shape input)
-		(at 46.99 102.87 180)
+		(at 38.1 102.87 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3440,7 +3440,7 @@
 		)
 		(uuid "3469faf4-63c6-40cb-9336-4077a80733bf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 39.4086 102.87 0)
+			(at 30.5186 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3478,7 +3478,7 @@
 	)
 	(global_label "ADC_RST"
 		(shape input)
-		(at 54.61 83.82 0)
+		(at 45.72 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3488,7 +3488,7 @@
 		)
 		(uuid "4e8c5cab-f69a-487c-bcb8-82cc3c9ce03a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 65.6385 83.82 0)
+			(at 56.7485 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3550,7 +3550,7 @@
 	)
 	(global_label "ADC_CS"
 		(shape input)
-		(at 54.61 102.87 0)
+		(at 45.72 102.87 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3560,7 +3560,7 @@
 		)
 		(uuid "57cd13b6-6494-4cfe-96ef-99d92cc14cd8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.6709 102.87 0)
+			(at 55.7809 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3574,7 +3574,7 @@
 	)
 	(global_label "3V3A"
 		(shape input)
-		(at 46.99 83.82 180)
+		(at 38.1 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3584,7 +3584,7 @@
 		)
 		(uuid "5960c871-b8a2-4e22-a9f9-c1cf4a5b9607")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 39.4086 83.82 0)
+			(at 30.5186 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3670,7 +3670,7 @@
 	)
 	(global_label "3V3"
 		(shape input)
-		(at 46.99 93.98 180)
+		(at 38.1 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3680,7 +3680,7 @@
 		)
 		(uuid "686507b2-5f20-4634-8bec-c485dde829a9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 40.4972 93.98 0)
+			(at 31.6072 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3790,7 +3790,7 @@
 	)
 	(global_label "FLASH_CS"
 		(shape input)
-		(at 54.61 93.98 0)
+		(at 45.72 93.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3800,7 +3800,7 @@
 		)
 		(uuid "947abe0d-80fa-463e-a292-92c9ec27f77a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 66.7876 93.98 0)
+			(at 57.8976 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3814,7 +3814,7 @@
 	)
 	(global_label "ADC_RST"
 		(shape input)
-		(at 81.28 90.17 180)
+		(at 71.12 90.17 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3824,7 +3824,7 @@
 		)
 		(uuid "a8aaa96b-07bb-4651-adea-d28708536ffd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 70.2515 90.17 0)
+			(at 60.0915 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3886,7 +3886,7 @@
 	)
 	(global_label "DAC_CS"
 		(shape input)
-		(at 54.61 113.03 0)
+		(at 45.72 113.03 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3896,7 +3896,7 @@
 		)
 		(uuid "d53dc61c-3df8-4457-9a25-258628cf470b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.6709 113.03 0)
+			(at 55.7809 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4408,7 +4408,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 50.8 102.87 270)
+		(at 41.91 102.87 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4419,7 +4419,7 @@
 		(fields_autoplaced yes)
 		(uuid "153d7abf-2682-4d7e-bd1f-53667732a6f7")
 		(property "Reference" "R29"
-			(at 50.8 96.52 90)
+			(at 41.91 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4429,7 +4429,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 50.8 99.06 90)
+			(at 41.91 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4439,7 +4439,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 50.8 101.092 90)
+			(at 41.91 101.092 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4450,7 +4450,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 102.87 0)
+			(at 41.91 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4461,7 +4461,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 50.8 102.87 0)
+			(at 41.91 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7479,7 +7479,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 91.44 69.85 270)
+		(at 92.71 69.85 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7489,7 +7489,7 @@
 		(dnp no)
 		(uuid "bcb10047-a8b4-4dbc-bfb0-e9e5a96b2705")
 		(property "Reference" "R58"
-			(at 91.186 71.12 90)
+			(at 92.456 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7499,7 +7499,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 91.186 68.58 90)
+			(at 92.456 68.58 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7509,7 +7509,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 91.44 68.072 90)
+			(at 92.71 68.072 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7520,7 +7520,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 69.85 0)
+			(at 92.71 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7531,7 +7531,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 91.44 69.85 0)
+			(at 92.71 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8325,7 +8325,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 50.8 83.82 270)
+		(at 41.91 83.82 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8336,7 +8336,7 @@
 		(fields_autoplaced yes)
 		(uuid "e0e27df9-7358-4b6f-86ce-dde353a9684a")
 		(property "Reference" "R38"
-			(at 50.8 77.47 90)
+			(at 41.91 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8346,7 +8346,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 50.8 80.01 90)
+			(at 41.91 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8356,7 +8356,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 50.8 82.042 90)
+			(at 41.91 82.042 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8367,7 +8367,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 83.82 0)
+			(at 41.91 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8378,7 +8378,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 50.8 83.82 0)
+			(at 41.91 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8560,7 +8560,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 85.09 90.17 90)
+		(at 74.93 90.17 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8570,7 +8570,7 @@
 		(dnp no)
 		(uuid "edcb6131-5a12-41c3-8dc4-78a06946e449")
 		(property "Reference" "R57"
-			(at 84.074 88.9 90)
+			(at 73.914 88.9 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8581,7 +8581,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 84.074 91.44 90)
+			(at 73.914 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8592,7 +8592,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 85.09 91.948 90)
+			(at 74.93 91.948 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8603,7 +8603,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 90.17 0)
+			(at 74.93 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8614,7 +8614,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 85.09 90.17 0)
+			(at 74.93 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8720,7 +8720,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 50.8 93.98 270)
+		(at 41.91 93.98 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8731,7 +8731,7 @@
 		(fields_autoplaced yes)
 		(uuid "f221a044-1e5c-4eec-9470-1b0428182bcb")
 		(property "Reference" "R23"
-			(at 50.8 87.63 90)
+			(at 41.91 87.63 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8741,7 +8741,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 50.8 90.17 90)
+			(at 41.91 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8751,7 +8751,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 50.8 92.202 90)
+			(at 41.91 92.202 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8762,7 +8762,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 93.98 0)
+			(at 41.91 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8773,7 +8773,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 50.8 93.98 0)
+			(at 41.91 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8878,7 +8878,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 50.8 113.03 270)
+		(at 41.91 113.03 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8889,7 +8889,7 @@
 		(fields_autoplaced yes)
 		(uuid "f4c26e9a-e4ed-4357-81ef-5dbe3bb4b9fb")
 		(property "Reference" "R30"
-			(at 50.8 106.68 90)
+			(at 41.91 106.68 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8899,7 +8899,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 50.8 109.22 90)
+			(at 41.91 109.22 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8909,7 +8909,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 50.8 111.252 90)
+			(at 41.91 111.252 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8920,7 +8920,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 113.03 0)
+			(at 41.91 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8931,7 +8931,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 50.8 113.03 0)
+			(at 41.91 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
