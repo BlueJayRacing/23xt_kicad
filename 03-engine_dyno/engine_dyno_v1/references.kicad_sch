@@ -929,7 +929,7 @@
 		)
 		(uuid 897db02b-80cc-4c40-9bb8-3906eaaae6bb)
 	)
-	(text "Demod DC (full-wave) = (2/π)·Vpk ≈ 0.51 V → ±0.51 V (bipolar, phase-dependent)\nAD630 output swing needed = ±0.8 Vpk  ⊂  ±5V rails  ✓\n\nADC: PGA_BYPASS = 1 → abs input range = AVSS−0.1 V to AVDD+0.1 V\n     AIN0 = signal, AIN1 = MID_REF ≈ 100 mV\nReverse-torque headroom (no level shifter):\n     AIN0 floor = −0.1 V ; FS demod = 0.51 V\n     → tolerates reverse torque up to 0.1/0.51 ≈ 20% of forward FS\n     (dyno reverse = brief overrun only, ≪ 20% → no offset stage needed)\n\nADC gain = 2, Vref = 2.048 V → FS = ±1.024 V ; ±0.51 V = 50% FS\nCodes at full torque ≈ 0.51/1.024 × 32768 ≈ 16,300\nLSB = 1.024/32768 ≈ 31 µV  (≈ 0.006% FS resolution)"
+	(text "Demod DC (full-wave) = (2/π)·Vpk ≈ 0.51 V → ±0.51 V (bipolar, phase-dependent)\nAD630 output swing needed = ±0.8 Vpk  ⊂  ±5V rails  ✓\n\nADC: PGA_BYPASS = 1 → functional input range = AVSS−0.1 V to AVDD+0.1 V\n     Absolute-max (damage limit) = AVSS−0.3 V to AVDD+0.3 V\n     AIN0 = signal, AIN1 = MID_REF ≈ 100 mV\nReverse-torque headroom (no level shifter):\n     AIN0 functional floor = −0.1 V ; FS demod = 0.51 V\n     → tolerates reverse torque up to 0.1/0.51 ≈ 20% of forward FS\n     (dyno reverse = brief overrun only, ≪ 20% → no offset stage needed)\n\nADC gain = 2, Vref = 2.048 V → FS = ±1.024 V ; ±0.51 V = 50% FS\nCodes at full torque ≈ 0.51/1.024 × 32768 ≈ 16,300\nLSB = 1.024/32768 ≈ 31 µV  (≈ 0.006% FS resolution)"
 		(exclude_from_sim no)
 		(at 150.368 132.334 0)
 		(effects
