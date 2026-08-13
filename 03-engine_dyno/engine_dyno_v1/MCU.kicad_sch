@@ -5,7 +5,7 @@
 	(uuid "f7fc8cca-3078-4c88-8b65-8728af46876e")
 	(paper "A4")
 	(lib_symbols
-		(symbol "22XT_Main:Teensy4.1"
+		(symbol "Teensy:Teensy4.1"
 			(pin_names
 				(offset 1.016)
 			)
@@ -4526,7 +4526,7 @@
 		)
 	)
 	(symbol
-		(lib_id "22XT_Main:Teensy4.1")
+		(lib_id "Teensy:Teensy4.1")
 		(at 82.55 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)

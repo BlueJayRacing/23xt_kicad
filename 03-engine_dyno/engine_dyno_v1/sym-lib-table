@@ -1,6 +1,7 @@
 (sym_lib_table
   (version 7)
   (lib (name "AD630ARZ")(type "KiCad")(uri "${KIPRJMOD}/libraries/AD630ARZ.kicad_sym")(options "")(descr ""))
+  (lib (name "Teensy")(type "KiCad")(uri "${KIPRJMOD}/libraries/Teensy.kicad_sym")(options "")(descr "Teensy 4.1 project library"))
   (lib (name "AD5689R")(type "KiCad")(uri "${KIPRJMOD}/libraries/AD5689R.kicad_sym")(options "")(descr ""))
   (lib (name "ADS1120IPWR")(type "KiCad")(uri "${KIPRJMOD}/libraries/ADS1120IPWR.kicad_sym")(options "")(descr ""))
   (lib (name "INA827AIDGKR")(type "KiCad")(uri "${KIPRJMOD}/libraries/INA827AIDGKR.kicad_sym")(options "")(descr ""))

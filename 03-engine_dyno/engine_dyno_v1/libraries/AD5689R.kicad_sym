@@ -86,7 +86,7 @@
         (name "SDO" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
-      (pin unspecified line (at 45.72 -17.78 180) (length 7.62)
+    (pin input line (at 45.72 -17.78 180) (length 7.62)
         (name "*LDAC" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
       )
@@ -121,4 +121,3 @@
     )
   )
 )
-

@@ -1,0 +1,9 @@
+(version 1)
+
+# The INA827 VSSOP-8 pads are 0.17 mm apart.  This exception is deliberately
+# limited to the two INA827 footprints; all other Power-net clearance remains
+# 0.20 mm.
+(rule "INA827 VSSOP pad clearance"
+  (constraint clearance (min 0.15mm))
+  (condition "A.memberOfFootprint('U7') || A.memberOfFootprint('U10')")
+)

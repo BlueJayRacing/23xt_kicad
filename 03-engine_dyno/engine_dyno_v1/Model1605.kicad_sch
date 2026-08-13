@@ -1775,8 +1775,8 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -17.78 2.54 0)
+			(pin power_in line
+				(at -17.78 2.54 0)
 					(length 5.08)
 					(name "+VS"
 						(effects
@@ -1793,8 +1793,8 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -17.78 -2.54 0)
+			(pin power_in line
+				(at -17.78 -2.54 0)
 					(length 5.08)
 					(name "-VS"
 						(effects
@@ -2766,7 +2766,7 @@
 		)
 		(uuid "daebdd6a-9d50-40a8-a8f4-154f9d312f61")
 	)
-	(text "Gain strap ±1: |G| = RF_eff / RA\nRF_eff = RF‖RB = 10k‖10k = 5kΩ ; RA = 5kΩ → |G| = 1\nDemod DC (full-wave, phase-aligned) = (2/π)·Vpk = 0.637 × 2.97 = 1.89 V\nRipple at 2×fc = 2 × 3.277 kHz = 6.55 kHz\nOutput swing needed ≈ 2.97 Vpk (verify vs ±5V swing, Fig 9)"
+	(text "Gain strap ±1: |G| = RF_eff / RA\nRF_eff = RF‖RB = 10k‖10k = 5kΩ ; RA = 5kΩ → |G| = 1\nDemod DC (full-wave, phase-aligned) = (2/π)·Vpk = 0.637 × 0.82 = 0.52 V\nRipple at 2×fc = 2 × 3.277 kHz = 6.55 kHz\nOutput swing needed ≈ 0.82 Vpk (verify vs ±5V swing, Fig 9)"
 		(exclude_from_sim no)
 		(at 132.588 134.112 0)
 		(effects
