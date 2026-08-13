@@ -1434,6 +1434,17 @@
 				(xyz -90 -0 -0)
 			)
 		)
+		(model "${KIPRJMOD}/3d models/TEENSY_4.1.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
@@ -13957,6 +13968,17 @@
 			(uuid "dff97c11-903f-4396-a8c4-54acadd69b0b")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/3d models/TPS2115ADRBR.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "B.Cu")
@@ -15030,6 +15052,17 @@
 			(uuid "ba01251c-eeb4-4c99-8868-2ebd1a90c648")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/3d models/LT3973EMSE-5#PBF.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "B.Cu")
@@ -21187,6 +21220,17 @@
 			(uuid "86b9c26e-837e-4ace-9809-2557f280eae1")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/3d models/ATA6561-GAQW-N.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "B.Cu")
@@ -22655,6 +22699,17 @@
 			(uuid "6aee4fe5-4541-4626-bc5f-f1a96aa37a3d")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/3d models/LDL1117S50R_.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Diode_SMD:Nexperia_CFP3_SOD-123W"
 		(layer "B.Cu")
@@ -23912,6 +23967,17 @@
 			(uuid "0e5fc54c-e8a8-4e6f-9998-fd091ba4845e")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/3d models/RCLAMP3354S_TCT.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "B.Cu")
