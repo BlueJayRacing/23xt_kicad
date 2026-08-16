@@ -3899,7 +3899,7 @@
 	)
 	(rectangle
 		(start 12.7 15.24)
-		(end 48.26 66.04)
+		(end 48.26 53.34)
 		(stroke
 			(width 0)
 			(type default)
@@ -3911,13 +3911,23 @@
 	)
 	(text "prob don't need exc_2v5 4th"
 		(exclude_from_sim no)
-		(at 27.178 68.834 0)
+		(at 26.162 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "135f0cfb-45f3-4c7c-ad26-0759f127b7fe")
+	)
+	(text "Ratiometric: EXC_2V5 = excitation = ADC reference -> excitation noise/drift cancels to 1st order.\nSensitivity 1.281 mV per 1000 ue at INA input; full scale +/-11,750 ue; chain noise ~0.24 ue rms.\ncan't find INA specs at 3.3V "
+		(exclude_from_sim no)
+		(at 62.738 5.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "14d8959d-ea19-4247-8f1b-b7214a3e69d3")
 	)
 	(text "instrument amplifiers + bridge"
 		(exclude_from_sim no)
@@ -3931,7 +3941,7 @@
 	)
 	(text "shared reference"
 		(exclude_from_sim no)
-		(at 152.908 88.9 0)
+		(at 137.414 85.852 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3948,6 +3958,36 @@
 			)
 		)
 		(uuid "72236da4-ff8a-49e1-a37b-4f3d4ffd389c")
+	)
+	(text "all ADC/DAC uses 3V3A"
+		(exclude_from_sim no)
+		(at 197.104 16.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7859f088-47e0-4c6f-bf78-4969929adce2")
+	)
+	(text "REFEXT filter 100R+1uF"
+		(exclude_from_sim no)
+		(at 272.542 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8c7be873-c582-4adf-8dcd-9d4330d61a5a")
+	)
+	(text "G = 5 + 80k/845 = 99.67, ~100\nREF pins = 1.65 V mid-supply"
+		(exclude_from_sim no)
+		(at 32.766 102.616 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "addc8350-cc04-49ac-91da-7d7baa8b481e")
 	)
 	(text "MEMS Oscillator"
 		(exclude_from_sim no)
@@ -4008,6 +4048,16 @@
 			)
 		)
 		(uuid "f31b80d2-b2f1-4333-a699-ebb6b7dc04b6")
+	)
+	(text "ST pin tied high (always on)\nDigiKey programmed-to-order"
+		(exclude_from_sim no)
+		(at 136.398 14.224 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fcdee468-f0f8-4902-92a3-cfe8f73d52d9")
 	)
 	(junction
 		(at 187.96 48.26)
@@ -5597,6 +5647,16 @@
 	)
 	(wire
 		(pts
+			(xy 271.78 158.75) (xy 270.51 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2ce9718-fad7-4fe2-b555-72ba54600607")
+	)
+	(wire
+		(pts
 			(xy 95.25 186.69) (xy 95.25 189.23)
 		)
 		(stroke
@@ -6467,6 +6527,30 @@
 			)
 		)
 	)
+	(global_label "REFEXT_F"
+		(shape input)
+		(at 271.78 158.75 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "31c68cde-446a-4e1c-897b-c1647ab33ac7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 271.78 146.8749 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "ADC_MISO"
 		(shape input)
 		(at 247.65 115.57 0)
@@ -6613,7 +6697,7 @@
 	)
 	(global_label "EXC_2V5"
 		(shape input)
-		(at 24.13 59.69 180)
+		(at 262.89 158.75 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6623,7 +6707,7 @@
 		)
 		(uuid "605a2196-b848-4494-8746-1f144e1b9cb0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 13.0411 59.69 0)
+			(at 251.8011 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8208,7 +8292,7 @@
 			)
 		)
 		(property "Value" "350"
-			(at 135.89 95.2499 0)
+			(at 135.89 95.758 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8656,7 +8740,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "150nF"
+		(property "Value" "220nF"
 			(at 247.142 28.194 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10236,6 +10320,17 @@
 				)
 			)
 		)
+		(property "Dielectric" "C0G/NP0"
+			(at 110.49 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1e205c15-9ab7-4755-a4f4-3d43396acc9c")
 		)
@@ -10824,7 +10919,7 @@
 				)
 			)
 		)
-		(property "Value" "SiT8008AI-12-33S-16.384000"
+		(property "Value" "SiT8008AI-13-33S-16.384000"
 			(at 140.208 43.688 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12135,6 +12230,17 @@
 				)
 			)
 		)
+		(property "Dielectric" "C0G/NP0"
+			(at 115.57 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bfd9a97c-c2c4-4c49-b543-e4288faca9a0")
 		)
@@ -12152,7 +12258,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 39.37 59.69 90)
+		(at 279.4 158.75 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12163,7 +12269,7 @@
 		(fields_autoplaced yes)
 		(uuid "7ec4049e-dbdc-42e6-819f-ba8cd05e578a")
 		(property "Reference" "#PWR053"
-			(at 45.72 59.69 0)
+			(at 285.75 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12174,7 +12280,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 43.18 59.6899 90)
+			(at 283.21 158.7499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12185,7 +12291,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 59.69 0)
+			(at 279.4 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12196,7 +12302,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 59.69 0)
+			(at 279.4 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12207,7 +12313,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 39.37 59.69 0)
+			(at 279.4 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12231,7 +12337,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 35.56 59.69 90)
+		(at 275.59 158.75 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12241,7 +12347,7 @@
 		(dnp no)
 		(uuid "80451959-ae00-4c4f-8905-264d81458765")
 		(property "Reference" "C20"
-			(at 30.353 63.881 90)
+			(at 277.368 154.178 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12252,7 +12358,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 30.353 66.421 90)
+			(at 277.368 156.718 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12263,7 +12369,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 39.37 58.7248 0)
+			(at 279.4 157.7848 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12274,7 +12380,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 59.69 0)
+			(at 275.59 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12285,7 +12391,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 35.56 59.69 0)
+			(at 275.59 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12765,6 +12871,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 115.57 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "C0G/NP0"
 			(at 115.57 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -14842,6 +14959,17 @@
 				)
 			)
 		)
+		(property "Dielectric" "C0G/NP0"
+			(at 106.68 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b11e23af-dfa1-49eb-9f42-40f4dcb7a97b")
 		)
@@ -15208,7 +15336,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_2x05_P2.00mm_Horizontal"
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_2x05_P2.00mm_Vertical"
 			(at 20.32 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -15623,7 +15751,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 27.94 59.69 90)
+		(at 266.7 158.75 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15633,7 +15761,7 @@
 		(dnp no)
 		(uuid "f7cb17a4-57ec-40be-a14e-11462db869b1")
 		(property "Reference" "R27"
-			(at 27.178 53.848 90)
+			(at 263.144 154.178 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15644,7 +15772,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 27.178 56.388 90)
+			(at 263.144 156.718 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15655,7 +15783,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 27.94 61.468 90)
+			(at 266.7 160.528 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15666,7 +15794,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 59.69 0)
+			(at 266.7 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15677,7 +15805,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 27.94 59.69 0)
+			(at 266.7 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

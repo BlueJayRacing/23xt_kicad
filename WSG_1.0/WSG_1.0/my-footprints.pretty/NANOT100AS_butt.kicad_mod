@@ -1,0 +1,244 @@
+(footprint "NANOT100AS_butt"
+  (version 20221018)
+  (generator pcbnew)
+		(layer "F.Cu")
+		(uuid "30b4dac0-be31-4e14-8465-9e50f33b027f")
+		(at 0 0)
+		(descr "NANOT100AS-2")
+		(tags "Switch")
+		(property "Reference" "REF**"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6697dcdc-5c9f-4bde-8a9b-a1a30fe407f8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e9d2c139-16ee-4864-bd14-6d8402e1702c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6449da54-96e4-4164-a3b5-773d5c5e77e6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2dad17c1-36ad-4642-8979-202df33b2a6d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		
+		(sheetname "/ESP32_flash/")
+		(sheetfile "ESP32_flash.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.6 0.85)
+			(end 0.6 0.85)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "79e25f64-5138-4fe4-9a92-3f3052949aca")
+		)
+		(fp_line
+			(start -1.9 0)
+			(end -1.9 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4c3de3b6-ad75-4dad-88cb-d0148c3fda38")
+		)
+		(fp_line
+			(start -1.8 0)
+			(end -1.8 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1cab8e97-e225-43b6-8f2b-5794b99952ce")
+		)
+		(fp_line
+			(start -0.6 -0.85)
+			(end 0.6 -0.85)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5c8fa0cc-35c7-47e1-a833-1c8eaf7e4d25")
+		)
+		(fp_arc
+			(start -1.9 0)
+			(mid -1.85 -0.05)
+			(end -1.8 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "39b4c57f-597f-44c0-b10a-3214a67d1309")
+		)
+		(fp_arc
+			(start -1.8 0)
+			(mid -1.85 0.05)
+			(end -1.9 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "44197c2f-b093-461f-970a-2418c0481e3b")
+		)
+		(fp_line
+			(start -2.4 1.85)
+			(end -2.4 -1.85)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d9af4ec6-13cc-4d1e-b6f9-970095ed35fc")
+		)
+		(fp_line
+			(start 2.4 1.85)
+			(end -2.4 1.85)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7099da8d-1ab3-42fb-9641-52ee0410634f")
+		)
+		(fp_line
+			(start -2.4 -1.85)
+			(end 2.4 -1.85)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "98933807-fb8a-4f83-b127-ccb5d4ce5708")
+		)
+		(fp_line
+			(start 2.4 -1.85)
+			(end 2.4 1.85)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "30fca1ee-d301-409d-9bb1-58686b76c3ff")
+		)
+		(fp_line
+			(start -1.05 0.85)
+			(end -1.05 -0.85)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "744c4dc5-1efb-4297-844c-73baeb9b134b")
+		)
+		(fp_line
+			(start 1.05 0.85)
+			(end -1.05 0.85)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "61848b21-2044-44bc-931d-5a94650b151a")
+		)
+		(fp_line
+			(start -1.05 -0.85)
+			(end 1.05 -0.85)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "14de77a8-02b5-48ba-a959-915b442f1fce")
+		)
+		(fp_line
+			(start 1.05 -0.85)
+			(end 1.05 0.85)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7d9d6e08-f0f1-480a-8084-4a51c63902e3")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(uuid "13c7d020-53a4-47d4-b2d5-bf14b4468b2e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -1.15 0)
+			(size 0.5 1.65)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "638d413c-f816-4817-a38e-d5e74c794d51")
+		)
+		(pad "2" smd rect
+			(at 1.15 0)
+			(size 0.5 1.65)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "191d21f7-4a83-4d44-8c41-7b496021331b")
+		)
+		(embedded_fonts no)
+		(model "NANOT100AS.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)

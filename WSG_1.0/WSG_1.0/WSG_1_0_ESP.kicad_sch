@@ -2042,6 +2042,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "MHF III antenna not U.FL"
+		(exclude_from_sim no)
+		(at 155.448 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6340a0cd-0427-4861-983c-8f1125430988")
+	)
 	(junction
 		(at 179.07 123.19)
 		(diameter 0)
@@ -6022,7 +6032,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_CK_KMS2xxG"
+		(property "Footprint" "footprints:NANOT100AS_butt"
 			(at 184.15 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -7351,7 +7361,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_CK_KMS2xxG"
+		(property "Footprint" "footprints:NANOT100AS_butt"
 			(at 83.82 53.34 0)
 			(hide yes)
 			(show_name no)
