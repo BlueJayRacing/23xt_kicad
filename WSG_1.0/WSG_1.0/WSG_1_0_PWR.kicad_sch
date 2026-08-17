@@ -4780,9 +4780,9 @@
 		)
 		(uuid "a0e42f17-2e76-4532-b646-1f68daaebda9")
 	)
-	(text "MEMS Oscillator\n(for ADC)"
+	(text "TVS diode"
 		(exclude_from_sim no)
-		(at 172.212 63.754 0)
+		(at 170.434 64.262 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8328,7 +8328,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DMG2305UX-7"
+		(property "Value" "AO3401A"
 			(at 53.34 53.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
