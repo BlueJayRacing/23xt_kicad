@@ -1,4 +1,4 @@
-26664934581129353
+26666723387924200
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106274,12 +106274,19 @@ ATA6561-GAQW-N
 8
 8
 footprints
-BAT-HLD-012-SMT_TEC
+BJR_LOGO
 
-BAT-HLD-012-SMT 
+
+0
+0
+0
+footprints
+BatteryHolder_LINX_BAT-HLD-012-SMT
+SMT battery holder for CR1216/1220/1225, https://linxtechnologies.com/wp/wp-content/uploads/bat-hld-012-smt.pdf
+battery holder coin cell cr1216 cr1220 cr1225
 0
 3
-3
+2
 footprints
 FH4115S05SH05
 FH41-15S-0.5SH(05)-2
@@ -106307,7 +106314,7 @@ LT3973EMSE-5#PBF
 LT3973EMSE-5-PBF 
 0
 11
-11
+10
 footprints
 MAX6105EUR+T
 
@@ -106348,8 +106355,8 @@ Teensy41
 
 
 0
-56
-56
+52
+52
 footprints
 XIAO_ESP32S3
 XIAO ESP32-S3
