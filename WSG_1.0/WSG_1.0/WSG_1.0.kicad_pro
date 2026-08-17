@@ -566,10 +566,6 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "Power",
-        "pattern": "3V3*"
-      },
-      {
         "netclass": "SW",
         "pattern": "SW?"
       },
