@@ -1775,8 +1775,8 @@
 						)
 					)
 				)
-			(pin power_in line
-				(at -17.78 2.54 0)
+				(pin power_in line
+					(at -17.78 2.54 0)
 					(length 5.08)
 					(name "+VS"
 						(effects
@@ -1793,8 +1793,8 @@
 						)
 					)
 				)
-			(pin power_in line
-				(at -17.78 -2.54 0)
+				(pin power_in line
+					(at -17.78 -2.54 0)
 					(length 5.08)
 					(name "-VS"
 						(effects

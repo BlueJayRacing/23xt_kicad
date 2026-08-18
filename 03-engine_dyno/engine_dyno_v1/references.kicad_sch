@@ -366,8 +366,8 @@
 						)
 					)
 				)
-			(pin input line
-				(at 45.72 -17.78 180)
+				(pin input line
+					(at 45.72 -17.78 180)
 					(length 7.62)
 					(name "*LDAC"
 						(effects
