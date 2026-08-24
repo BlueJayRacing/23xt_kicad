@@ -12897,7 +12897,7 @@
 		(layer "Edge.Cuts")
 		(uuid "fac1c254-3f97-4839-8817-4500a7a69900")
 	)
-	(gr_text "Blue Jay Racing\n23xt\nMag Board"
+	(gr_text "Blue Jay Racing\n23xt\nMag Board Rev 1"
 		(at 167.5 76 0)
 		(layer "B.SilkS")
 		(uuid "2e11ec30-05dc-4a1b-9e85-8ce970270f3a")
