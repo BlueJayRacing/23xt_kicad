@@ -4939,7 +4939,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "51dc5c69-f5eb-453b-91e4-f453df9ac097")
-		(property "Reference" "Cboot1"
+		(property "Reference" "Cb1"
 			(at 129.54 109.982 0)
 			(effects
 				(font
@@ -4993,7 +4993,7 @@
 		(instances
 			(project "engine_dyno_v1"
 				(path "/d283b024-74fa-4d4c-9089-b2007a8f756c/3b8b6910-3a04-4ae3-b73f-448b33afb94f"
-					(reference "Cboot1")
+					(reference "Cb1")
 					(unit 1)
 				)
 			)
