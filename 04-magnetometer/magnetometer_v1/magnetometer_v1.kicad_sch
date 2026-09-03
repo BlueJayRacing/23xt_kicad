@@ -8524,7 +8524,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0857f314-5d99-4dad-9894-a520a4dbb9b9")
-		(property "Reference" "R9"
+		(property "Reference" "R1"
 			(at 148.59 113.03 90)
 			(effects
 				(font
@@ -8576,7 +8576,7 @@
 		(instances
 			(project "magnetometer_v1"
 				(path "/5ed894ec-debc-4dbe-bce4-314c8814571c"
-					(reference "R9")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -9691,7 +9691,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "53863583-09d6-4a99-9f59-dece968d4a2a")
-		(property "Reference" "C18"
+		(property "Reference" "C16"
 			(at 125.73 130.048 90)
 			(effects
 				(font
@@ -9745,7 +9745,7 @@
 		(instances
 			(project "magnetometer_v1"
 				(path "/5ed894ec-debc-4dbe-bce4-314c8814571c"
-					(reference "C18")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -10105,7 +10105,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69f8cccf-7a7c-4e5c-82ff-5848b945c55c")
-		(property "Reference" "JP1"
+		(property "Reference" "J3"
 			(at 148.59 182.88 0)
 			(effects
 				(font
@@ -10157,7 +10157,7 @@
 		(instances
 			(project "magnetometer_v1"
 				(path "/5ed894ec-debc-4dbe-bce4-314c8814571c"
-					(reference "JP1")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -12825,7 +12825,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dce74b6a-bd8f-4a9a-960e-ed750c2b9242")
-		(property "Reference" "SW3"
+		(property "Reference" "U4"
 			(at 111.76 179.07 0)
 			(effects
 				(font
@@ -12880,7 +12880,7 @@
 		(instances
 			(project ""
 				(path "/5ed894ec-debc-4dbe-bce4-314c8814571c"
-					(reference "SW3")
+					(reference "U4")
 					(unit 1)
 				)
 			)
