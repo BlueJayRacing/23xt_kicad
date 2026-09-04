@@ -1,4 +1,4 @@
-26668512279713818
+26670300597337897
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106287,6 +106287,13 @@ battery holder coin cell cr1216 cr1220 cr1225
 0
 3
 2
+footprints
+CON_5051101892_MOL
+
+5051101892 
+0
+20
+20
 footprints
 FH4115S05SH05
 FH41-15S-0.5SH(05)-2
