@@ -4589,6 +4589,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "RC0603FR-072KL"
+			(at 185.42 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 185.42 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "757f7e2f-3336-4a60-b413-3f74bd697cfa")
 		)
@@ -4887,7 +4905,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "74LVC4245APW,118"
+		(property "MPN" ""
 			(at 205.74 66.04 0)
 			(effects
 				(font
@@ -5130,6 +5148,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CRCW060360R4FKEA"
+			(at 130.81 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay Dale"
+			(at 130.81 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e10e7986-41e7-4945-8e0b-0051c3fbedc5")
 		)
@@ -5199,6 +5235,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 242.57 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 242.57 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "df56f069-0079-4b0b-b45c-8fb3cf77bc98")
 		)
@@ -5258,6 +5312,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 132.08 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 132.08 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
 			(at 132.08 81.28 0)
 			(effects
 				(font
@@ -5711,6 +5783,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 242.57 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 242.57 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "76704fc9-225d-455b-92f4-e183ba4ee559")
 		)
@@ -5979,6 +6069,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 49.53 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 49.53 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e1a58cec-999e-4e96-b94e-31631de7d70d")
 		)
@@ -6113,6 +6221,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "RT0603BRD071K1L"
+			(at 189.23 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 189.23 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "13be484e-b856-44ca-a43a-44b9e0a9bd1a")
 		)
@@ -6174,6 +6300,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 228.6 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 228.6 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
 			(at 228.6 90.17 0)
 			(effects
 				(font
@@ -6249,6 +6393,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 71.12 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 71.12 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "99302b2b-fbd0-4b49-b443-3f5b4c8d4341")
 		)
@@ -6310,6 +6472,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 137.16 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 137.16 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
 			(at 137.16 135.89 0)
 			(effects
 				(font
@@ -6454,6 +6634,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "RC0603FR-072KL"
+			(at 229.87 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 229.87 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9404d7ca-b7a8-4913-a454-54ecd0f1982c")
 		)
@@ -6514,6 +6712,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 130.81 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW060360R4FKEA"
+			(at 130.81 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay Dale"
+			(at 130.81 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6758,6 +6974,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 102.87 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 102.87 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "16436b39-4dcf-45cc-90e1-021e279a6719")
 		)
@@ -6959,6 +7193,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "RT0603BRD071K1L"
+			(at 189.23 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 189.23 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d3603736-4c3c-4d42-831e-787d3c5d11f3")
 		)
@@ -7020,6 +7272,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 233.68 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RT0603BRD071K1L"
+			(at 233.68 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 233.68 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7155,6 +7425,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 185.42 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-072KL"
+			(at 185.42 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
 			(at 185.42 124.46 0)
 			(effects
 				(font

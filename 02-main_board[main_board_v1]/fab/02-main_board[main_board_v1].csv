@@ -1,0 +1,40 @@
+Item #,Designator,Qty,Manufacturer,Mfg Part #,Description/Value,Package/Footprint,,Type
+1,"C1,C5,C7,C8,C10,C11,C12,C13,C14,C16,C17,C18,C20,C21,C22,C23,C24,C25,C26,C27,C28,C29,C30,C31,C32,C33",26,YAGEO,CC0603KRX7R9BB104,0.1uF,Capacitor_SMD:C_0603_1608Metric,,SMD
+2,C2,1,Samsung Electro-Mechanics,CL10B474KO8NNND,0.47uF,Capacitor_SMD:C_0603_1608Metric,,SMD
+3,C3,1,Samsung Electro-Mechanics,CL10A475KO8NNNC,4.7uF,Capacitor_SMD:C_0603_1608Metric,,SMD
+4,C4,1,Murata Electronics,GRM188R61A226ME15D,22uF,Capacitor_SMD:C_0603_1608Metric,,SMD
+5,"C6,C9,C15,C19",4,Samsung Electro-Mechanics,CL10A105KA8NFNC,1uF,Capacitor_SMD:C_0603_1608Metric,,SMD
+6,"D1,D2",2,,,D_Schottky,Diode_SMD:Nexperia_CFP3_SOD-123W,,
+7,U6,1,,,74LVC4245APW_118,footprints:74LVC4245APW_118,,
+8,IC1,1,Analog Devices,AD7175-8BCPZ-RL7,AD7175-8BCPZ-RL7,footprints:AD7175-8BCPZ-RL7,,SMD
+9,U8,1,,,ATA6561-GAQW-N,footprints:ATA6561-GAQW-N,,
+10,BT1,1,,,Battery_Cell,footprints:BatteryHolder_LINX_BAT-HLD-012-SMT,,
+11,J1,1,,,2-84952-0,footprints:c-2-84952-0-a-3d,,
+12,J2,1,,,2-84952-4,footprints:c-2-84952-4-a-3d,,
+13,J3,1,Hirose,,FH41-15S-0.5SH_05_,footprints:FH4115S05SH05,,
+14,L1,1,,,15uH,footprints:IND_TAIYO_NRS4018_TAY,,
+15,U4,1,,,LDL1117S50R_,footprints:LDL1117S50R_,,
+16,U2,1,,,LT3973EMSE-5-PBF,footprints:LT3973EMSE-5#PBF,,
+17,U7,1,,,RCLAMP3354S_TCT,footprints:RCLAMP3354S_TCT,,
+18,U5,1,,,PT61018PEL,footprints:SOIC_PT61018PEL,,
+19,U1,1,,,Teensy4.1,footprints:Teensy41_OG,,
+20,U3,1,Texas Instruments,TPS2115ADRBR,TPS2115ADRBR,footprints:TPS2115ADRBR,,SMD
+21,Q1,1,Seeed Studio,,XIAO_ESP32S3,footprints:XIAO_ESP32S3,,
+22,"R1,R2",2,YAGEO,RC0603JR-0747RL,47,Resistor_SMD:R_0603_1608Metric,,SMD
+23,"R3,R15,R24",3,Vishay Dale,CRCW060310K0FKEA,10k,Resistor_SMD:R_0603_1608Metric,,SMD
+24,R4,1,Vishay Dale,CRCW0603215KFKEA,215k,Resistor_SMD:R_0603_1608Metric,,SMD
+25,R5,1,Vishay Dale,CRCW060312K0FKEA,12k,Resistor_SMD:R_0603_1608Metric,,SMD
+26,R6,1,KOA Speer Electronics,RK73H1JTTD4020F,400,Resistor_SMD:R_0603_1608Metric,,SMD
+27,"R7,R8,R9,R10,R11,R12,R13,R14",8,YAGEO,RC0603FR-072K2L,2.2k,Resistor_SMD:R_0603_1608Metric,,SMD
+28,"R16,R17,R22",3,YAGEO,RT0603BRD071K1L,1.1k,Resistor_SMD:R_0603_1608Metric,,SMD
+29,"R18,R19,R23",3,YAGEO,RC0603FR-072KL,2k,Resistor_SMD:R_0603_1608Metric,,SMD
+30,"R20,R21",2,Vishay Dale,CRCW060360R4FKEA,60,Resistor_SMD:R_0603_1608Metric,,SMD
+31,TP1,1,,,5V_buck,TestPoint:TestPoint_Pad_1.0x1.0mm,,
+32,TP2,1,,,5V,TestPoint:TestPoint_Pad_1.0x1.0mm,,
+33,TP3,1,,,5V_stable,TestPoint:TestPoint_Pad_1.0x1.0mm,,
+34,TP4,1,,,MISO_adc,TestPoint:TestPoint_Pad_1.0x1.0mm,,
+35,TP5,1,,,MOSI_adc,TestPoint:TestPoint_Pad_1.0x1.0mm,,
+36,TP6,1,,,SCLK_adc,TestPoint:TestPoint_Pad_1.0x1.0mm,,
+37,TP7,1,,,SCLK_esp32,TestPoint:TestPoint_Pad_1.0x1.0mm,,
+38,TP8,1,,,MISO_esp32,TestPoint:TestPoint_Pad_1.0x1.0mm,,
+39,TP9,1,,,MOSI_esp32,TestPoint:TestPoint_Pad_1.0x1.0mm,,

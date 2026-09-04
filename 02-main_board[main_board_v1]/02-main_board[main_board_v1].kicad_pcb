@@ -10723,6 +10723,17 @@
 				(xyz -90 -0 -0)
 			)
 		)
+		(model "${KIPRJMOD}/3d models/TEENSY_4.1.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")

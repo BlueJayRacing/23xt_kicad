@@ -3919,6 +3919,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "RC0603JR-0747RL"
+			(at 257.81 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 257.81 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a2090e67-ad6b-4830-9936-77cb064dd8d4")
 		)
@@ -4047,6 +4065,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 262.89 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 262.89 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
 			(at 262.89 40.64 0)
 			(effects
 				(font
@@ -4784,6 +4820,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 257.81 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603JR-0747RL"
+			(at 257.81 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 257.81 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -7868,8 +7868,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Hirose"
-			(at -503.15 82.55 0)
+		(property "Manufacturer_Part_Number" "FH41-15S-0.5SH(05)"
+			(at -603.15 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7878,13 +7878,12 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "FH41-15S-0.5SH(05)"
-			(at -603.15 82.55 0)
+		(property "Manufacturer" "Hirose"
+			(at 186.69 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
