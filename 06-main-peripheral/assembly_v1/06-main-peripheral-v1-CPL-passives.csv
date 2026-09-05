@@ -1,6 +1,6 @@
 Designator,Mid X (mm),Mid Y (mm),Layer,Rotation
 C1,186.0000,-83.3500,Bottom,270
-C2,164.1500,-80.3656,Bottom,180
+C2,164.1500,-80.3656,Bottom,0
 C3,177.1000,-83.4000,Bottom,270
 C4,141.8500,-77.5500,Top,270
 C5,152.6000,-79.1000,Top,270
