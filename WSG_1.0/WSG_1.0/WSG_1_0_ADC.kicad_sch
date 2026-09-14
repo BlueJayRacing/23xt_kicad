@@ -3939,6 +3939,16 @@
 		)
 		(uuid "282c11a6-b78b-4c05-a059-67d21c0a7ed8")
 	)
+	(text "BREF_F: shared by all strain gauges, all INAs measure against BREF_F (fixed arm of bridge). \nsubtract BREF_F from signal (1.25V +-1 mV  -  1.25V = signal)"
+		(exclude_from_sim no)
+		(at 50.038 94.742 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "40dc66f6-e42b-4f15-b65d-012d2c01ef13")
+	)
 	(text "shared reference"
 		(exclude_from_sim no)
 		(at 137.414 85.852 0)
@@ -3948,6 +3958,16 @@
 			)
 		)
 		(uuid "4bad3504-87cd-4384-b5e9-271b55219063")
+	)
+	(text "EXC_2V5: 2.5V from LDO (U9) as excitation voltage for strain gauge and as ADC reference"
+		(exclude_from_sim no)
+		(at 4.572 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5b6a3d38-502a-4e81-aab0-fd381494aae7")
 	)
 	(text "ADC/DAC"
 		(exclude_from_sim no)

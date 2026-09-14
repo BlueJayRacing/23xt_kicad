@@ -1,4 +1,4 @@
-ERC report (2026-08-16T01:25:25, Encoding UTF8)
+ERC report (2026-09-14T15:56:24, Encoding UTF8)
 Report includes: Errors, Warnings
 
 ***** Sheet /
@@ -23,7 +23,7 @@ Report includes: Errors, Warnings
 [footprint_link_issues]: Assigned footprint (ic_bq25180ybgr) doesn't match footprint filters (YBG0008-IPC_A YBG0008-IPC_B YBG0008-IPC_C YBG0008-MFG)
     ; error
     @(8550 mils, 5000 mils): Symbol U7 [PQ25180YBGT]
-[footprint_link_issues]: Assigned footprint (pinsocket_2x05_p2.00mm_horizontal) doesn't match footprint filters (Connector*:*_1x??_*)
+[footprint_link_issues]: Assigned footprint (pinheader_2x05_p2.00mm_vertical) doesn't match footprint filters (Connector*:*_1x??_*)
     ; error
     @(800 mils, 1450 mils): Symbol J1 [Conn_01x10]
 [footprint_link_issues]: Assigned footprint (sot-23) doesn't match footprint filters (DBZ0003A-IPC_A DBZ0003A-IPC_B DBZ0003A-IPC_C DBZ0003A-MFG)
@@ -58,7 +58,7 @@ Report includes: Errors, Warnings
 [pin_to_pin]: Pins of type Bidirectional and Power output are connected
     ; warning
     @(2600 mils, 1200 mils): Symbol U14 Pin 4 [Bidirectional, Line]
-    @(2750 mils, -300 mils): Symbol #FLG07 Pin 1 [Power output, Line]
+    @(4450 mils, -1100 mils): Symbol #FLG07 Pin 1 [Power output, Line]
 [pin_to_pin]: Pins of type Unspecified and Passive are connected
     ; warning
     @(1550 mils, 4700 mils): Symbol U3 Pin 2 [RG, Unspecified, Line]
@@ -141,27 +141,27 @@ Report includes: Errors, Warnings
 [pin_to_pin]: Pins of type Unspecified and Power output are connected
     ; warning
     @(1950 mils, 2350 mils): Symbol MOSFET1 Pin 2 [S, Unspecified, Line]
-    @(1250 mils, -300 mils): Symbol #FLG04 Pin 1 [Power output, Line]
+    @(3450 mils, -1000 mils): Symbol #FLG04 Pin 1 [Power output, Line]
 [single_global_label]: Global label only appears once in the schematic
     ; warning
     @(1600 mils, 4200 mils): Global Label '3V3_F'
+[single_global_label]: Global label only appears once in the schematic
+    ; warning
+    @(6250 mils, 0 mils): Global Label 'GND'
+[single_global_label]: Global label only appears once in the schematic
+    ; warning
+    @(1500 mils, 6150 mils): Global Label 'SW1'
 [pin_to_pin]: Pins of type Unspecified and Passive are connected
     ; warning
     @(1600 mils, 6150 mils): Symbol U8 Pin 9 [L1, Unspecified, Line]
     @(2100 mils, 5450 mils): Symbol L1 Pin 1 [1, Passive, Line]
-[single_global_label]: Global label only appears once in the schematic
-    ; warning
-    @(1600 mils, 6150 mils): Global Label 'SW1'
 [pin_to_pin]: Pins of type Unspecified and Passive are connected
     ; warning
     @(3000 mils, 6150 mils): Symbol U8 Pin 7 [L2, Unspecified, Line]
     @(2400 mils, 5450 mils): Symbol L1 Pin 2 [2, Passive, Line]
 [single_global_label]: Global label only appears once in the schematic
     ; warning
-    @(3000 mils, 6150 mils): Global Label 'SW2'
-[single_global_label]: Global label only appears once in the schematic
-    ; warning
-    @(6950 mils, -50 mils): Global Label 'GND'
+    @(3100 mils, 6150 mils): Global Label 'SW2'
 [pin_to_pin]: Pins of type Unspecified and Passive are connected
     ; warning
     @(10250 mils, 1300 mils): Symbol U9 Pin 5 [OUT, Unspecified, Line]
@@ -169,11 +169,11 @@ Report includes: Errors, Warnings
 [pin_to_pin]: Pins of type Bidirectional and Power output are connected
     ; warning
     @(10250 mils, 3250 mils): Symbol U11 Pin 3 [~{WP}(IO2), Bidirectional, Line]
-    @(2300 mils, -350 mils): Symbol #FLG06 Pin 1 [Power output, Line]
+    @(4050 mils, -350 mils): Symbol #FLG06 Pin 1 [Power output, Line]
 [pin_to_pin]: Pins of type Bidirectional and Power output are connected
     ; warning
     @(10250 mils, 3350 mils): Symbol U11 Pin 7 [~{HOLD}(IO3), Bidirectional, Line]
-    @(2300 mils, -350 mils): Symbol #FLG06 Pin 1 [Power output, Line]
+    @(4050 mils, -350 mils): Symbol #FLG06 Pin 1 [Power output, Line]
 
  ** ERC messages: 47  Errors 14  Warnings 33
 
