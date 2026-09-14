@@ -3151,7 +3151,7 @@
 		(uuid "f1fcc8a8-258b-4e6c-b4aa-937e02b942a1")
 	)
 	(global_label "FLASH_MOSI"
-		(shape input)
+		(shape output)
 		(at 93.98 97.79 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3175,7 +3175,7 @@
 		)
 	)
 	(global_label "ADC_MOSI"
-		(shape input)
+		(shape output)
 		(at 82.55 78.74 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3295,7 +3295,7 @@
 		)
 	)
 	(global_label "EXC_EN"
-		(shape input)
+		(shape output)
 		(at 92.71 144.78 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3343,7 +3343,7 @@
 		)
 	)
 	(global_label "DAC_CS"
-		(shape input)
+		(shape output)
 		(at 88.9 69.85 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3391,7 +3391,7 @@
 		)
 	)
 	(global_label "AFE_EN"
-		(shape input)
+		(shape output)
 		(at 92.71 140.97 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3415,7 +3415,7 @@
 		)
 	)
 	(global_label "USB_DN"
-		(shape input)
+		(shape bidirectional)
 		(at 92.71 116.84 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3426,7 +3426,7 @@
 		)
 		(uuid "2feffbca-8f58-4bcb-a11f-e3faf03698f9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.3467 116.84 0)
+			(at 81.2354 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3607,7 +3607,7 @@
 		)
 	)
 	(global_label "ADC_CS"
-		(shape input)
+		(shape output)
 		(at 87.63 109.22 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3631,7 +3631,7 @@
 		)
 	)
 	(global_label "USB_DP"
-		(shape input)
+		(shape bidirectional)
 		(at 92.71 120.65 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3642,7 +3642,7 @@
 		)
 		(uuid "5af70942-f1e5-448d-8218-d68fffc40b6d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.4072 120.65 0)
+			(at 81.2959 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3655,7 +3655,7 @@
 		)
 	)
 	(global_label "FLASH_CS"
-		(shape input)
+		(shape output)
 		(at 93.98 93.98 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3727,7 +3727,7 @@
 		)
 	)
 	(global_label "I2C_SCL"
-		(shape input)
+		(shape output)
 		(at 92.71 133.35 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3751,7 +3751,7 @@
 		)
 	)
 	(global_label "FLASH_CLK"
-		(shape input)
+		(shape output)
 		(at 93.98 101.6 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3823,7 +3823,7 @@
 		)
 	)
 	(global_label "ADC_RST"
-		(shape input)
+		(shape output)
 		(at 71.12 90.17 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3871,7 +3871,7 @@
 		)
 	)
 	(global_label "I2C_SDA"
-		(shape input)
+		(shape bidirectional)
 		(at 92.71 129.54 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3882,7 +3882,7 @@
 		)
 		(uuid "ad707db8-5721-470f-8fbc-c4d398ec0cce")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.1048 129.54 0)
+			(at 80.9935 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3919,7 +3919,7 @@
 		)
 	)
 	(global_label "ADC_SCLK"
-		(shape input)
+		(shape output)
 		(at 82.55 74.93 180)
 		(fields_autoplaced yes)
 		(effects

@@ -2960,8 +2960,7 @@
 			(uuid "6f7ff245-ee09-4423-901e-61fffd6ef9c3")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
 				)
 			)
 		)
@@ -4156,7 +4155,7 @@
 		(descr "Diode SMA (DO-214AC)")
 		(tags "Diode SMA (DO-214AC)")
 		(property "Reference" "D1"
-			(at -0.2 -0.1 0)
+			(at -0.6 -2.9 0)
 			(layer "F.SilkS")
 			(uuid "65c57e4e-d22a-43fe-b125-8751948590a3")
 			(effects
@@ -4594,12 +4593,12 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R54"
-			(at -2.399999 0.550001 90)
+			(at -0.299999 1.350001 90)
 			(layer "F.SilkS")
 			(uuid "26bd1db4-9237-4076-adac-db920c101f65")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -9634,7 +9633,7 @@
 			(uuid "1ff9aff6-eebb-43ce-9597-e373effa4b8e")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -9796,12 +9795,12 @@
 		(descr "Fuse SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)")
 		(tags "fuse")
 		(property "Reference" "F1"
-			(at -0.1 0 90)
+			(at 2.8 -0.1 180)
 			(layer "F.SilkS")
 			(uuid "36d2440f-d54e-4866-8672-67e44653799d")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -18682,13 +18681,14 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R5"
-			(at 0 -1.17 0)
+			(at 0 -1 0)
 			(layer "F.SilkS")
 			(uuid "7d713006-aba4-4528-9c43-9e19635bc544")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
+					(bold yes)
 				)
 			)
 		)
