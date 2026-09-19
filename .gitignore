@@ -16,6 +16,10 @@ fp-info-cache
 # ---- Library download leftovers ----
 # Raw SnapEDA / Ultra Librarian archives (extract, then ignore)
 *.zip
+!03-engine_dyno/engine_dyno_v1/fabrication/engine_dyno_v1_mask_020mm.zip
+
+# Local working files and generated previews
+/tmp/
 
 # ---- OS junk ----
 .DS_Store
