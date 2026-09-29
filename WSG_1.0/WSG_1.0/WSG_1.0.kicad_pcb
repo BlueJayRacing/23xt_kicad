@@ -7368,6 +7368,12 @@
 		(path "/05f78620-165f-4d12-a698-3b5ab7aa33dd/f9279686-e75d-456a-97e3-5c76ab671bde")
 		(sheetname "/WSG_Power-Memory/")
 		(sheetfile "WSG_1_0_PWR.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13101,6 +13107,15 @@
 		(path "/c5ed03a7-f581-4366-93a5-60fa505a706c/2fae7b2b-b44a-4e56-9565-ea30dfbd99cb")
 		(sheetname "/WSG_ADC/")
 		(sheetfile "WSG_1_0_ADC.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "9" "15" "29" "1" "2" "3" "4" "5" "6" "7" "8" "14" "28" "13" "12"
+					"16" "30" "31" "32" "17" "23" "22" "20" "21" "19" "18" "24" "25" "26"
+					"11" "10" "27"
+				)
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
