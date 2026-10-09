@@ -435,6 +435,10 @@
     [
       "ef551b20-4284-4d18-bcb1-f0ae58fbc033",
       "MCU"
+    ],
+    [
+      "9fa36301-8f6b-4ec9-b276-4d69be3098fb",
+      "ADC"
     ]
   ],
   "text_variables": {},
