@@ -213,6 +213,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C852931"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "79d30621-2332-43da-9210-1aae3889550f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c5ed03a7-f581-4366-93a5-60fa505a706c/a2f3f139-0cc6-43e3-bab1-98f2bcb11516")
 		(sheetname "/WSG_ADC/")
@@ -223,7 +234,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.167621 -0.38)
@@ -371,6 +382,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2860185"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "67a0c9be-a157-45d6-b19c-89abce18592e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "DGK8_TEX DGK8_TEX-M DGK8_TEX-L")
 		(path "/c5ed03a7-f581-4366-93a5-60fa505a706c/f63869c5-2804-4536-9603-ac2395349a29")
 		(sheetname "/WSG_ADC/")
@@ -381,7 +403,7 @@
 				(pins "1" "2" "3" "4" "8" "7" "6" "5")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.61 -1.61)
@@ -753,6 +775,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C852731"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e8e0a7f6-9a06-48e1-b2b3-28a1c58c44b5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c5ed03a7-f581-4366-93a5-60fa505a706c/9380b784-5b16-442b-b43c-1a3be5ab9bde")
 		(sheetname "/WSG_ADC/")
@@ -763,7 +796,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.167621 0.38)
@@ -911,6 +944,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C11702"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "cca12abb-fc7a-473f-947f-d37d6a9e7522")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c5ed03a7-f581-4366-93a5-60fa505a706c/a0c02b78-e017-4c29-875c-0fcb18b34c09")
 		(sheetname "/WSG_ADC/")
@@ -921,7 +965,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.167621 -0.38)
@@ -1237,6 +1281,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25076"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f77b9cd7-cce3-4ac8-86fc-a93169a7127c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c5ed03a7-f581-4366-93a5-60fa505a706c/983c4298-29db-4136-a92a-c0e9354cf0b0")
 		(sheetname "/WSG_ADC/")
@@ -1247,7 +1302,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.167621 -0.38)
@@ -1395,6 +1450,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25076"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a95c17a9-4360-48c2-8c15-32bd3503376e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c5ed03a7-f581-4366-93a5-60fa505a706c/8a3514ed-d5ef-4444-ad61-f8a31ce1d9d4")
 		(sheetname "/WSG_ADC/")
@@ -1405,7 +1471,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.167621 0.38)
@@ -1553,6 +1619,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C852731"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d2eef860-91b6-404a-9e44-3411ff7bd3ef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c5ed03a7-f581-4366-93a5-60fa505a706c/b32268b9-214c-4a54-86c1-96f39d2c6188")
 		(sheetname "/WSG_ADC/")
@@ -1563,7 +1640,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.167621 0.38)
@@ -1711,6 +1788,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25076"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d1d6dbc7-c5a4-48ff-8d15-8dd32acfeaff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c5ed03a7-f581-4366-93a5-60fa505a706c/f7cb17a4-57ec-40be-a14e-11462db869b1")
 		(sheetname "/WSG_ADC/")
@@ -1721,7 +1809,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.167621 -0.38)
@@ -1869,6 +1957,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C11702"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a65a233e-7dfd-4fc2-b05b-737c5711209d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c5ed03a7-f581-4366-93a5-60fa505a706c/524cf5ba-8a2c-4344-9668-a7e5125d3564")
 		(sheetname "/WSG_ADC/")
@@ -1879,7 +1978,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.167621 -0.38)
@@ -2384,6 +2483,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C5143397"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "76aeacaf-8d0f-46d4-83cd-a8044da58707")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "USB*C*Receptacle*")
 		(path "/05f78620-165f-4d12-a698-3b5ab7aa33dd/b6ddec6d-4c90-4e5c-aa12-649ecfdb1a1a")
 		(sheetname "/WSG_Power-Memory/")
@@ -2396,7 +2506,7 @@
 				)
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -2.96 -4.515)
@@ -3182,6 +3292,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C11702"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "42a270f5-7244-4542-8757-47d0f67e4b0f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c5ed03a7-f581-4366-93a5-60fa505a706c/6c66008e-799f-402c-8d99-759211fac438")
 		(sheetname "/WSG_ADC/")
@@ -3192,7 +3313,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.167621 -0.38)
@@ -3340,6 +3461,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C852931"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "22046b05-2b1b-4006-82b7-2ce89ddafec1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c5ed03a7-f581-4366-93a5-60fa505a706c/4dc5ddbd-68ab-4676-9e38-346522f86270")
 		(sheetname "/WSG_ADC/")
@@ -3350,7 +3482,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.167621 -0.38)
@@ -3498,6 +3630,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1852027"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "187a5216-284d-4e31-b5b0-ea9387308726")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "DGS10_TEX DGS10_TEX-M DGS10_TEX-L")
 		(path "/c5ed03a7-f581-4366-93a5-60fa505a706c/14a31424-8b74-4e35-91ec-1574c8498539")
 		(sheetname "/WSG_ADC/")
@@ -3508,7 +3651,7 @@
 				(pins "1" "2" "3" "4" "5" "10" "9" "8" "7" "6")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1.61 1.61)
@@ -3900,6 +4043,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C52923"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6a63fc74-d9c0-468d-97d2-f80d452af677")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/c5ed03a7-f581-4366-93a5-60fa505a706c/eddb1865-a3b5-4309-b3f0-8dea4133c067")
 		(sheetname "/WSG_ADC/")
@@ -3910,7 +4064,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.115835 -0.36)
@@ -4058,6 +4212,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25905"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "2b41a5ce-4f47-4ac1-82e9-10dbe0e823a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/05f78620-165f-4d12-a698-3b5ab7aa33dd/ed89870a-1213-4990-8c3e-55a73b78b2e1")
 		(sheetname "/WSG_Power-Memory/")
@@ -4068,7 +4233,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.167621 -0.38)
@@ -4208,6 +4373,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C10758"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e211161b-cae9-4eb4-9102-cf1a82f0d4b8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "D*SMA*")
 		(path "/05f78620-165f-4d12-a698-3b5ab7aa33dd/63fa7e22-c042-4a57-ad52-e0cb19ca4349")
 		(sheetname "/WSG_Power-Memory/")
@@ -4218,7 +4394,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -3.51 -1.65)
@@ -4496,6 +4672,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C52923"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c903f6de-a8bb-4b4a-b921-e98a429b223b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/c5ed03a7-f581-4366-93a5-60fa505a706c/2f0edeae-a55b-4018-b1a5-96621cb94876")
 		(sheetname "/WSG_ADC/")
@@ -4506,7 +4693,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.115835 -0.36)
@@ -4654,6 +4841,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C11702"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f6898333-10c6-4aa3-bbd4-fdead828e4f7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/3fdea08a-86cc-4576-bde8-62a44eb89e94/62437b40-e07f-4391-8d43-369360c771f4")
 		(sheetname "/WSG_ESP/")
@@ -4664,7 +4862,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.167621 -0.38)
@@ -4825,6 +5023,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C19702"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5a529b9b-3367-4164-92e4-981d47e895a9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/05f78620-165f-4d12-a698-3b5ab7aa33dd/4a3ee3ae-774c-466d-834b-c508e5e9f8a0")
 		(sheetname "/WSG_Power-Memory/")
@@ -4835,7 +5044,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.146267 0.51)
@@ -4983,6 +5192,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C11702"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6719543b-3e4a-4981-bcdc-2edc905ee3fa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c5ed03a7-f581-4366-93a5-60fa505a706c/43f38210-e4e0-400a-8783-2fee3e017631")
 		(sheetname "/WSG_ADC/")
@@ -4993,7 +5213,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.167621 -0.38)
@@ -5141,6 +5361,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C52923"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5cced7a2-077f-4c0d-adab-3bc3981e6d19")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/c5ed03a7-f581-4366-93a5-60fa505a706c/54d1ac3e-61b1-44e3-b01a-15976c1d8015")
 		(sheetname "/WSG_ADC/")
@@ -5151,7 +5382,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.115835 0.36)
@@ -5300,6 +5531,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C165132"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "2750d073-29a4-48ad-a0fa-e6284e97e4c0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "DBV0005A-IPC_A DBV0005A-IPC_B DBV0005A-IPC_C DBV0005A-MFG")
 		(path "/05f78620-165f-4d12-a698-3b5ab7aa33dd/5b2d3da9-936d-4a30-872c-eb7d782cd882")
 		(sheetname "/WSG_Power-Memory/")
@@ -5310,7 +5552,7 @@
 				(pins "1" "3" "4" "5" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.91 -1.56)
@@ -5702,6 +5944,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C11702"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "26c33e76-8b62-4f22-82ec-4fad5698cb99")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c5ed03a7-f581-4366-93a5-60fa505a706c/f14f59bb-eedd-42d4-b2d1-e84e459c84d8")
 		(sheetname "/WSG_ADC/")
@@ -5712,7 +5965,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.167621 -0.38)
@@ -6196,6 +6449,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C11702"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c5033a94-3f25-420f-88f4-cb2198d85c7b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/3fdea08a-86cc-4576-bde8-62a44eb89e94/edcb6131-5a12-41c3-8dc4-78a06946e449")
 		(sheetname "/WSG_ESP/")
@@ -6206,7 +6470,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.167621 -0.38)
@@ -6512,6 +6776,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C52923"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "fbeef124-27d8-41ed-96e8-6bbf12e5aecd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/c5ed03a7-f581-4366-93a5-60fa505a706c/fd535a6b-e710-46eb-b6ff-f4ca77eac6dd")
 		(sheetname "/WSG_ADC/")
@@ -6522,7 +6797,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.115835 -0.36)
@@ -6670,6 +6945,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25741"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "dd6e33de-1c8c-4006-b354-f1bb684538f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/3fdea08a-86cc-4576-bde8-62a44eb89e94/e0e27df9-7358-4b6f-86ce-dde353a9684a")
 		(sheetname "/WSG_ESP/")
@@ -6680,7 +6966,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.167621 -0.38)
@@ -6828,6 +7114,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2860185"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "59c4b403-97e7-425e-bed2-b09b31a1438c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "DGK8_TEX DGK8_TEX-M DGK8_TEX-L")
 		(path "/c5ed03a7-f581-4366-93a5-60fa505a706c/110494d8-3390-4b49-96f8-2209524daf55")
 		(sheetname "/WSG_ADC/")
@@ -6838,7 +7135,7 @@
 				(pins "1" "2" "3" "4" "8" "7" "6" "5")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.61 -1.61)
@@ -7210,6 +7507,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C11702"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ae1b3d98-a5f2-42db-b413-7b39834ab2c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c5ed03a7-f581-4366-93a5-60fa505a706c/75b95251-0517-4f71-8ce0-f40cd8df6d8a")
 		(sheetname "/WSG_ADC/")
@@ -7220,7 +7528,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.167621 -0.38)
@@ -7368,6 +7676,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C26083"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "3cb94f02-8f43-4851-bc8a-09f852d67613")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/05f78620-165f-4d12-a698-3b5ab7aa33dd/f9279686-e75d-456a-97e3-5c76ab671bde")
 		(sheetname "/WSG_Power-Memory/")
@@ -7378,7 +7697,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.167621 0.38)
@@ -7516,6 +7835,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "cd56de8b-da05-48ef-bcf7-bab5a51a64dc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/c5ed03a7-f581-4366-93a5-60fa505a706c/110af641-92e5-491e-beac-cb7189a7485a")
 		(sheetname "/WSG_ADC/")
@@ -7526,7 +7856,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.115835 0.36)
@@ -7674,6 +8004,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C852731"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e142240e-b622-4115-84af-8114287467ee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c5ed03a7-f581-4366-93a5-60fa505a706c/0f3cd314-78b2-4dfc-ab8a-ad9d23fb84e3")
 		(sheetname "/WSG_ADC/")
@@ -7684,7 +8025,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.167621 -0.38)
@@ -7842,7 +8183,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom dnp)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.167621 0.38)
@@ -7990,6 +8331,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5b8256f6-9a24-40cc-b9da-6f5b277fdfc1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/3fdea08a-86cc-4576-bde8-62a44eb89e94/47eb0323-532c-4910-8f4e-3fb38af3d66d")
 		(sheetname "/WSG_ESP/")
@@ -8000,7 +8352,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.115835 0.36)
@@ -8148,6 +8500,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C11702"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e04ab81c-918c-4ba8-87a8-f8e7fd084005")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c5ed03a7-f581-4366-93a5-60fa505a706c/e0945cca-7d14-45f5-8427-1c28ad2cc718")
 		(sheetname "/WSG_ADC/")
@@ -8158,7 +8521,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.167621 -0.38)
@@ -8306,6 +8669,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C26083"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8337e3fa-fa4f-4a69-86f5-ac7d8d5cfefc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/05f78620-165f-4d12-a698-3b5ab7aa33dd/98a9b889-6e91-4884-b9ae-19134bb361f7")
 		(sheetname "/WSG_Power-Memory/")
@@ -8316,7 +8690,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.167621 -0.38)
@@ -8464,6 +8838,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ec5bf65d-bf34-4038-aebd-b0096f0f3140")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/3fdea08a-86cc-4576-bde8-62a44eb89e94/a8166013-ed93-4c0a-b29a-9a4ad6d5c38c")
 		(sheetname "/WSG_ESP/")
@@ -8474,7 +8859,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.167621 -0.38)
@@ -8622,6 +9007,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C11702"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c215c1f2-637b-456c-bcd3-6d76214cfb16")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/3fdea08a-86cc-4576-bde8-62a44eb89e94/bfeded0a-d2f5-4efe-9d44-925e264357ea")
 		(sheetname "/WSG_ESP/")
@@ -8632,7 +9028,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.167621 -0.38)
@@ -8780,6 +9176,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25741"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1de5f4a5-5c86-43b2-92aa-e25efb796a1f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c5ed03a7-f581-4366-93a5-60fa505a706c/d96c91be-3e8f-44cc-90dc-ad1881210fe9")
 		(sheetname "/WSG_ADC/")
@@ -8790,7 +9197,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.167621 -0.38)
@@ -8939,6 +9346,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C7519"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f531c7c9-ff5b-4d13-bfe4-2b29fed57ab5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/05f78620-165f-4d12-a698-3b5ab7aa33dd/f1b724dc-932f-40f9-9b0a-a490dd2bc16b")
 		(sheetname "/WSG_Power-Memory/")
@@ -8949,7 +9367,7 @@
 				(pins "1" "3" "5" "2" "6" "4")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0.91 -1.56)
@@ -9469,6 +9887,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C3761319"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9597a69b-56cb-4fdd-b5aa-d689837db1f0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "*polyfuse* *PTC*")
 		(path "/05f78620-165f-4d12-a698-3b5ab7aa33dd/18f9a5c0-750d-45e7-92d8-e07a4a3ea18e")
 		(sheetname "/WSG_Power-Memory/")
@@ -9479,7 +9908,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.602064 0.91)
@@ -9627,6 +10056,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "2c2412e0-4046-482f-877f-3750e5736109")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/3fdea08a-86cc-4576-bde8-62a44eb89e94/579b2d88-2070-45b8-a4ed-6b20dabd8196")
 		(sheetname "/WSG_ESP/")
@@ -9637,7 +10077,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.167621 0.38)
@@ -9784,6 +10224,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1670360"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "80b25ea6-40a2-4071-b954-ad0cafc2ec08")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "*PQFN*2.5x2.0mm*")
 		(path "/c5ed03a7-f581-4366-93a5-60fa505a706c/56d48108-831d-41ab-8213-d68e36520647")
 		(sheetname "/WSG_ADC/")
@@ -9794,7 +10245,7 @@
 				(pins "1" "4" "2" "3")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.76 -1.51)
@@ -9976,6 +10427,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2860185"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5bf6b632-4262-4d76-b15b-6ff13974117a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "DGK8_TEX DGK8_TEX-M DGK8_TEX-L")
 		(path "/c5ed03a7-f581-4366-93a5-60fa505a706c/2d7d8db1-84dc-4ca0-b04c-f7dc5dbcbcb1")
 		(sheetname "/WSG_ADC/")
@@ -9986,7 +10448,7 @@
 				(pins "1" "2" "3" "4" "8" "7" "6" "5")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.61 -1.61)
@@ -10358,6 +10820,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25741"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b2ed794e-2229-4833-834f-aeb0fb6c32b1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/3fdea08a-86cc-4576-bde8-62a44eb89e94/f4c26e9a-e4ed-4357-81ef-5dbe3bb4b9fb")
 		(sheetname "/WSG_ESP/")
@@ -10368,7 +10841,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.167621 0.38)
@@ -10516,6 +10989,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b8cdcb28-1360-462b-a192-1ad2131f737e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/3fdea08a-86cc-4576-bde8-62a44eb89e94/761472e8-d230-4595-ad11-6137c9cd7282")
 		(sheetname "/WSG_ESP/")
@@ -10526,7 +11010,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.167621 -0.38)
@@ -10674,6 +11158,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C52923"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9684bd02-a37c-4273-9e04-52f1bf9009bc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/c5ed03a7-f581-4366-93a5-60fa505a706c/8054eb4d-29ad-49a6-b258-a5293e7e8757")
 		(sheetname "/WSG_ADC/")
@@ -10684,7 +11179,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.115835 -0.36)
@@ -10824,6 +11319,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2760981"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "35fded01-4cb9-483c-9feb-d7a8fc2a6e74")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/3fdea08a-86cc-4576-bde8-62a44eb89e94/b4b0c0e5-9205-492e-9c33-de9ba6cb185c")
 		(sheetname "/WSG_ESP/")
 		(sheetfile "WSG_1_0_ESP.kicad_sch")
@@ -10833,7 +11339,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.9 0)
@@ -11081,6 +11587,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C852731"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9ed7c4fe-f455-463e-837b-31966684ffcb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c5ed03a7-f581-4366-93a5-60fa505a706c/cd4a145c-fa57-4446-b3f7-a80956f793d8")
 		(sheetname "/WSG_ADC/")
@@ -11091,7 +11608,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.167621 0.38)
@@ -11239,6 +11756,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "748a1857-dc5a-4958-8dfb-cb969057ca07")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/c5ed03a7-f581-4366-93a5-60fa505a706c/1ae8618c-2c41-483b-85a2-9e7e10c186db")
 		(sheetname "/WSG_ADC/")
@@ -11249,7 +11777,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.115835 -0.36)
@@ -11398,6 +11926,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C52923"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b14edf15-6bb5-4f14-8366-d503e6cbc330")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/05f78620-165f-4d12-a698-3b5ab7aa33dd/5cbb9219-aeed-41bc-ba8b-dbd71ace4304")
 		(sheetname "/WSG_Power-Memory/")
@@ -11408,7 +11947,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.115835 -0.36)
@@ -11569,6 +12108,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C162182"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "afe08243-5334-459f-a3bd-6353f3a929e0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/c5ed03a7-f581-4366-93a5-60fa505a706c/3e758906-c156-440e-bc01-751bc70ad5d3")
 		(sheetname "/WSG_ADC/")
@@ -11579,7 +12129,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.115835 0.36)
@@ -11728,6 +12278,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "17bac648-63f7-4719-83b6-5f824c574e08")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/c5ed03a7-f581-4366-93a5-60fa505a706c/bdc36da1-fe83-4e5c-9603-431d5bd0300e")
 		(sheetname "/WSG_ADC/")
@@ -11738,7 +12299,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.115835 -0.36)
@@ -11886,6 +12447,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1523"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e3a329a8-d748-4ab4-ba88-835ccb11bec7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/c5ed03a7-f581-4366-93a5-60fa505a706c/02bb99e3-fa5b-41c0-80e1-fcf8326b6513")
 		(sheetname "/WSG_ADC/")
@@ -11896,7 +12468,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.115835 -0.36)
@@ -12044,6 +12616,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "401f5549-04a9-4b21-9fd4-745503fa4ce1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/3fdea08a-86cc-4576-bde8-62a44eb89e94/f00f1114-ed68-4fba-9540-80d99985f1de")
 		(sheetname "/WSG_ESP/")
@@ -12054,7 +12637,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.167621 0.38)
@@ -12202,6 +12785,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C52923"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "cc08e79f-0dcc-4f07-9c2b-57071c4e5495")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/3fdea08a-86cc-4576-bde8-62a44eb89e94/0d7be8a1-1aee-4c4e-8f95-d87ac8e68100")
 		(sheetname "/WSG_ESP/")
@@ -12212,7 +12806,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.115835 0.36)
@@ -12360,6 +12954,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "cef99380-7327-4998-983b-ec3dc7a3354c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/3fdea08a-86cc-4576-bde8-62a44eb89e94/c09b7dbd-b4d6-4728-a372-cae3aedab19b")
 		(sheetname "/WSG_ESP/")
@@ -12370,7 +12975,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.167621 0.38)
@@ -12518,6 +13123,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C52923"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "24e776de-60d8-4fcc-95ef-1b2596b49a71")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/c5ed03a7-f581-4366-93a5-60fa505a706c/80451959-ae00-4c4f-8905-264d81458765")
 		(sheetname "/WSG_ADC/")
@@ -12528,7 +13144,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.115835 0.36)
@@ -12676,6 +13292,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C852931"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "aac55fef-fae3-4eb0-8e96-7bf3a751060c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c5ed03a7-f581-4366-93a5-60fa505a706c/79fd0e83-cfc9-46e2-bb00-786a8de66d62")
 		(sheetname "/WSG_ADC/")
@@ -12686,7 +13313,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.167621 -0.38)
@@ -12834,6 +13461,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25092"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "dfbf1c89-9983-464e-8fc2-8a3d72b677ad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/3fdea08a-86cc-4576-bde8-62a44eb89e94/9a95986f-3e39-411c-a926-65465060b527")
 		(sheetname "/WSG_ESP/")
@@ -12844,7 +13482,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.167621 0.38)
@@ -12992,6 +13630,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2861481"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6b679754-db51-48f3-a44c-0f4a0ed31a0c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "PBS0032A_N PBS0032A_M PBS0032A_L")
 		(path "/c5ed03a7-f581-4366-93a5-60fa505a706c/2fae7b2b-b44a-4e56-9565-ea30dfbd99cb")
 		(sheetname "/WSG_ADC/")
@@ -13005,7 +13654,7 @@
 				)
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -2.61 -2.61)
@@ -13717,6 +14366,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C52923"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c6e3c320-5b9a-481f-b14f-856cc2deb7f4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/c5ed03a7-f581-4366-93a5-60fa505a706c/d40b189b-5da9-413a-ba88-17f5a6311c05")
 		(sheetname "/WSG_ADC/")
@@ -13727,7 +14387,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.115835 0.36)
@@ -13888,6 +14548,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C162182"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5f62938f-f881-4787-af92-c182506116a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/c5ed03a7-f581-4366-93a5-60fa505a706c/d89851bc-6d9c-4baf-9874-25a28d91796e")
 		(sheetname "/WSG_ADC/")
@@ -13898,7 +14569,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.115835 0.36)
@@ -14046,6 +14717,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C16772"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4f5d3a6f-9b43-4cf5-b3c0-a39b0378677c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/c5ed03a7-f581-4366-93a5-60fa505a706c/1b509c4d-0fcc-414d-b9a0-8b04602541df")
 		(sheetname "/WSG_ADC/")
@@ -14056,7 +14738,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.115835 -0.36)
@@ -14204,6 +14886,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25092"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "82b56209-f039-4cda-856b-498524886f10")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/3fdea08a-86cc-4576-bde8-62a44eb89e94/7279ba49-32ef-4789-868a-083e25c05aea")
 		(sheetname "/WSG_ESP/")
@@ -14214,7 +14907,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.167621 0.38)
@@ -14362,6 +15055,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25905"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4b07188a-4033-4f78-bbae-906a2447ce8e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/05f78620-165f-4d12-a698-3b5ab7aa33dd/292b17c7-9b8c-442c-8eb4-6cc8f7d6d3b4")
 		(sheetname "/WSG_Power-Memory/")
@@ -14372,7 +15076,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.167621 -0.38)
@@ -14512,6 +15216,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2760981"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ec4a954c-1a49-4d2d-b57d-44de0d4edc41")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/3fdea08a-86cc-4576-bde8-62a44eb89e94/77da83ea-daf1-4b53-b5dd-9581166d5d1c")
 		(sheetname "/WSG_ESP/")
 		(sheetfile "WSG_1_0_ESP.kicad_sch")
@@ -14521,7 +15236,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.9 0)
@@ -14782,6 +15497,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C59461"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "90d355d1-0009-4455-a8ec-68c67b5ff7c1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/3fdea08a-86cc-4576-bde8-62a44eb89e94/47b09508-725b-4410-927a-c4311544482a")
 		(sheetname "/WSG_ESP/")
@@ -14792,7 +15518,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.146267 0.51)
@@ -14940,6 +15666,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C11702"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6544a625-e8e4-4ca3-93ea-6a536b6c3b07")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c5ed03a7-f581-4366-93a5-60fa505a706c/8eb5546f-1b2b-470a-b5c5-bd24db7a1e3e")
 		(sheetname "/WSG_ADC/")
@@ -14950,7 +15687,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.167621 -0.38)
@@ -15098,6 +15835,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25076"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5626ba07-4006-4030-8332-86bf28eb07e6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c5ed03a7-f581-4366-93a5-60fa505a706c/b2487a67-33d3-41e2-b714-2fd7aa5dd764")
 		(sheetname "/WSG_ADC/")
@@ -15108,7 +15856,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.167621 0.38)
@@ -15256,6 +16004,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25741"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "02517566-69b1-4e18-939d-0c7426b38ff2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/3fdea08a-86cc-4576-bde8-62a44eb89e94/153d7abf-2682-4d7e-bd1f-53667732a6f7")
 		(sheetname "/WSG_ESP/")
@@ -15266,7 +16025,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.167621 -0.38)
@@ -15404,6 +16163,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2980299"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e980ff62-50de-4c32-ab2d-cd879425c080")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "ESP32-S3-MINI-1U_EXP")
 		(path "/3fdea08a-86cc-4576-bde8-62a44eb89e94/bfae8708-6e94-42c6-a8d3-2ba472492368")
 		(sheetname "/WSG_ESP/")
@@ -15420,7 +16190,7 @@
 				)
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -7.8232 -7.8232)
@@ -16302,6 +17072,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25120"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7599a277-241a-4e6a-ae29-061d9a735fec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c5ed03a7-f581-4366-93a5-60fa505a706c/72aaa14c-856f-4ccf-a891-2102ca617fbd")
 		(sheetname "/WSG_ADC/")
@@ -16312,7 +17093,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.167621 -0.38)
@@ -16460,6 +17241,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C11702"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4b30caa4-3b5f-449b-9dbb-658de405fdad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/3fdea08a-86cc-4576-bde8-62a44eb89e94/07330c66-60bd-46e4-818d-895b39381070")
 		(sheetname "/WSG_ESP/")
@@ -16470,7 +17262,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.167621 -0.38)
@@ -16618,6 +17410,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C852731"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "50fb8d34-782c-4262-8782-d7fb634b4219")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c5ed03a7-f581-4366-93a5-60fa505a706c/bf4392f9-b479-4ffe-95d5-7f36a1326a18")
 		(sheetname "/WSG_ADC/")
@@ -16628,7 +17431,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.167621 0.38)
@@ -16919,6 +17722,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C124691"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "397053c6-9183-4790-a887-0c106fcb758c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/c5ed03a7-f581-4366-93a5-60fa505a706c/66c86513-0c8b-4e99-98e3-49446e90be1d")
 		(sheetname "/WSG_ADC/")
 		(sheetfile "WSG_1_0_ADC.kicad_sch")
@@ -16928,7 +17742,7 @@
 				(pins "1" "6" "3" "4" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.8 1.56)
@@ -17254,6 +18068,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "34e16a99-4811-4f82-9f8b-bc758b7dd020")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/c5ed03a7-f581-4366-93a5-60fa505a706c/638d4edb-cb6a-4993-b38b-c533a5c53cab")
 		(sheetname "/WSG_ADC/")
@@ -17264,7 +18089,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.115835 -0.36)
@@ -17655,6 +18480,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C162182"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "fc66bf2d-580a-4fab-bc51-f6638752d1ed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/c5ed03a7-f581-4366-93a5-60fa505a706c/8f9ca7e9-4d34-4688-8419-a59b6681ac95")
 		(sheetname "/WSG_ADC/")
@@ -17665,7 +18501,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.115835 0.36)
@@ -17813,6 +18649,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C11702"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a2d44654-459f-4063-b0a2-d1b35b9ae4c6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/3fdea08a-86cc-4576-bde8-62a44eb89e94/bcb10047-a8b4-4dbc-bfb0-e9e5a96b2705")
 		(sheetname "/WSG_ESP/")
@@ -17823,7 +18670,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.167621 0.38)
@@ -17971,6 +18818,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C11702"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a7f1d6c3-21fd-47ff-a3b9-bfa8778e0a20")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c5ed03a7-f581-4366-93a5-60fa505a706c/0906e7ff-d00a-4529-aaff-c7326b0881a2")
 		(sheetname "/WSG_ADC/")
@@ -17981,7 +18839,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.167621 -0.38)
@@ -18287,6 +19145,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "269c076c-9dfc-46be-bd3d-03a8a21113aa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/05f78620-165f-4d12-a698-3b5ab7aa33dd/2bdde293-f108-43fe-912d-647c64854f17")
 		(sheetname "/WSG_Power-Memory/")
@@ -18297,7 +19166,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.115835 0.36)
@@ -18458,6 +19327,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C162182"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6be93145-f3d8-4acb-82c6-e6c6dba7d5ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/c5ed03a7-f581-4366-93a5-60fa505a706c/7a924f15-7d56-455a-8d26-8f17615d1398")
 		(sheetname "/WSG_ADC/")
@@ -18468,7 +19348,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.115835 0.36)
@@ -18616,6 +19496,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a95c517e-349e-4f64-881c-198893d6b3c6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/c5ed03a7-f581-4366-93a5-60fa505a706c/f18d9227-935f-4a67-94a8-dacbcc7f517c")
 		(sheetname "/WSG_ADC/")
@@ -18626,7 +19517,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.115835 -0.36)
@@ -18966,7 +19857,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom dnp)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.167621 -0.38)
@@ -19954,6 +20845,17 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C2868808"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "7c893ef8-b722-44ec-b87b-ca20711ea0ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "DBZ0003A-IPC_A DBZ0003A-IPC_B DBZ0003A-IPC_C DBZ0003A-MFG")
 		(path "/c5ed03a7-f581-4366-93a5-60fa505a706c/224114da-ff8f-4df5-a7ee-7616ee3dd122")
 		(sheetname "/WSG_ADC/")
@@ -19964,7 +20866,7 @@
 				(pins "1" "2" "3")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0.76 1.56)
