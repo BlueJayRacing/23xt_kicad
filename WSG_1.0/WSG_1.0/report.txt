@@ -6,10 +6,13 @@ Info: Processing symbol 'C10:Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_Hand
 Info: Processing symbol 'C12:Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder'.
 Info: Processing symbol 'C13:Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder'.
 Info: Processing symbol 'C14:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'U14:footprints:SOT95P280X145-6N'.
 Info: Processing symbol 'C15:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'U15:footprints:ESP32-S3-MINI-1U_EXP'.
 Info: Processing symbol 'C16:Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder'.
-Info: Processing symbol 'C17:Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder'.
+Info: Processing symbol 'C17:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
 Info: Processing symbol 'C18:Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder'.
+Info: Processing symbol 'C19:Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder'.
 Info: Processing symbol 'C20:Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder'.
 Info: Processing symbol 'C21:Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder'.
 Info: Processing symbol 'C22:Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder'.
@@ -25,6 +28,7 @@ Info: Processing symbol 'C33:Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_Hand
 Info: Processing symbol 'C34:Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder'.
 Info: Processing symbol 'C35:Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder'.
 Info: Processing symbol 'C36:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'Y1:Oscillator:Oscillator_SMD_SiT_PQFN-4Pin_2.5x2.0mm'.
 Info: Processing symbol 'C37:Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder'.
 Info: Processing symbol 'C38:Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder'.
 Info: Processing symbol 'C39:Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder'.
@@ -34,18 +38,14 @@ Info: Processing symbol 'C42:Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_Hand
 Info: Processing symbol 'D1:Diode_SMD:D_SMA'.
 Info: Processing symbol 'F1:Fuse:Fuse_1206_3216Metric'.
 Info: Processing symbol 'FB1:Inductor_SMD:L_0402_1005Metric'.
-Info: Processing symbol 'H1:MountingHole:MountingHole_3.2mm_M3'.
-Info: Processing symbol 'H2:MountingHole:MountingHole_3.2mm_M3'.
-Info: Processing symbol 'J1:Connector_PinSocket_2.00mm:PinSocket_2x05_P2.00mm_Horizontal'.
+Info: Processing symbol 'J1:Connector_PinHeader_2.00mm:PinHeader_2x05_P2.00mm_Vertical'.
 Info: Processing symbol 'J2:Connector_USB:USB_C_Receptacle_GCT_USB4110'.
 Info: Processing symbol 'J4:footprints:JST_S2B-PH-K-S_LF__SN_-2pin_male'.
 Info: Processing symbol 'L1:Inductor_SMD:L_Coilcraft_XxL4020'.
-Info: Processing symbol 'MOSFET1:Package_TO_SOT_SMD:SOT-23'.
 Info: Processing symbol 'R1:Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder'.
 Info: Processing symbol 'R2:Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder'.
 Info: Processing symbol 'R3:Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder'.
 Info: Processing symbol 'R4:Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder'.
-Info: Processing symbol 'R5:Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder'.
 Info: Processing symbol 'R6:Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder'.
 Info: Processing symbol 'R7:Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder'.
 Info: Processing symbol 'R8:Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder'.
@@ -99,8 +99,9 @@ Info: Processing symbol 'R55:Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandS
 Info: Processing symbol 'R56:Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder'.
 Info: Processing symbol 'R57:Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder'.
 Info: Processing symbol 'R58:Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder'.
-Info: Processing symbol 'SW3:Button_Switch_SMD:SW_SPST_CK_KMS2xxG'.
-Info: Processing symbol 'SW4:Button_Switch_SMD:SW_SPST_CK_KMS2xxG'.
+Info: Processing symbol 'R59:Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder'.
+Info: Processing symbol 'SW3:footprints:NANOT100AS_butt'.
+Info: Processing symbol 'SW4:footprints:NANOT100AS_butt'.
 Info: Processing symbol 'TP1:TestPoint:TestPoint_Pad_1.0x1.0mm'.
 Info: Processing symbol 'TP2:TestPoint:TestPoint_Pad_1.0x1.0mm'.
 Info: Processing symbol 'TP3:TestPoint:TestPoint_Pad_1.0x1.0mm'.
@@ -118,12 +119,13 @@ Info: Processing symbol 'U9:Package_TO_SOT_SMD:SOT-23-5'.
 Info: Processing symbol 'U10:footprints:IC_TPS22916BYFPR'.
 Info: Processing symbol 'U11:footprints:IC_W25N04KVZEIR'.
 Info: Processing symbol 'U12:Package_TO_SOT_SMD:SOT-23-6'.
-Info: Processing symbol 'U14:footprints:SOT95P280X145-6N'.
-Info: Processing symbol 'U15:footprints:ESP32-S3-MINI-1U_EXP'.
-Info: Processing symbol 'Y1:Oscillator:Oscillator_SMD_SiT_PQFN-4Pin_2.5x2.0mm'.
+Updated C14 fields.
+Updated C15 fields.
+Updated C36 fields.
+Changed U9 value from TPS7A2025PDBVR to LP5907MFX-2.5/NOPB.
+Updated U11 unit metadata.
+Changed Y1 value from SiT8008AI-13-33S-16.384000 to DSC1001DI1-016.3840.
 Warning: No net found for component U14 pad 5 (no pin 5 in symbol).
-Warning: No net found for component SW3 pad SH (no pin SH in symbol).
-Warning: No net found for component SW4 pad SH (no pin SH in symbol).
 
 
-Info: Total warnings: 3, errors: 0.
+Info: Total warnings: 1, errors: 0.

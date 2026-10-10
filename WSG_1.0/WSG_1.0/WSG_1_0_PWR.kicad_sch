@@ -9338,7 +9338,7 @@
 				)
 			)
 		)
-		(property "Value" "TPS7A2025PDBVR"
+		(property "Value" "LP5907MFX-2.5/NOPB"
 			(at 245.11 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12912,7 +12912,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R60J226MEA0J"
+		(property "MPN" "CL10A226MQ8NRNE"
 			(at 90.17 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -13004,7 +13004,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R60J226MEA0J"
+		(property "MPN" "CL10A226MQ8NRNE"
 			(at 29.21 157.48 0)
 			(hide yes)
 			(show_name no)
