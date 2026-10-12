@@ -36,7 +36,9 @@ C8,1uF,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,166.8,-110.8,0.0,bottom
 D1,SMAJ5.0A,D_SMA,169.1,-104.7,0.0,top
 F1,0ZCJ0075AF2E,Fuse_1206_3216Metric,164.1,-104.3,-90.0,top
 FB1,600R@100MHz,L_0402_1005Metric,123.9325,-87.5,270.0,bottom
+J1,Conn_01x10,PinHeader_2x05_P2.00mm_Vertical,111.0,-92.3,180.0,top
 J2,USB_C_Receptacle_USB2.0_16P,USB_C_Receptacle_GCT_USB4110,168.185,-92.1,90.0,top
+J4,Conn_01x02,JST_S2B-PH-K-S_LF__SN_-2pin_male,111.4125,-107.4,-90.0,top
 L1,470nH,L_Coilcraft_XxL4020,156.25,-109.900001,90.0,bottom
 R1,100,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,130.2,-99.4,180.0,top
 R10,1k,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,111.6,-101.0,0.0,top
@@ -70,7 +72,7 @@ R38,100k,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,137.5,-105.8,0.0,top
 R39,100k,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,149.850001,-109.9,180.0,bottom
 R4,350,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,111.6,-99.0,0.0,top
 R40,5.1k,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,164.1,-94.4,90.0,top
-R41,5.1k,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,163.5,-90.9,0.0,top
+R41,5.1k,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,162.5,-90.0,0.0,top
 R42,10k,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,139.299999,-99.600001,180.0,top
 R43,10k,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,159.1,-98.1,-90.0,top
 R44,10k,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,159.799999,-94.250001,0.0,top

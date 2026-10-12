@@ -1,5 +1,5 @@
 ** Drc report for WSG_1.0.kicad_pcb **
-** Created on 2026-10-10T16:58:31 **
+** Created on 2026-10-12T00:19:12 **
 ** Report includes: Errors, Warnings **
 
 ** Found 60 DRC violations **
@@ -11,15 +11,15 @@
     Rule: board setup constraints silk; warning
     @(106.9873 mm, 112.3139 mm): Segment on Edge.Cuts
     @(112.7625 mm, 110.3500 mm): Segment of J4 on F.Silkscreen
-[lib_footprint_mismatch]: Footprint 'IC_W25N04KVZEIR' does not match copy in library 'footprints'
-    Local override; warning
-    @(143.5000 mm, 105.5000 mm): Footprint U11
 [lib_footprint_mismatch]: Footprint 'R_0402_1005Metric_Pad0.72x0.64mm_HandSolder' does not match copy in library 'Resistor_SMD'
     Local override; warning
     @(141.5500 mm, 98.9500 mm): Footprint R26
 [lib_footprint_mismatch]: Footprint 'TQFP-32_5x5mm_P0.5mm' does not match copy in library 'Package_QFP'
     Local override; warning
     @(133.5000 mm, 103.1000 mm): Footprint U1
+[lib_footprint_mismatch]: Footprint 'IC_W25N04KVZEIR' does not match copy in library 'footprints'
+    Local override; warning
+    @(143.5000 mm, 105.5000 mm): Footprint U11
 [silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1121 mm)
     Rule: board setup constraints silk; warning
     @(129.3000 mm, 109.0000 mm): Reference field of R49
@@ -222,12 +222,12 @@
     @(127.0324 mm, 100.0200 mm): Segment of R51 on F.Silkscreen
 [silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1200 mm)
     Rule: board setup constraints silk; warning
-    @(149.3824 mm, 109.2800 mm): Segment of R32 on B.Silkscreen
-    @(149.6824 mm, 109.5200 mm): Segment of R39 on B.Silkscreen
-[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1200 mm)
-    Rule: board setup constraints silk; warning
     @(149.7176 mm, 108.2800 mm): Segment of R20 on B.Silkscreen
     @(149.3824 mm, 108.5200 mm): Segment of R32 on B.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1200 mm)
+    Rule: board setup constraints silk; warning
+    @(149.3824 mm, 109.2800 mm): Segment of R32 on B.Silkscreen
+    @(149.6824 mm, 109.5200 mm): Segment of R39 on B.Silkscreen
 [silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1200 mm)
     Rule: board setup constraints silk; warning
     @(161.2324 mm, 109.8200 mm): Segment of R37 on B.Silkscreen
