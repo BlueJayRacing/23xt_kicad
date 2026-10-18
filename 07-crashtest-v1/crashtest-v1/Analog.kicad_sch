@@ -5,7 +5,302 @@
 	(uuid "8331ff39-73be-48b2-bc86-de909c01fe35")
 	(paper "A4")
 	(lib_symbols
-		(symbol "1-Crashtest:INA827AIDGK"
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "my-symbols:DAC60501MDGSR"
 			(pin_names
 				(offset 0.254)
 			)
@@ -15,7 +310,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at 27.94 10.16 0)
+				(at 25.4 10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -24,8 +319,8 @@
 					)
 				)
 			)
-			(property "Value" "INA827AIDGK"
-				(at 27.94 7.62 0)
+			(property "Value" "DAC60501MDGSR"
+				(at 25.4 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -34,7 +329,7 @@
 					)
 				)
 			)
-			(property "Footprint" "DGK8_TEX"
+			(property "Footprint" "DGS10_TEX"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -46,7 +341,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.ti.com/lit/gpn/ina827"
+			(property "Datasheet" "https://www.ti.com/lit/gpn/dac60501"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -79,7 +374,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "INA827AIDGK"
+			(property "ki_keywords" "DAC60501MDGSR"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -90,7 +385,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "DGK8_TEX DGK8_TEX-M DGK8_TEX-L"
+			(property "ki_fp_filters" "DGS10_TEX DGS10_TEX-M DGS10_TEX-L"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -101,10 +396,10 @@
 					)
 				)
 			)
-			(symbol "INA827AIDGK_0_1"
+			(symbol "DAC60501MDGSR_0_1"
 				(polyline
 					(pts
-						(xy 7.62 5.08) (xy 7.62 -12.7)
+						(xy 7.62 5.08) (xy 7.62 -15.24)
 					)
 					(stroke
 						(width 0.127)
@@ -116,7 +411,7 @@
 				)
 				(polyline
 					(pts
-						(xy 7.62 -12.7) (xy 48.26 -12.7)
+						(xy 7.62 -15.24) (xy 43.18 -15.24)
 					)
 					(stroke
 						(width 0.127)
@@ -128,7 +423,7 @@
 				)
 				(polyline
 					(pts
-						(xy 48.26 5.08) (xy 7.62 5.08)
+						(xy 43.18 5.08) (xy 7.62 5.08)
 					)
 					(stroke
 						(width 0.127)
@@ -140,7 +435,7 @@
 				)
 				(polyline
 					(pts
-						(xy 48.26 -12.7) (xy 48.26 5.08)
+						(xy 43.18 -15.24) (xy 43.18 5.08)
 					)
 					(stroke
 						(width 0.127)
@@ -150,10 +445,10 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at 0 0 0)
 					(length 7.62)
-					(name "IN-"
+					(name "VDD"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -168,10 +463,10 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at 0 -2.54 0)
 					(length 7.62)
-					(name "RG"
+					(name "VOUT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -186,10 +481,10 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin no_connect line
 					(at 0 -5.08 0)
 					(length 7.62)
-					(name "RG"
+					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -204,10 +499,10 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_out line
 					(at 0 -7.62 0)
 					(length 7.62)
-					(name "IN+"
+					(name "AGND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -222,10 +517,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 55.88 -7.62 180)
+				(pin unspecified line
+					(at 0 -10.16 0)
 					(length 7.62)
-					(name "VS-"
+					(name "SPI2C"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -240,10 +535,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at 55.88 -5.08 180)
+				(pin unspecified line
+					(at 50.8 -10.16 180)
 					(length 7.62)
-					(name "REF"
+					(name "SCLK/SCL"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -258,10 +553,10 @@
 						)
 					)
 				)
-				(pin output line
-					(at 55.88 -2.54 180)
+				(pin unspecified line
+					(at 50.8 -7.62 180)
 					(length 7.62)
-					(name "VOUT"
+					(name "*SYNC/A0"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -276,10 +571,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 55.88 0 180)
+				(pin unspecified line
+					(at 50.8 -5.08 180)
 					(length 7.62)
-					(name "VS+"
+					(name "SDIN/SDA"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -294,37 +589,520 @@
 						)
 					)
 				)
+				(pin no_connect line
+					(at 50.8 -2.54 180)
+					(length 7.62)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 50.8 0 180)
+					(length 7.62)
+					(name "VREFIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
 	)
-	(rectangle
-		(start 22.86 134.62)
-		(end 275.59 190.5)
+	(text "shared reference"
+		(exclude_from_sim no)
+		(at 59.944 28.702 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1fe34ce3-6e75-406f-a3bf-36887e7551cb")
+	)
+	(junction
+		(at 38.1 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d655409-a3ff-45c2-8a66-09a33f7a5d6e")
+	)
+	(junction
+		(at 88.9 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7166068-f630-4e10-9854-b157f99878e5")
+	)
+	(junction
+		(at 26.67 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dafe01e1-e851-43b8-a9d4-d7087cccbf2c")
+	)
+	(junction
+		(at 55.88 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9fc9bdf-082a-48f5-a798-81478dfcf6c6")
+	)
+	(wire
+		(pts
+			(xy 88.9 86.36) (xy 88.9 92.71)
+		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(fill
-			(type none)
-		)
-		(uuid "51afaa23-25fc-4225-80e3-4972838638fc")
+		(uuid "009d5106-e8c9-4c00-886c-84ea2210fef9")
 	)
-	(text "Wheatstone Bridges go here\n"
-		(exclude_from_sim no)
-		(at 119.634 160.02 0)
+	(wire
+		(pts
+			(xy 38.1 83.82) (xy 38.1 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b25bb1f-3ae3-406a-8cbe-ce30a27e0cfb")
+	)
+	(wire
+		(pts
+			(xy 60.96 44.45) (xy 55.88 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1de3c8f1-68fc-4e09-a41a-148feec48a85")
+	)
+	(wire
+		(pts
+			(xy 55.88 41.91) (xy 55.88 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22123e9b-c253-464e-ad01-708295794ce4")
+	)
+	(wire
+		(pts
+			(xy 30.48 95.25) (xy 30.48 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22671f71-ea23-44d2-ade4-ad7a85411ad6")
+	)
+	(wire
+		(pts
+			(xy 30.48 99.06) (xy 26.67 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39b15a80-9fb9-45f8-b01b-9c4b0a4d0677")
+	)
+	(wire
+		(pts
+			(xy 33.02 83.82) (xy 38.1 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c2772f6-86bc-48ee-b40b-36e7525411bc")
+	)
+	(wire
+		(pts
+			(xy 38.1 95.25) (xy 30.48 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a60e999-7a60-4a66-a674-702260437354")
+	)
+	(wire
+		(pts
+			(xy 24.13 99.06) (xy 26.67 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "940cde3f-6ab8-4ea1-a08b-a483ac0740b3")
+	)
+	(wire
+		(pts
+			(xy 99.06 86.36) (xy 88.9 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a562925c-800a-4285-b246-63d8220bd1dc")
+	)
+	(wire
+		(pts
+			(xy 55.88 44.45) (xy 55.88 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0a2284c-efa8-494b-aa08-6b213e7732e6")
+	)
+	(wire
+		(pts
+			(xy 68.58 44.45) (xy 73.66 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "beefe2d1-4089-461f-9a0f-15e3af1f7692")
+	)
+	(wire
+		(pts
+			(xy 55.88 31.75) (xy 55.88 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e69e7bcb-a20b-4695-8cd3-e3c8f2572402")
+	)
+	(global_label "DAC_CS"
+		(shape input)
+		(at 88.9 100.33 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3.81 3.81)
-				(thickness 0.762)
-				(bold yes)
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0133a595-55ea-4262-8ece-f94caa3d0aa0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 98.9609 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
-		(uuid "fbc868c3-7384-4e21-81f4-633cc92dd987")
+	)
+	(global_label "EXC_2V5"
+		(shape input)
+		(at 55.88 31.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "151a44ab-3525-43e0-9388-c1899ea77123")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 66.9689 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "VREF_1V65"
+		(shape output)
+		(at 24.13 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2e022497-6511-4b65-8ace-2496a634818a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 10.8639 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "BREF_F"
+		(shape input)
+		(at 73.66 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3195a26d-8594-40b6-9122-f43137748f1d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.479 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ADC_SCLK"
+		(shape input)
+		(at 88.9 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4b9e6244-7fd2-4eb2-ad7e-7382ee3bef0d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 101.259 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ADC_MOSI"
+		(shape input)
+		(at 88.9 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c3780eea-dc8b-4bcd-828d-64c4b5c546af")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 101.0776 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "VREFIO_C"
+		(shape passive)
+		(at 99.06 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c51d9f9d-e5af-4f2f-bce7-66a5d93e38a1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 109.703 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "3V3A"
+		(shape input)
+		(at 33.02 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e89a1503-99d0-44c0-9887-10d081b2fa70")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.4386 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
 	(symbol
-		(lib_id "1-Crashtest:INA827AIDGK")
-		(at 116.84 60.96 0)
+		(lib_id "power:GND")
+		(at 26.67 91.44 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -332,54 +1110,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2c236a77-03db-42de-b326-9c3689b20ac3")
-		(property "Reference" "U8"
-			(at 144.78 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "INA827AIDGK"
-			(at 144.78 53.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "DGK8_TEX"
-			(at 116.84 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/ina827"
-			(at 116.84 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 116.84 60.96 0)
+		(uuid "3310eb99-2dd8-4a9f-a871-32e04f171114")
+		(property "Reference" "#PWR063"
+			(at 26.67 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -389,42 +1122,64 @@
 				)
 			)
 		)
-		(pin "8"
-			(uuid "a122f2df-0743-4556-92c5-6c7a54fb7944")
+		(property "Value" "GND"
+			(at 26.416 91.694 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
-		(pin "6"
-			(uuid "7b0e0df5-969d-46d7-b523-c7a739bead1e")
+		(property "Footprint" ""
+			(at 26.67 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
-		(pin "5"
-			(uuid "534638ad-4428-4433-bf8f-7998f713451f")
+		(property "Datasheet" ""
+			(at 26.67 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
-		(pin "7"
-			(uuid "3c32882b-bdb0-49ed-924d-8a4412099d51")
-		)
-		(pin "3"
-			(uuid "f1597378-5009-4c39-b61f-30ee9b646cb3")
-		)
-		(pin "4"
-			(uuid "65f1a806-599f-41d4-b885-a8f0bd8aa66d")
-		)
-		(pin "2"
-			(uuid "efe22858-fcaf-4293-a34c-6211c9b0d4a8")
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 26.67 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "8bfb658b-d9fa-4da8-a0c5-37cbea674f1f")
+			(uuid "47ab919a-4797-40f7-b54f-bdca700d8f2e")
 		)
 		(instances
 			(project "crashtest-v1"
 				(path "/d37bea93-286f-4b16-8fb5-bff0aad4794c/0a67afa6-c8e3-4c11-a394-aeb96fa5fdf6"
-					(reference "U8")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "1-Crashtest:INA827AIDGK")
-		(at 116.84 115.57 0)
+		(lib_id "power:GND")
+		(at 45.72 83.82 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -432,54 +1187,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3979ba58-2e86-4a05-ad5f-37397c4619b1")
-		(property "Reference" "U10"
-			(at 144.78 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "INA827AIDGK"
-			(at 144.78 107.95 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "DGK8_TEX"
-			(at 116.84 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/ina827"
-			(at 116.84 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 116.84 115.57 0)
+		(uuid "359bd6f3-5896-4393-9581-77477411333d")
+		(property "Reference" "#PWR065"
+			(at 52.07 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -489,42 +1199,64 @@
 				)
 			)
 		)
-		(pin "8"
-			(uuid "30984acc-af8c-4529-8266-21803a1058f0")
+		(property "Value" "GND"
+			(at 48.768 82.042 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
-		(pin "6"
-			(uuid "176a7f12-a90b-49b8-9845-cb73fb35600b")
+		(property "Footprint" ""
+			(at 45.72 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
-		(pin "5"
-			(uuid "0ad1d2c9-af5e-4b1b-939b-4a718cb354c7")
+		(property "Datasheet" ""
+			(at 45.72 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
-		(pin "7"
-			(uuid "bb7f94ce-e616-46a6-8800-ee8be26f8228")
-		)
-		(pin "3"
-			(uuid "e644faa1-4293-49ac-bfd5-2c757320f2ae")
-		)
-		(pin "4"
-			(uuid "1da24ccb-20ce-445d-b8c8-093fde8caa86")
-		)
-		(pin "2"
-			(uuid "9d807f58-a022-4518-9ddd-6117516c1329")
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 45.72 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "b778d7ad-b5c8-452b-8a46-8969669d3fba")
+			(uuid "61cb559d-2dde-4b37-833c-130736e23edf")
 		)
 		(instances
 			(project "crashtest-v1"
 				(path "/d37bea93-286f-4b16-8fb5-bff0aad4794c/0a67afa6-c8e3-4c11-a394-aeb96fa5fdf6"
-					(reference "U10")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "1-Crashtest:INA827AIDGK")
-		(at 205.74 88.9 0)
+		(lib_id "Device:C")
+		(at 38.1 80.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -532,54 +1264,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "78a320b7-db4a-4c02-842e-2806c9f9fa6e")
-		(property "Reference" "U11"
-			(at 233.68 78.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "INA827AIDGK"
-			(at 233.68 81.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "DGK8_TEX"
-			(at 205.74 88.9 0)
-			(hide yes)
+		(uuid "3959e3f5-1f05-40d4-8dcd-f265980fbfcd")
+		(property "Reference" "C28"
+			(at 35.052 78.994 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
+				(justify right)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/ina827"
-			(at 205.74 88.9 0)
-			(hide yes)
+		(property "Value" "0.1uF"
+			(at 35.052 76.454 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
+				(justify right)
 			)
 		)
-		(property "Description" ""
-			(at 205.74 88.9 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 39.0652 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -589,42 +1298,46 @@
 				)
 			)
 		)
-		(pin "8"
-			(uuid "3dbcee8b-85c4-4372-a071-bcef16141cb3")
+		(property "Datasheet" ""
+			(at 38.1 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
-		(pin "6"
-			(uuid "3e017983-c0df-4470-b1da-2d3ec407c624")
-		)
-		(pin "5"
-			(uuid "22534864-c7cf-4c57-8de5-702e50daa265")
-		)
-		(pin "7"
-			(uuid "80f628fc-e243-4f18-9360-f27e8c49fcf2")
-		)
-		(pin "3"
-			(uuid "fb752b5d-45c2-4b32-b6c0-5a864fe4a6ee")
-		)
-		(pin "4"
-			(uuid "21acaa63-9826-44b9-9137-a631eef1c92c")
-		)
-		(pin "2"
-			(uuid "2531aa3f-f1e8-40bb-bd8b-99c277c84d8c")
+		(property "Description" "Unpolarized capacitor"
+			(at 38.1 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "637d8457-d91d-4a37-92bb-8186d122a5a1")
+			(uuid "07d8fac4-024f-4050-ae46-4d6206bc5649")
+		)
+		(pin "2"
+			(uuid "8ea735fc-66aa-4934-b37e-ebdc17bec97b")
 		)
 		(instances
 			(project "crashtest-v1"
 				(path "/d37bea93-286f-4b16-8fb5-bff0aad4794c/0a67afa6-c8e3-4c11-a394-aeb96fa5fdf6"
-					(reference "U11")
+					(reference "C28")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "1-Crashtest:INA827AIDGK")
-		(at 116.84 88.9 0)
+		(lib_id "power:GND")
+		(at 38.1 76.2 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -633,53 +1346,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "866285bb-bd6c-45cc-b4a3-029f2e1a36db")
-		(property "Reference" "U9"
-			(at 144.78 78.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "INA827AIDGK"
-			(at 144.78 81.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "DGK8_TEX"
-			(at 116.84 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/ina827"
-			(at 116.84 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 116.84 88.9 0)
+		(uuid "3f1f81a6-1e33-4825-916a-8257d67463e3")
+		(property "Reference" "#PWR061"
+			(at 38.1 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -689,42 +1358,64 @@
 				)
 			)
 		)
-		(pin "8"
-			(uuid "280b1769-c79a-454a-b128-ecfdbe481ade")
+		(property "Value" "GND"
+			(at 38.1 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
-		(pin "6"
-			(uuid "12d8cefd-027e-4473-97f9-425b403e6e4b")
+		(property "Footprint" ""
+			(at 38.1 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
-		(pin "5"
-			(uuid "2c787326-ea4e-42f9-ae27-fe37b7c0f4e4")
+		(property "Datasheet" ""
+			(at 38.1 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
-		(pin "7"
-			(uuid "df9e83ed-7bd2-4800-a72f-99c1de8141a3")
-		)
-		(pin "3"
-			(uuid "400edcfb-254a-408b-9a22-3787dea9c15d")
-		)
-		(pin "4"
-			(uuid "07a36978-ca76-4689-9935-f8698e0d4306")
-		)
-		(pin "2"
-			(uuid "330de2e7-d0d5-4967-bb99-54166a1cc037")
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 38.1 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "387b769f-75b2-4fce-9246-7dee11d8df0b")
+			(uuid "61f3177a-c5d3-40e2-8bd8-4d64c02d860d")
 		)
 		(instances
 			(project "crashtest-v1"
 				(path "/d37bea93-286f-4b16-8fb5-bff0aad4794c/0a67afa6-c8e3-4c11-a394-aeb96fa5fdf6"
-					(reference "U9")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "1-Crashtest:INA827AIDGK")
-		(at 205.74 60.96 0)
+		(lib_id "Device:R")
+		(at 55.88 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -732,54 +1423,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a1e7e8fa-5942-4d16-94c0-6bcd71c38fc7")
-		(property "Reference" "U6"
-			(at 233.68 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "INA827AIDGK"
-			(at 233.68 53.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "DGK8_TEX"
-			(at 205.74 60.96 0)
-			(hide yes)
+		(uuid "4a309c21-26b3-4838-9ed1-81ff29f11f1f")
+		(property "Reference" "R4"
+			(at 58.42 36.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
+				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/ina827"
-			(at 205.74 60.96 0)
-			(hide yes)
+		(property "Value" "350"
+			(at 58.42 38.608 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
+				(justify left)
 			)
 		)
-		(property "Description" ""
-			(at 205.74 60.96 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 54.102 38.1 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -789,42 +1457,46 @@
 				)
 			)
 		)
-		(pin "8"
-			(uuid "8071fc47-f4c2-45f4-8def-e016cf6e73bd")
+		(property "Datasheet" ""
+			(at 55.88 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
-		(pin "6"
-			(uuid "5a75bc55-8393-4d15-9f15-dab407199172")
-		)
-		(pin "5"
-			(uuid "5b68baef-c3e6-4af9-a673-7165ce1c1603")
-		)
-		(pin "7"
-			(uuid "f994f959-9abe-4b9c-8b24-becccc2edf9e")
-		)
-		(pin "3"
-			(uuid "b3cb4034-3f42-45d8-879a-47a1211d512c")
-		)
-		(pin "4"
-			(uuid "8fd9e6e4-fc03-4a38-9873-2ffdd6ba907e")
+		(property "Description" "Resistor"
+			(at 55.88 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "2"
-			(uuid "c9c997b0-8e66-4f0a-9b5f-418d1fed03bf")
+			(uuid "6c5a0fc7-d028-488f-8c2c-e38d1ff37093")
 		)
 		(pin "1"
-			(uuid "fdeb55a3-1ead-46be-82fc-ed95a4704677")
+			(uuid "afdf8a5d-639b-486c-9b26-e42d44c009fe")
 		)
 		(instances
 			(project "crashtest-v1"
 				(path "/d37bea93-286f-4b16-8fb5-bff0aad4794c/0a67afa6-c8e3-4c11-a394-aeb96fa5fdf6"
-					(reference "U6")
+					(reference "R4")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "1-Crashtest:INA827AIDGK")
-		(at 205.74 116.84 0)
+		(lib_id "Device:C")
+		(at 26.67 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -832,54 +1504,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a227f23a-58aa-4db7-b4a4-2fff05fc61ae")
-		(property "Reference" "U12"
-			(at 233.68 106.68 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "INA827AIDGK"
-			(at 233.68 109.22 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "DGK8_TEX"
-			(at 205.74 116.84 0)
-			(hide yes)
+		(uuid "5191435b-ca4b-4b0d-bbce-b29afcb9031f")
+		(property "Reference" "C30"
+			(at 23.622 94.234 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
+				(justify right)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/ina827"
-			(at 205.74 116.84 0)
-			(hide yes)
+		(property "Value" "1nF"
+			(at 23.622 91.694 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
+				(justify right)
 			)
 		)
-		(property "Description" ""
-			(at 205.74 116.84 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 27.6352 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -889,42 +1538,127 @@
 				)
 			)
 		)
-		(pin "8"
-			(uuid "cb8376a7-79cd-42c0-a73c-e7fdda04d023")
+		(property "Datasheet" ""
+			(at 26.67 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
-		(pin "6"
-			(uuid "4e36141c-7789-4148-89ba-c8a4df1c00a2")
-		)
-		(pin "5"
-			(uuid "318cd30b-d4ee-4c87-8821-4d23c002f84c")
-		)
-		(pin "7"
-			(uuid "06450436-ab06-48a5-a643-153227f2ba1d")
-		)
-		(pin "3"
-			(uuid "3d15c215-87e2-41e1-93d4-0918a81b4b91")
-		)
-		(pin "4"
-			(uuid "83d47717-02de-48ef-b613-37a35988a2c0")
-		)
-		(pin "2"
-			(uuid "137aa76f-2377-4958-93d9-dda312c25cbe")
+		(property "Description" "Unpolarized capacitor"
+			(at 26.67 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "525a0512-bb95-4206-bc24-bfc2b83cac9d")
+			(uuid "a78ce067-a0b3-42b7-b305-942663cd3502")
+		)
+		(pin "2"
+			(uuid "a1588008-ee94-4b9e-a9f1-04c918283d61")
 		)
 		(instances
 			(project "crashtest-v1"
 				(path "/d37bea93-286f-4b16-8fb5-bff0aad4794c/0a67afa6-c8e3-4c11-a394-aeb96fa5fdf6"
-					(reference "U12")
+					(reference "C30")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "1-Crashtest:INA827AIDGK")
-		(at 29.21 60.96 0)
+		(lib_id "Device:C")
+		(at 88.9 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "53cae64b-15aa-4eab-aa63-763c71c5c1e8")
+		(property "Reference" "C26"
+			(at 85.852 81.534 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "220nF"
+			(at 85.852 78.994 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 89.8652 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 88.9 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "530ecf6d-78ee-4e82-b944-f82552de513e")
+		)
+		(pin "2"
+			(uuid "16c750d9-5847-40fa-8ad4-b6ecf950ecb3")
+		)
+		(instances
+			(project "crashtest-v1"
+				(path "/d37bea93-286f-4b16-8fb5-bff0aad4794c/0a67afa6-c8e3-4c11-a394-aeb96fa5fdf6"
+					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 88.9 78.74 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -933,9 +1667,403 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b5e60d91-a366-45c3-b0cc-adbf1dd8c7ed")
+		(uuid "7cb05bad-a08c-4fc7-bbc4-66f20cb1cd1e")
+		(property "Reference" "#PWR059"
+			(at 88.9 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.9 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 88.9 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "651844ab-07b3-4e3b-a9ef-2f762a8fe395")
+		)
+		(instances
+			(project "crashtest-v1"
+				(path "/d37bea93-286f-4b16-8fb5-bff0aad4794c/0a67afa6-c8e3-4c11-a394-aeb96fa5fdf6"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 38.1 100.33 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e494c41-e929-461e-969e-3c91f4724b6f")
+		(property "Reference" "#PWR08"
+			(at 31.75 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 34.29 100.3299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 38.1 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "09350105-74c9-4471-8120-91a99b807a3e")
+		)
+		(instances
+			(project "crashtest-v1"
+				(path "/d37bea93-286f-4b16-8fb5-bff0aad4794c/0a67afa6-c8e3-4c11-a394-aeb96fa5fdf6"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 64.77 44.45 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "951d7dde-384f-4c3a-8904-429cfd9ae79c")
+		(property "Reference" "R10"
+			(at 66.294 39.116 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k"
+			(at 66.294 41.656 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 64.77 46.228 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 64.77 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e4b63e32-7433-4ac8-8922-cf069bee5c4b")
+		)
+		(pin "1"
+			(uuid "d0d80d45-c165-45f6-bb26-c11294678924")
+		)
+		(instances
+			(project "crashtest-v1"
+				(path "/d37bea93-286f-4b16-8fb5-bff0aad4794c/0a67afa6-c8e3-4c11-a394-aeb96fa5fdf6"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 38.1 102.87 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf3968de-660a-4e05-9319-bbfd33c93a65")
+		(property "Reference" "#PWR09"
+			(at 31.75 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 34.29 102.8699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 38.1 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "98ab4cb8-3c73-4062-8678-cc42aa0aa3ff")
+		)
+		(instances
+			(project "crashtest-v1"
+				(path "/d37bea93-286f-4b16-8fb5-bff0aad4794c/0a67afa6-c8e3-4c11-a394-aeb96fa5fdf6"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 55.88 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c17d9dc5-3675-472b-b6f6-9460f5a4f91a")
+		(property "Reference" "#PWR015"
+			(at 55.88 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 52.324 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 55.88 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "72def72c-370e-49fa-a46e-8e2330aecf16")
+		)
+		(instances
+			(project "crashtest-v1"
+				(path "/d37bea93-286f-4b16-8fb5-bff0aad4794c/0a67afa6-c8e3-4c11-a394-aeb96fa5fdf6"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "my-symbols:DAC60501MDGSR")
+		(at 38.1 92.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d05f91db-1362-4acb-9549-e1917bef10d5")
 		(property "Reference" "U2"
-			(at 57.15 50.8 0)
+			(at 63.5 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -944,8 +2072,8 @@
 				)
 			)
 		)
-		(property "Value" "INA827AIDGK"
-			(at 57.15 53.34 0)
+		(property "Value" "DAC60501ZDGSR"
+			(at 63.5 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -954,8 +2082,8 @@
 				)
 			)
 		)
-		(property "Footprint" "DGK8_TEX"
-			(at 29.21 60.96 0)
+		(property "Footprint" "Package_SO:MSOP-10_3x3mm_P0.5mm"
+			(at 38.1 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -966,8 +2094,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/ina827"
-			(at 29.21 60.96 0)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/dac60501"
+			(at 38.1 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -979,7 +2107,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 29.21 60.96 0)
+			(at 38.1 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -989,29 +2117,35 @@
 				)
 			)
 		)
-		(pin "8"
-			(uuid "64dfd68f-0d62-4a78-8405-9fde834660ef")
-		)
-		(pin "6"
-			(uuid "feaaa784-8823-4b7e-af03-eeee84a060a1")
-		)
 		(pin "5"
-			(uuid "5e7ce25a-f497-423b-baa7-6dbedf6f6b8a")
-		)
-		(pin "7"
-			(uuid "7a40b2a0-4299-47e5-b6da-38cb0be7c36a")
-		)
-		(pin "3"
-			(uuid "935cd386-11fc-4df6-b9f5-557916d60e0a")
-		)
-		(pin "4"
-			(uuid "07ee040f-90c8-4193-a550-eed327839057")
+			(uuid "4bafc7c1-ff84-4e5d-84ce-d3cd3208dc28")
 		)
 		(pin "2"
-			(uuid "7b460311-3be3-44cb-bb45-56baea23984e")
+			(uuid "c8bd4653-c4c1-46c2-84ab-f060de4242b9")
+		)
+		(pin "4"
+			(uuid "f4300f7d-0c3b-4a77-b832-a04cb001f1f5")
 		)
 		(pin "1"
-			(uuid "47a097ea-b948-40da-9dec-3a034275ad04")
+			(uuid "83a90a14-4b76-4eb3-b2b2-d8d381d35ef4")
+		)
+		(pin "3"
+			(uuid "ba1b0017-3f50-4b43-9a49-2c7a46e4b847")
+		)
+		(pin "10"
+			(uuid "35cdf94c-23fa-42a4-a763-3a7214e2d2cd")
+		)
+		(pin "7"
+			(uuid "8bf8800b-b13e-496b-9498-28385c42d558")
+		)
+		(pin "6"
+			(uuid "c6fca98e-87ba-4d05-aabd-6f0f438bfa5c")
+		)
+		(pin "8"
+			(uuid "37841959-2ba5-403d-9345-e30bc32b83d5")
+		)
+		(pin "9"
+			(uuid "673784db-1596-4e83-a589-62243cd3eabf")
 		)
 		(instances
 			(project "crashtest-v1"
@@ -1023,8 +2157,8 @@
 		)
 	)
 	(symbol
-		(lib_id "1-Crashtest:INA827AIDGK")
-		(at 205.74 33.02 0)
+		(lib_id "Device:C")
+		(at 41.91 83.82 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1032,54 +2166,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "be45291f-3db2-4dd7-af14-02a359bad68b")
-		(property "Reference" "U5"
-			(at 233.68 22.86 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "INA827AIDGK"
-			(at 233.68 25.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "DGK8_TEX"
-			(at 205.74 33.02 0)
-			(hide yes)
+		(uuid "ed506519-bbf5-414f-bba9-4651d0b481e6")
+		(property "Reference" "C31"
+			(at 44.45 89.662 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
+				(justify right)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/ina827"
-			(at 205.74 33.02 0)
-			(hide yes)
+		(property "Value" "1uF"
+			(at 44.45 87.122 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
+				(justify right)
 			)
 		)
-		(property "Description" ""
-			(at 205.74 33.02 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 38.1 84.7852 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1089,42 +2200,46 @@
 				)
 			)
 		)
-		(pin "8"
-			(uuid "dafa550c-f354-4f96-ab52-061addb9ab01")
+		(property "Datasheet" ""
+			(at 41.91 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
-		(pin "6"
-			(uuid "b9061e52-35dc-4467-818c-cba06ccd48e9")
-		)
-		(pin "5"
-			(uuid "ef1bf883-34b5-4e3f-8eb9-d5f54f731758")
-		)
-		(pin "7"
-			(uuid "1d693512-eabf-4869-a9b5-bbf682d7ece0")
-		)
-		(pin "3"
-			(uuid "bc1573fe-5ada-47ea-90ed-d1a608230fcc")
-		)
-		(pin "4"
-			(uuid "8ca50914-3163-43fc-8e21-921665cebcbd")
-		)
-		(pin "2"
-			(uuid "c65ea0f6-900c-4048-aff2-1e419f7d623c")
+		(property "Description" "Unpolarized capacitor"
+			(at 41.91 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "4dd096e2-689f-4556-9b4d-125263954fbf")
+			(uuid "18fb0e7f-a3da-49ea-b266-7f12814858ec")
+		)
+		(pin "2"
+			(uuid "287908f5-1b9c-4572-875e-b3e73c3c219b")
 		)
 		(instances
 			(project "crashtest-v1"
 				(path "/d37bea93-286f-4b16-8fb5-bff0aad4794c/0a67afa6-c8e3-4c11-a394-aeb96fa5fdf6"
-					(reference "U5")
+					(reference "C31")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "1-Crashtest:INA827AIDGK")
-		(at 29.21 115.57 0)
+		(lib_id "Device:R")
+		(at 55.88 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1133,53 +2248,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "dd075e9b-bbdf-457d-971f-17f8358dcb3b")
-		(property "Reference" "U4"
-			(at 57.15 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "INA827AIDGK"
-			(at 57.15 107.95 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "DGK8_TEX"
-			(at 29.21 115.57 0)
-			(hide yes)
+		(uuid "f3484404-950d-4796-8dfa-a667ad2bb7a2")
+		(property "Reference" "R6"
+			(at 58.42 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
+				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/ina827"
-			(at 29.21 115.57 0)
-			(hide yes)
+		(property "Value" "350"
+			(at 58.42 50.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
+				(justify left)
 			)
 		)
-		(property "Description" ""
-			(at 29.21 115.57 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 54.102 49.53 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1189,335 +2282,831 @@
 				)
 			)
 		)
-		(pin "8"
-			(uuid "b57d7231-7bb7-4336-a5fb-265d64ef2c15")
+		(property "Datasheet" ""
+			(at 55.88 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
-		(pin "6"
-			(uuid "40e573c5-d1fa-441a-978d-74e55c62d8cf")
-		)
-		(pin "5"
-			(uuid "d74653a3-0199-4e09-ba0c-ffaca118afe8")
-		)
-		(pin "7"
-			(uuid "d10c46ec-11ca-4c87-a2ab-e15e8d5bb528")
-		)
-		(pin "3"
-			(uuid "3874b25e-b4c3-4a27-a4d0-394fdce01f63")
-		)
-		(pin "4"
-			(uuid "38a9897b-f517-4f5a-ae53-1996f5ab7ab4")
+		(property "Description" "Resistor"
+			(at 55.88 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "2"
-			(uuid "f479ba9d-93fd-46e1-b2b3-7d43a72dbc22")
+			(uuid "74e1c0bf-8005-4a1a-8323-725a81aa073d")
 		)
 		(pin "1"
-			(uuid "4491fd8c-f34f-4327-b6f7-669a4b933a4a")
+			(uuid "bc161089-c8e8-4b3b-a15f-aab09881f91e")
 		)
 		(instances
 			(project "crashtest-v1"
 				(path "/d37bea93-286f-4b16-8fb5-bff0aad4794c/0a67afa6-c8e3-4c11-a394-aeb96fa5fdf6"
-					(reference "U4")
+					(reference "R6")
 					(unit 1)
 				)
 			)
 		)
 	)
-	(symbol
-		(lib_id "1-Crashtest:INA827AIDGK")
-		(at 29.21 33.02 0)
-		(unit 1)
-		(body_style 1)
+	(sheet
+		(at 181.61 63.5)
+		(size 21.59 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e724b9f3-c7fe-422e-a338-1fb95a46a9bd")
-		(property "Reference" "U1"
-			(at 57.15 22.86 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
+		(stroke
+			(width 0.1524)
+			(type solid)
 		)
-		(property "Value" "INA827AIDGK"
-			(at 57.15 25.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
+		(fill
+			(color 0 0 0 0)
 		)
-		(property "Footprint" "DGK8_TEX"
-			(at 29.21 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/ina827"
-			(at 29.21 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 29.21 33.02 0)
-			(hide yes)
+		(uuid "0bd12382-4c00-4c47-9856-453718c68502")
+		(property "Sheetname" "Instument App + Bridge5"
+			(at 181.61 62.7884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
-		(pin "8"
-			(uuid "5af83d80-74dd-4b25-979a-2b5ed0a19f10")
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 181.61 75.5146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
 		)
-		(pin "6"
-			(uuid "3d54f5bf-b48d-4c26-b976-9c909080e9fe")
+		(pin "AIN+" output
+			(at 203.2 67.31 0)
+			(uuid "ffb7a1a9-489e-4fc2-b6f0-94acddd05aa2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
 		)
-		(pin "5"
-			(uuid "8e859f95-d8df-49bc-b6ea-dd7fea766084")
-		)
-		(pin "7"
-			(uuid "98307b3b-f3a7-46cb-9fdf-733b7466d2ff")
-		)
-		(pin "3"
-			(uuid "dcca33d6-d56f-40ee-a889-34b304acadf6")
-		)
-		(pin "4"
-			(uuid "c4e648a7-b390-4f8a-b8e9-ea9eeeceeb58")
-		)
-		(pin "2"
-			(uuid "99bff41b-590c-4123-966b-131aba27d804")
-		)
-		(pin "1"
-			(uuid "df815e3d-25a9-4750-a301-351dacb42da7")
+		(pin "AIN-" input
+			(at 203.2 71.12 0)
+			(uuid "b9fedc08-cfe1-4ba5-82b5-ddfb150d3652")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
 		)
 		(instances
 			(project "crashtest-v1"
 				(path "/d37bea93-286f-4b16-8fb5-bff0aad4794c/0a67afa6-c8e3-4c11-a394-aeb96fa5fdf6"
-					(reference "U1")
-					(unit 1)
+					(page "11")
 				)
 			)
 		)
 	)
-	(symbol
-		(lib_id "1-Crashtest:INA827AIDGK")
-		(at 116.84 33.02 0)
-		(unit 1)
-		(body_style 1)
+	(sheet
+		(at 222.25 45.72)
+		(size 21.59 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e8b38086-9bda-40f6-90a5-d34d1de1a2d8")
-		(property "Reference" "U7"
-			(at 144.78 22.86 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
+		(stroke
+			(width 0.1524)
+			(type solid)
 		)
-		(property "Value" "INA827AIDGK"
-			(at 144.78 25.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
+		(fill
+			(color 0 0 0 0)
 		)
-		(property "Footprint" "DGK8_TEX"
-			(at 116.84 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/ina827"
-			(at 116.84 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 116.84 33.02 0)
-			(hide yes)
+		(uuid "0c976900-ab35-481a-b8b8-98ff4ddfcc2a")
+		(property "Sheetname" "Instument App + Bridge8"
+			(at 222.25 45.0084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
-		(pin "8"
-			(uuid "7b64ca25-35c5-4990-b0a9-47d100777050")
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 222.25 57.7346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
 		)
-		(pin "6"
-			(uuid "f389ae8e-f643-485a-9215-a0b47eab453d")
+		(pin "AIN+" output
+			(at 243.84 49.53 0)
+			(uuid "f3526a31-6faf-4cf6-8b6c-63abee09f9ed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
 		)
-		(pin "5"
-			(uuid "c7b7d4f7-1f99-4249-9f64-b36c06436dbf")
-		)
-		(pin "7"
-			(uuid "0af9b9e2-e65a-47e9-af8c-a65a696649fe")
-		)
-		(pin "3"
-			(uuid "c35f1d95-e4c7-46b6-8ccd-8acbf65dc9a1")
-		)
-		(pin "4"
-			(uuid "91f2d594-c60a-4084-b82a-e1de57b09976")
-		)
-		(pin "2"
-			(uuid "7c319d9d-beb6-466a-afcf-f8928d240e42")
-		)
-		(pin "1"
-			(uuid "7b6b606f-8c6c-44fd-91dc-5c974a81467a")
+		(pin "AIN-" input
+			(at 243.84 53.34 0)
+			(uuid "365901ae-71c1-4cb4-895a-605aa65e83bc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
 		)
 		(instances
 			(project "crashtest-v1"
 				(path "/d37bea93-286f-4b16-8fb5-bff0aad4794c/0a67afa6-c8e3-4c11-a394-aeb96fa5fdf6"
-					(reference "U7")
-					(unit 1)
+					(page "14")
 				)
 			)
 		)
 	)
-	(symbol
-		(lib_id "1-Crashtest:INA827AIDGK")
-		(at 29.21 88.9 0)
-		(unit 1)
-		(body_style 1)
+	(sheet
+		(at 181.61 45.72)
+		(size 21.59 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ee433a4b-692b-4392-9385-4fe36ea099c4")
-		(property "Reference" "U3"
-			(at 57.15 78.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
+		(stroke
+			(width 0.1524)
+			(type solid)
 		)
-		(property "Value" "INA827AIDGK"
-			(at 57.15 81.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
+		(fill
+			(color 0 0 0 0)
 		)
-		(property "Footprint" "DGK8_TEX"
-			(at 29.21 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/ina827"
-			(at 29.21 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 29.21 88.9 0)
-			(hide yes)
+		(uuid "34c76e17-085f-4d80-8d11-29d034ba9c5b")
+		(property "Sheetname" "Instument App + Bridge4"
+			(at 181.61 45.0084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
-		(pin "8"
-			(uuid "18cb5b72-3f20-4768-afe5-9abf29d57c17")
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 181.61 57.7346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
 		)
-		(pin "6"
-			(uuid "85d94872-bded-4c5a-a8fa-d65bc2850f19")
+		(pin "AIN+" output
+			(at 203.2 49.53 0)
+			(uuid "6eb54128-7ff9-4df9-a48e-329b810e0386")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
 		)
-		(pin "5"
-			(uuid "63e640a3-4a39-45c9-93f6-317ee51ddb86")
-		)
-		(pin "7"
-			(uuid "3945ad8e-5f1c-412d-ada7-39896d689393")
-		)
-		(pin "3"
-			(uuid "0192c440-2bd4-47b8-9606-a9865767d435")
-		)
-		(pin "4"
-			(uuid "06e074a1-d220-4ea1-8406-4e3f56dff7dd")
-		)
-		(pin "2"
-			(uuid "794c5f75-2ddd-4dfe-8e83-cf4cf0478d64")
-		)
-		(pin "1"
-			(uuid "880c2824-cc57-4985-87a2-b3fda310cdc7")
+		(pin "AIN-" input
+			(at 203.2 53.34 0)
+			(uuid "3e0de200-1230-4c2b-9320-e9d8a6b6ed6b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
 		)
 		(instances
 			(project "crashtest-v1"
 				(path "/d37bea93-286f-4b16-8fb5-bff0aad4794c/0a67afa6-c8e3-4c11-a394-aeb96fa5fdf6"
-					(reference "U3")
-					(unit 1)
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 181.61 81.28)
+		(size 21.59 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "3571263a-4245-4db1-91c1-a7611a7fa7ae")
+		(property "Sheetname" "Instument App + Bridge6"
+			(at 181.61 80.5684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 181.61 93.2946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AIN+" output
+			(at 203.2 85.09 0)
+			(uuid "5632bab8-474a-45d7-a02c-96f748c621c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AIN-" input
+			(at 203.2 88.9 0)
+			(uuid "db5db5bf-115f-445f-ac74-76c2ec847629")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "crashtest-v1"
+				(path "/d37bea93-286f-4b16-8fb5-bff0aad4794c/0a67afa6-c8e3-4c11-a394-aeb96fa5fdf6"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 222.25 81.28)
+		(size 21.59 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "4323ec46-280f-430c-95db-61f6a2cdada4")
+		(property "Sheetname" "Instument App + Bridge10"
+			(at 222.25 80.5684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 222.25 93.2946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AIN+" output
+			(at 243.84 85.09 0)
+			(uuid "3a89b1cb-ec5c-4809-ba06-6ea31e2c69a9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AIN-" input
+			(at 243.84 88.9 0)
+			(uuid "3358661d-adb1-4db3-98da-bfb9732d4af9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "crashtest-v1"
+				(path "/d37bea93-286f-4b16-8fb5-bff0aad4794c/0a67afa6-c8e3-4c11-a394-aeb96fa5fdf6"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 142.24 45.72)
+		(size 21.59 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "54be13e1-04bb-4a6d-9bed-cd87d00238f8")
+		(property "Sheetname" "Instument App + Bridge"
+			(at 142.24 45.0084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 142.24 57.7346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AIN+" output
+			(at 163.83 49.53 0)
+			(uuid "db098a34-192e-4946-8fb3-446b07d7d92f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AIN-" input
+			(at 163.83 53.34 0)
+			(uuid "217b6160-d123-41b2-a893-3fcda70e08b6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "crashtest-v1"
+				(path "/d37bea93-286f-4b16-8fb5-bff0aad4794c/0a67afa6-c8e3-4c11-a394-aeb96fa5fdf6"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 222.25 63.5)
+		(size 21.59 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "85deaf51-a10a-47f7-ab24-8c61afc92184")
+		(property "Sheetname" "Instument App + Bridge9"
+			(at 222.25 62.7884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 222.25 75.5146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AIN+" output
+			(at 243.84 67.31 0)
+			(uuid "719ac1ac-fe7c-495c-80cf-39a7eb55566c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AIN-" input
+			(at 243.84 71.12 0)
+			(uuid "a71d2e5d-0cb9-44e7-a851-f97a83f840b0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "crashtest-v1"
+				(path "/d37bea93-286f-4b16-8fb5-bff0aad4794c/0a67afa6-c8e3-4c11-a394-aeb96fa5fdf6"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 222.25 99.06)
+		(size 21.59 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "9e43203f-9306-438b-bec2-ad547c2c567b")
+		(property "Sheetname" "Instument App + Bridge11"
+			(at 222.25 98.3484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 222.25 111.0746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AIN+" output
+			(at 243.84 102.87 0)
+			(uuid "8288a5c3-f0d8-47fc-8d61-a6905a4621d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AIN-" input
+			(at 243.84 106.68 0)
+			(uuid "004d97b4-5bd5-4e8d-966a-ca72e95ce8b0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "crashtest-v1"
+				(path "/d37bea93-286f-4b16-8fb5-bff0aad4794c/0a67afa6-c8e3-4c11-a394-aeb96fa5fdf6"
+					(page "17")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 142.24 63.5)
+		(size 21.59 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b1f82120-8f94-4cda-89cb-e4a01b5f5adc")
+		(property "Sheetname" "Instument App + Bridge1"
+			(at 142.24 62.7884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 142.24 75.5146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AIN+" output
+			(at 163.83 67.31 0)
+			(uuid "a086b878-8f4f-4980-94cc-ce9ae6714be7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AIN-" input
+			(at 163.83 71.12 0)
+			(uuid "750a3949-8fe9-4685-9121-3595cda17e84")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "crashtest-v1"
+				(path "/d37bea93-286f-4b16-8fb5-bff0aad4794c/0a67afa6-c8e3-4c11-a394-aeb96fa5fdf6"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 142.24 99.06)
+		(size 21.59 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e7e0102d-e2d3-4879-be1b-3b68f04e22b6")
+		(property "Sheetname" "Instument App + Bridge3"
+			(at 142.24 98.3484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 142.24 111.0746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AIN+" output
+			(at 163.83 102.87 0)
+			(uuid "debead4a-4b46-4620-91f2-b20853afdad9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AIN-" input
+			(at 163.83 106.68 0)
+			(uuid "08bc9615-033c-48d7-ab20-b60c3fab696a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "crashtest-v1"
+				(path "/d37bea93-286f-4b16-8fb5-bff0aad4794c/0a67afa6-c8e3-4c11-a394-aeb96fa5fdf6"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 181.61 99.06)
+		(size 21.59 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e847924f-9766-415b-910b-2644388f1500")
+		(property "Sheetname" "Instument App + Bridge7"
+			(at 181.61 98.3484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 181.61 111.0746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AIN+" output
+			(at 203.2 102.87 0)
+			(uuid "84bfb6c0-23b7-462b-a4de-655564f34329")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AIN-" input
+			(at 203.2 106.68 0)
+			(uuid "8a864d1f-5024-4b7e-8d4a-0483edd5b841")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "crashtest-v1"
+				(path "/d37bea93-286f-4b16-8fb5-bff0aad4794c/0a67afa6-c8e3-4c11-a394-aeb96fa5fdf6"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 142.24 81.28)
+		(size 21.59 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "fbbd9553-d1a0-4036-a6dc-db389b9900b4")
+		(property "Sheetname" "Instument App + Bridge2"
+			(at 142.24 80.5684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 142.24 93.2946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AIN+" output
+			(at 163.83 85.09 0)
+			(uuid "a8a671e8-314a-4be2-a1ac-397bd29474d1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AIN-" input
+			(at 163.83 88.9 0)
+			(uuid "bb134307-c311-42c1-83eb-5d651e3e5ef6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "crashtest-v1"
+				(path "/d37bea93-286f-4b16-8fb5-bff0aad4794c/0a67afa6-c8e3-4c11-a394-aeb96fa5fdf6"
+					(page "8")
 				)
 			)
 		)
