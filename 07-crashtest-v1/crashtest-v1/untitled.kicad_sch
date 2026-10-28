@@ -930,7 +930,7 @@
 			)
 		)
 	)
-	(global_label "AGND"
+	(global_label "VREF_1V65"
 		(shape input)
 		(at 170.18 87.63 0)
 		(fields_autoplaced yes)
@@ -940,9 +940,9 @@
 			)
 			(justify left)
 		)
-		(uuid "6a0970e6-df5a-41aa-9bbd-7e24ef7c7a20")
+		(uuid "73671c3a-85d0-4fb9-8333-568e9e3447ee")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 177.4701 87.63 0)
+			(at 183.4461 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
