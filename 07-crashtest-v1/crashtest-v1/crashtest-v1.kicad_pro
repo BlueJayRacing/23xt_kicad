@@ -1,6 +1,12 @@
 {
   "board": {
     "3dviewports": [],
+    "design_settings": {
+      "diff_pair_dimensions": [],
+      "drc_exclusions": [],
+      "track_widths": [],
+      "via_dimensions": []
+    },
     "ipc2581": {
       "bom_rev": "",
       "dist": "",
@@ -251,6 +257,7 @@
       "wire_dangling": "error"
     }
   },
+  "legacy": [],
   "libraries": {
     "pinned_footprint_libs": [],
     "pinned_symbol_libs": []
@@ -390,21 +397,21 @@
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
-      "label_size_ratio": 0.375,
+      "label_size_ratio": 0.25,
       "operating_point_overlay_i_precision": 3,
       "operating_point_overlay_i_range": "~A",
       "operating_point_overlay_v_precision": 3,
       "operating_point_overlay_v_range": "~V",
       "overbar_offset_ratio": 1.23,
-      "pin_symbol_size": 25.0,
-      "text_offset_ratio": 0.15
+      "pin_symbol_size": 0.0,
+      "text_offset_ratio": 0.08
     },
     "legacy_lib_dir": "",
     "legacy_lib_list": [],
     "meta": {
       "version": 1
     },
-    "page_layout_descr_file": "Instument + Bridge",
+    "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
     "subpart_first_id": 65,
@@ -412,17 +419,17 @@
     "top_level_sheets": [
       {
         "filename": "crashtest-v1.kicad_sch",
-        "name": "crashtest-v1",
+        "name": "Root",
         "uuid": "d37bea93-286f-4b16-8fb5-bff0aad4794c"
       }
     ],
-    "used_designators": "L1,#PWR1-7,R1-3,R5,C13-19,U1,U3",
+    "used_designators": "U7-8,U16-21,TP4-9,R14-19,R26-45,R48-49,R52-65,IC1-2,C3-4,C7-12,C20-25,C27,C29,C32-38,C41-42,C45-57,#PWR17-20,#PWR25-28,#PWR31-32,#PWR35-58,#PWR60,#PWR62,#PWR64,#PWR66-76",
     "variants": []
   },
   "sheets": [
     [
       "d37bea93-286f-4b16-8fb5-bff0aad4794c",
-      "crashtest-v1"
+      "Root"
     ],
     [
       "13747c72-71d5-4f1b-a8af-81659c7a4d97",
@@ -449,11 +456,11 @@
       "Instument App + Bridge1"
     ],
     [
-      "fbbd9553-d1a0-4036-a6dc-db389b9900b4",
+      "e2260777-7af6-4fac-9246-e18a3458a435",
       "Instument App + Bridge2"
     ],
     [
-      "e7e0102d-e2d3-4879-be1b-3b68f04e22b6",
+      "2dc44360-80bf-4fd2-8720-3f62eb372c00",
       "Instument App + Bridge3"
     ],
     [
@@ -465,27 +472,27 @@
       "Instument App + Bridge5"
     ],
     [
-      "3571263a-4245-4db1-91c1-a7611a7fa7ae",
+      "9ea7c922-8cd6-4074-9fd9-9ff348db6742",
       "Instument App + Bridge6"
     ],
     [
-      "e847924f-9766-415b-910b-2644388f1500",
+      "7b946563-b805-4977-815d-aa1351fc7026",
       "Instument App + Bridge7"
     ],
     [
-      "0c976900-ab35-481a-b8b8-98ff4ddfcc2a",
+      "b1c9e9dc-fe51-4765-b704-c88a77aa1082",
       "Instument App + Bridge8"
     ],
     [
-      "85deaf51-a10a-47f7-ab24-8c61afc92184",
+      "e5a4f621-7905-4c69-ae3f-01cba87e9aff",
       "Instument App + Bridge9"
     ],
     [
-      "4323ec46-280f-430c-95db-61f6a2cdada4",
+      "fdc0852f-567f-457c-a31c-cb19d7b45d63",
       "Instument App + Bridge10"
     ],
     [
-      "9e43203f-9306-438b-bec2-ad547c2c567b",
+      "9c6453c5-a84f-40e4-abfd-2a309d1504c5",
       "Instument App + Bridge11"
     ]
   ],
