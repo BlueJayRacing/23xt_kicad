@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "Crashtest Symbols") (type "KiCad") (uri "${KIPRJMOD}/my-symbols") (options "") (descr ""))
+)
