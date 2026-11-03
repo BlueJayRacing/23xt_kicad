@@ -3009,16 +3009,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 73.66) (xy 137.16 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f8abec2-a7ef-45e0-9976-df9dd3846671")
-	)
-	(wire
-		(pts
 			(xy 71.12 144.78) (xy 77.47 144.78)
 		)
 		(stroke
@@ -3036,16 +3026,6 @@
 			(type default)
 		)
 		(uuid "80829981-e26f-46b0-a801-ab59383af91b")
-	)
-	(wire
-		(pts
-			(xy 101.6 72.39) (xy 101.6 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84e4a2d8-2f9a-4e40-8c99-8e61e558f36f")
 	)
 	(wire
 		(pts
@@ -3116,26 +3096,6 @@
 			(type default)
 		)
 		(uuid "9af27f15-135f-471d-8800-6affb1c1c9bd")
-	)
-	(wire
-		(pts
-			(xy 101.6 76.2) (xy 137.16 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9cf1d5ea-7276-4a4d-b365-1dee14681694")
-	)
-	(wire
-		(pts
-			(xy 102.87 73.66) (xy 102.87 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e3e93a0-97df-4b74-a2f8-94afffe0bfe4")
 	)
 	(wire
 		(pts
@@ -3276,16 +3236,6 @@
 			(type default)
 		)
 		(uuid "c73eb89c-6976-45f7-a42b-4fa221442c15")
-	)
-	(wire
-		(pts
-			(xy 83.82 69.85) (xy 102.87 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cace1699-0c2e-4d75-8145-85b5840f4879")
 	)
 	(wire
 		(pts
@@ -3476,16 +3426,6 @@
 			(type default)
 		)
 		(uuid "fbc9bed3-6450-4253-b2e1-c532b8a277ec")
-	)
-	(wire
-		(pts
-			(xy 83.82 72.39) (xy 101.6 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc89ddbe-62af-4af4-9944-36e65f3cc4d0")
 	)
 	(label "GPIO42"
 		(at 77.47 137.16 0)
@@ -3817,16 +3757,6 @@
 		)
 		(uuid "56e20410-4941-459e-8680-6df3a678dc4b")
 	)
-	(label "CTX_P"
-		(at 105.41 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "62f7e95a-ce44-47ac-9a77-14e85d2b3fbc")
-	)
 	(label "3.3V_teensy"
 		(at 121.92 111.76 0)
 		(effects
@@ -4046,16 +3976,6 @@
 			(justify left bottom)
 		)
 		(uuid "a5340867-0584-4121-85c9-eccbc5a26839")
-	)
-	(label "CRX_N"
-		(at 106.68 73.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a87bbe97-d766-4eb6-979e-8cded82f23bb")
 	)
 	(label "AN3"
 		(at 121.92 99.06 0)
@@ -4336,6 +4256,102 @@
 			(justify left bottom)
 		)
 		(uuid "fd8a7e39-f525-45f1-aa44-858acc6015cd")
+	)
+	(global_label "CTX_P"
+		(shape output)
+		(at 137.16 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "412a44a8-6d1d-4c11-9a9b-724bd95244bc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 128.4901 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "CTX_P"
+		(shape input)
+		(at 83.82 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "58abc571-8e48-45ae-958d-20c13366e09c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.4899 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "CRX_N"
+		(shape output)
+		(at 83.82 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "60150f2a-afc6-490f-bbc7-08fa5289ee03")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.8528 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "CRX_N"
+		(shape input)
+		(at 137.16 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b25a445e-f448-4dc5-a173-f231cb68008e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 128.1272 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GNDD")
