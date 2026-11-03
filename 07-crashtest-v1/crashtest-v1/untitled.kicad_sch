@@ -954,7 +954,7 @@
 			)
 		)
 	)
-	(global_label "3V3A"
+	(global_label "3V3"
 		(shape input)
 		(at 149.86 92.71 0)
 		(fields_autoplaced yes)
@@ -966,7 +966,7 @@
 		)
 		(uuid "8c019f2e-25b8-4087-a44d-cd2707ad641f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.4414 92.71 0)
+			(at 155.6986 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
