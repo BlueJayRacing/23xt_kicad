@@ -49,11 +49,9 @@
       "drc_exclusions",
       "locked_item_shadows",
       "conflict_shadows",
-      "shapes",
-      "board_outline_area",
-      "ly_points"
+      "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
+    "visible_layers": "ffffffff_ffffffff_ffffffff_7ffffffd",
     "zone_display_mode": 0
   },
   "git": {
@@ -63,7 +61,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "engine_dyno_v1.kicad_prl",
+    "filename": "02-main_board[main_board_v2].kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
@@ -96,18 +94,18 @@
       11
     ],
     "col_widths": [
-      162,
-      147,
-      91,
-      67,
-      91,
-      91,
-      91,
-      71,
-      91,
-      91,
-      91,
-      91
+      294,
+      279,
+      173,
+      120,
+      173,
+      173,
+      173,
+      126,
+      173,
+      173,
+      173,
+      173
     ],
     "custom_group_rules": [],
     "expanded_rows": [],

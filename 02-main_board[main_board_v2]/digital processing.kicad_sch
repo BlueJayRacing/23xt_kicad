@@ -4848,7 +4848,7 @@
 			(uuid "b94bc8dd-dbd8-48da-a975-e8558296a1b1")
 		)
 		(instances
-			(project "02-main_board[main_board_v1]"
+			(project "02-main_board[main_board_v2]"
 				(path "/0ba8c130-372e-4349-9fc9-4ef188509568/03cafb34-d16a-431c-852a-9b04c88f44e1"
 					(reference "#PWR041")
 					(unit 1)
@@ -4952,7 +4952,7 @@
 			(uuid "627a39ae-947f-480c-a3f1-43b55869812b")
 		)
 		(instances
-			(project "02-main_board[main_board_v1]"
+			(project "02-main_board[main_board_v2]"
 				(path "/0ba8c130-372e-4349-9fc9-4ef188509568/03cafb34-d16a-431c-852a-9b04c88f44e1"
 					(reference "R23")
 					(unit 1)
@@ -5030,7 +5030,7 @@
 			(uuid "64226c8e-3fd7-412a-90f4-fcbe737a0329")
 		)
 		(instances
-			(project "02-main_board[main_board_v1]"
+			(project "02-main_board[main_board_v2]"
 				(path "/0ba8c130-372e-4349-9fc9-4ef188509568/03cafb34-d16a-431c-852a-9b04c88f44e1"
 					(reference "#PWR056")
 					(unit 1)
@@ -5109,7 +5109,7 @@
 			(uuid "c0f5bf8a-9878-4ec0-9657-6d24411a4d10")
 		)
 		(instances
-			(project "02-main_board[main_board_v1]"
+			(project "02-main_board[main_board_v2]"
 				(path "/0ba8c130-372e-4349-9fc9-4ef188509568/03cafb34-d16a-431c-852a-9b04c88f44e1"
 					(reference "#PWR053")
 					(unit 1)
@@ -5187,7 +5187,7 @@
 			(uuid "bebeafe7-104e-433b-be5c-685cfd8c9749")
 		)
 		(instances
-			(project "02-main_board[main_board_v1]"
+			(project "02-main_board[main_board_v2]"
 				(path "/0ba8c130-372e-4349-9fc9-4ef188509568/03cafb34-d16a-431c-852a-9b04c88f44e1"
 					(reference "#PWR055")
 					(unit 1)
@@ -5502,7 +5502,7 @@
 			(uuid "8ec2eaa5-b292-43bb-9399-79ca34245c17")
 		)
 		(instances
-			(project "02-main_board[main_board_v1]"
+			(project "02-main_board[main_board_v2]"
 				(path "/0ba8c130-372e-4349-9fc9-4ef188509568/03cafb34-d16a-431c-852a-9b04c88f44e1"
 					(reference "U6")
 					(unit 1)
@@ -5603,7 +5603,7 @@
 			(uuid "9173236e-8826-4964-9eae-3f14b0dd396e")
 		)
 		(instances
-			(project "02-main_board[main_board_v1]"
+			(project "02-main_board[main_board_v2]"
 				(path "/0ba8c130-372e-4349-9fc9-4ef188509568/03cafb34-d16a-431c-852a-9b04c88f44e1"
 					(reference "R20")
 					(unit 1)
@@ -5706,7 +5706,7 @@
 			(uuid "9345022b-6c4e-42c1-92bb-45728ec69fc3")
 		)
 		(instances
-			(project "02-main_board[main_board_v1]"
+			(project "02-main_board[main_board_v2]"
 				(path "/0ba8c130-372e-4349-9fc9-4ef188509568/03cafb34-d16a-431c-852a-9b04c88f44e1"
 					(reference "C28")
 					(unit 1)
@@ -5807,7 +5807,7 @@
 			(uuid "a04ddbf8-f74d-4164-b39a-59cb4ae837a9")
 		)
 		(instances
-			(project "02-main_board[main_board_v1]"
+			(project "02-main_board[main_board_v2]"
 				(path "/0ba8c130-372e-4349-9fc9-4ef188509568/03cafb34-d16a-431c-852a-9b04c88f44e1"
 					(reference "C27")
 					(unit 1)
@@ -5884,7 +5884,7 @@
 			(uuid "0a7284e1-730f-47fa-b834-82e4fa3869f9")
 		)
 		(instances
-			(project "02-main_board[main_board_v1]"
+			(project "02-main_board[main_board_v2]"
 				(path "/0ba8c130-372e-4349-9fc9-4ef188509568/03cafb34-d16a-431c-852a-9b04c88f44e1"
 					(reference "#PWR045")
 					(unit 1)
@@ -5963,7 +5963,7 @@
 			(uuid "d143b7a8-8cf0-4347-8388-0b9452a31219")
 		)
 		(instances
-			(project "02-main_board[main_board_v1]"
+			(project "02-main_board[main_board_v2]"
 				(path "/0ba8c130-372e-4349-9fc9-4ef188509568/03cafb34-d16a-431c-852a-9b04c88f44e1"
 					(reference "#PWR042")
 					(unit 1)
@@ -6041,7 +6041,7 @@
 			(uuid "5d75f249-e5f3-4467-b4cb-11fa072b1ba8")
 		)
 		(instances
-			(project "02-main_board[main_board_v1]"
+			(project "02-main_board[main_board_v2]"
 				(path "/0ba8c130-372e-4349-9fc9-4ef188509568/03cafb34-d16a-431c-852a-9b04c88f44e1"
 					(reference "#PWR046")
 					(unit 1)
@@ -6165,7 +6165,7 @@
 			(uuid "667d6d17-b4bb-452e-8122-c8e939c07af9")
 		)
 		(instances
-			(project "02-main_board[main_board_v1]"
+			(project "02-main_board[main_board_v2]"
 				(path "/0ba8c130-372e-4349-9fc9-4ef188509568/03cafb34-d16a-431c-852a-9b04c88f44e1"
 					(reference "U5")
 					(unit 1)
@@ -6243,7 +6243,7 @@
 			(uuid "e243dd0d-7a5e-4698-9ec5-63df2e774603")
 		)
 		(instances
-			(project "02-main_board[main_board_v1]"
+			(project "02-main_board[main_board_v2]"
 				(path "/0ba8c130-372e-4349-9fc9-4ef188509568/03cafb34-d16a-431c-852a-9b04c88f44e1"
 					(reference "#PWR049")
 					(unit 1)
@@ -6346,7 +6346,7 @@
 			(uuid "28217e1b-9da7-4dd2-8505-c12438cfa75e")
 		)
 		(instances
-			(project "02-main_board[main_board_v1]"
+			(project "02-main_board[main_board_v2]"
 				(path "/0ba8c130-372e-4349-9fc9-4ef188509568/03cafb34-d16a-431c-852a-9b04c88f44e1"
 					(reference "C25")
 					(unit 1)
@@ -6424,7 +6424,7 @@
 			(uuid "e15ce803-0832-4c0f-bfd3-9fd3d27820b1")
 		)
 		(instances
-			(project "02-main_board[main_board_v1]"
+			(project "02-main_board[main_board_v2]"
 				(path "/0ba8c130-372e-4349-9fc9-4ef188509568/03cafb34-d16a-431c-852a-9b04c88f44e1"
 					(reference "#PWR044")
 					(unit 1)
@@ -6503,7 +6503,7 @@
 			(uuid "bbb73f07-a88a-4c78-8617-24a888d50766")
 		)
 		(instances
-			(project "02-main_board[main_board_v1]"
+			(project "02-main_board[main_board_v2]"
 				(path "/0ba8c130-372e-4349-9fc9-4ef188509568/03cafb34-d16a-431c-852a-9b04c88f44e1"
 					(reference "#PWR052")
 					(unit 1)
@@ -6581,7 +6581,7 @@
 			(uuid "beb86985-2a1a-42fd-ab6f-f467b49d3891")
 		)
 		(instances
-			(project "02-main_board[main_board_v1]"
+			(project "02-main_board[main_board_v2]"
 				(path "/0ba8c130-372e-4349-9fc9-4ef188509568/03cafb34-d16a-431c-852a-9b04c88f44e1"
 					(reference "#PWR047")
 					(unit 1)
@@ -6684,7 +6684,7 @@
 			(uuid "287cd9ba-5afd-45d9-8753-0062b62de7f0")
 		)
 		(instances
-			(project "02-main_board[main_board_v1]"
+			(project "02-main_board[main_board_v2]"
 				(path "/0ba8c130-372e-4349-9fc9-4ef188509568/03cafb34-d16a-431c-852a-9b04c88f44e1"
 					(reference "C31")
 					(unit 1)
@@ -6762,7 +6762,7 @@
 			(uuid "a53347ee-dd57-44ac-a820-2a2e10777ce3")
 		)
 		(instances
-			(project "02-main_board[main_board_v1]"
+			(project "02-main_board[main_board_v2]"
 				(path "/0ba8c130-372e-4349-9fc9-4ef188509568/03cafb34-d16a-431c-852a-9b04c88f44e1"
 					(reference "#PWR050")
 					(unit 1)
@@ -6864,7 +6864,7 @@
 			(uuid "e3ec2814-01bb-490c-9ebe-b8870affe6fc")
 		)
 		(instances
-			(project "02-main_board[main_board_v1]"
+			(project "02-main_board[main_board_v2]"
 				(path "/0ba8c130-372e-4349-9fc9-4ef188509568/03cafb34-d16a-431c-852a-9b04c88f44e1"
 					(reference "R22")
 					(unit 1)
@@ -6967,7 +6967,7 @@
 			(uuid "774b6e71-dad6-423c-b7b0-19ebeb1cc2d9")
 		)
 		(instances
-			(project "02-main_board[main_board_v1]"
+			(project "02-main_board[main_board_v2]"
 				(path "/0ba8c130-372e-4349-9fc9-4ef188509568/03cafb34-d16a-431c-852a-9b04c88f44e1"
 					(reference "C29")
 					(unit 1)
@@ -7068,7 +7068,7 @@
 			(uuid "5dc34456-19dc-411f-a0be-d355664fd4af")
 		)
 		(instances
-			(project "02-main_board[main_board_v1]"
+			(project "02-main_board[main_board_v2]"
 				(path "/0ba8c130-372e-4349-9fc9-4ef188509568/03cafb34-d16a-431c-852a-9b04c88f44e1"
 					(reference "C26")
 					(unit 1)
@@ -7171,7 +7171,7 @@
 			(uuid "e7ef836d-b363-4f94-b96e-c0f3a0f342ee")
 		)
 		(instances
-			(project "02-main_board[main_board_v1]"
+			(project "02-main_board[main_board_v2]"
 				(path "/0ba8c130-372e-4349-9fc9-4ef188509568/03cafb34-d16a-431c-852a-9b04c88f44e1"
 					(reference "C30")
 					(unit 1)
@@ -7249,7 +7249,7 @@
 			(uuid "e540e40b-2743-43c5-b4e9-8e618194eeaa")
 		)
 		(instances
-			(project "02-main_board[main_board_v1]"
+			(project "02-main_board[main_board_v2]"
 				(path "/0ba8c130-372e-4349-9fc9-4ef188509568/03cafb34-d16a-431c-852a-9b04c88f44e1"
 					(reference "#PWR051")
 					(unit 1)
@@ -7353,7 +7353,7 @@
 			(uuid "6bca9c71-a71d-4b4c-bf6e-882790c8fea2")
 		)
 		(instances
-			(project "02-main_board[main_board_v1]"
+			(project "02-main_board[main_board_v2]"
 				(path "/0ba8c130-372e-4349-9fc9-4ef188509568/03cafb34-d16a-431c-852a-9b04c88f44e1"
 					(reference "R19")
 					(unit 1)
@@ -7454,7 +7454,7 @@
 			(uuid "7166981b-b6b6-47e4-b303-fca5c77e8c1f")
 		)
 		(instances
-			(project "02-main_board[main_board_v1]"
+			(project "02-main_board[main_board_v2]"
 				(path "/0ba8c130-372e-4349-9fc9-4ef188509568/03cafb34-d16a-431c-852a-9b04c88f44e1"
 					(reference "R21")
 					(unit 1)
@@ -7546,7 +7546,7 @@
 			(uuid "e0e82248-1615-406b-9228-bcffb44a725c")
 		)
 		(instances
-			(project "02-main_board[main_board_v1]"
+			(project "02-main_board[main_board_v2]"
 				(path "/0ba8c130-372e-4349-9fc9-4ef188509568/03cafb34-d16a-431c-852a-9b04c88f44e1"
 					(reference "U7")
 					(unit 1)
@@ -7646,7 +7646,7 @@
 			(uuid "4f944850-103b-43c5-9514-820232814e28")
 		)
 		(instances
-			(project "02-main_board[main_board_v1]"
+			(project "02-main_board[main_board_v2]"
 				(path "/0ba8c130-372e-4349-9fc9-4ef188509568/03cafb34-d16a-431c-852a-9b04c88f44e1"
 					(reference "U8")
 					(unit 1)
@@ -7749,7 +7749,7 @@
 			(uuid "4b574d01-19f4-4023-8166-1b86ce6c8269")
 		)
 		(instances
-			(project "02-main_board[main_board_v1]"
+			(project "02-main_board[main_board_v2]"
 				(path "/0ba8c130-372e-4349-9fc9-4ef188509568/03cafb34-d16a-431c-852a-9b04c88f44e1"
 					(reference "C32")
 					(unit 1)
@@ -7828,7 +7828,7 @@
 			(uuid "f9daa9b7-a11c-414e-ae6f-8cf126468b59")
 		)
 		(instances
-			(project "02-main_board[main_board_v1]"
+			(project "02-main_board[main_board_v2]"
 				(path "/0ba8c130-372e-4349-9fc9-4ef188509568/03cafb34-d16a-431c-852a-9b04c88f44e1"
 					(reference "#PWR043")
 					(unit 1)
@@ -7906,7 +7906,7 @@
 			(uuid "7e1955bf-ea56-43b3-8196-03115f43c189")
 		)
 		(instances
-			(project "02-main_board[main_board_v1]"
+			(project "02-main_board[main_board_v2]"
 				(path "/0ba8c130-372e-4349-9fc9-4ef188509568/03cafb34-d16a-431c-852a-9b04c88f44e1"
 					(reference "#PWR048")
 					(unit 1)
@@ -8008,7 +8008,7 @@
 			(uuid "4fbb6888-871e-4fed-be14-cf8ad1718f65")
 		)
 		(instances
-			(project "02-main_board[main_board_v1]"
+			(project "02-main_board[main_board_v2]"
 				(path "/0ba8c130-372e-4349-9fc9-4ef188509568/03cafb34-d16a-431c-852a-9b04c88f44e1"
 					(reference "R16")
 					(unit 1)
@@ -8110,7 +8110,7 @@
 			(uuid "6f6c8bee-8d8d-457e-b224-168e394c37d1")
 		)
 		(instances
-			(project "02-main_board[main_board_v1]"
+			(project "02-main_board[main_board_v2]"
 				(path "/0ba8c130-372e-4349-9fc9-4ef188509568/03cafb34-d16a-431c-852a-9b04c88f44e1"
 					(reference "R17")
 					(unit 1)
@@ -8188,7 +8188,7 @@
 			(uuid "6aeeba28-5c63-499e-88be-cc6c4e2bc823")
 		)
 		(instances
-			(project "02-main_board[main_board_v1]"
+			(project "02-main_board[main_board_v2]"
 				(path "/0ba8c130-372e-4349-9fc9-4ef188509568/03cafb34-d16a-431c-852a-9b04c88f44e1"
 					(reference "#PWR054")
 					(unit 1)
@@ -8292,7 +8292,7 @@
 			(uuid "f27ec12b-c2e4-41f5-84bb-d18b5741c46c")
 		)
 		(instances
-			(project "02-main_board[main_board_v1]"
+			(project "02-main_board[main_board_v2]"
 				(path "/0ba8c130-372e-4349-9fc9-4ef188509568/03cafb34-d16a-431c-852a-9b04c88f44e1"
 					(reference "R18")
 					(unit 1)

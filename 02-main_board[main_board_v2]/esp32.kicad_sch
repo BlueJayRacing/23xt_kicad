@@ -1617,7 +1617,7 @@
 			(uuid "490ff4e8-7038-48a0-8b87-0cb48f41cb33")
 		)
 		(instances
-			(project "02-main_board[main_board_v1]"
+			(project "02-main_board[main_board_v2]"
 				(path "/0ba8c130-372e-4349-9fc9-4ef188509568/5fc2e8ea-ad51-4d94-b167-6ce076215cd3"
 					(reference "C33")
 					(unit 1)
@@ -1720,7 +1720,7 @@
 			(uuid "5ed5f062-63cd-4726-bb06-a878c59472cf")
 		)
 		(instances
-			(project "02-main_board[main_board_v1]"
+			(project "02-main_board[main_board_v2]"
 				(path "/0ba8c130-372e-4349-9fc9-4ef188509568/5fc2e8ea-ad51-4d94-b167-6ce076215cd3"
 					(reference "R24")
 					(unit 1)
@@ -1796,7 +1796,7 @@
 			(uuid "8e8e2dcf-dc20-4478-bf26-2e47949e9525")
 		)
 		(instances
-			(project "02-main_board[main_board_v1]"
+			(project "02-main_board[main_board_v2]"
 				(path "/0ba8c130-372e-4349-9fc9-4ef188509568/5fc2e8ea-ad51-4d94-b167-6ce076215cd3"
 					(reference "TP7")
 					(unit 1)
@@ -1875,7 +1875,7 @@
 			(uuid "6a823887-e0ee-45dc-bc2c-bfacfe0061bf")
 		)
 		(instances
-			(project "02-main_board[main_board_v1]"
+			(project "02-main_board[main_board_v2]"
 				(path "/0ba8c130-372e-4349-9fc9-4ef188509568/5fc2e8ea-ad51-4d94-b167-6ce076215cd3"
 					(reference "#PWR057")
 					(unit 1)
@@ -1951,7 +1951,7 @@
 			(uuid "763318b1-b07d-48a8-a62d-1bfee4ba3457")
 		)
 		(instances
-			(project "02-main_board[main_board_v1]"
+			(project "02-main_board[main_board_v2]"
 				(path "/0ba8c130-372e-4349-9fc9-4ef188509568/5fc2e8ea-ad51-4d94-b167-6ce076215cd3"
 					(reference "TP8")
 					(unit 1)
@@ -2029,7 +2029,7 @@
 			(uuid "ff0a0aac-cd8f-4b9d-828f-c9afe76c4554")
 		)
 		(instances
-			(project "02-main_board[main_board_v1]"
+			(project "02-main_board[main_board_v2]"
 				(path "/0ba8c130-372e-4349-9fc9-4ef188509568/5fc2e8ea-ad51-4d94-b167-6ce076215cd3"
 					(reference "#PWR058")
 					(unit 1)
@@ -2230,7 +2230,7 @@
 			(uuid "be889cc3-8479-4b9a-bbcf-bd3348f01af7")
 		)
 		(instances
-			(project "02-main_board[main_board_v1]"
+			(project "02-main_board[main_board_v2]"
 				(path "/0ba8c130-372e-4349-9fc9-4ef188509568/5fc2e8ea-ad51-4d94-b167-6ce076215cd3"
 					(reference "Q1")
 					(unit 1)
@@ -2306,7 +2306,7 @@
 			(uuid "fab4216f-a230-4646-9d74-fc427f3ae328")
 		)
 		(instances
-			(project "02-main_board[main_board_v1]"
+			(project "02-main_board[main_board_v2]"
 				(path "/0ba8c130-372e-4349-9fc9-4ef188509568/5fc2e8ea-ad51-4d94-b167-6ce076215cd3"
 					(reference "TP9")
 					(unit 1)

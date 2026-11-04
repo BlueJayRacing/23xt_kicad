@@ -231,7 +231,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/23224890-ce13-48c6-840f-12bd4dcd129b")
 		(sheetname "/")
-		(sheetfile "02-main_board[main_board_v1].kicad_sch")
+		(sheetfile "02-main_board[main_board_v2].kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1551,7 +1551,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/1b25cb77-13f5-4499-a685-e98d3a43a8a6")
 		(sheetname "/")
-		(sheetfile "02-main_board[main_board_v1].kicad_sch")
+		(sheetfile "02-main_board[main_board_v2].kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2942,7 +2942,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -4219,7 +4219,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/2da28020-b824-4d0f-94d7-74ffda3f3414")
 		(sheetname "/")
-		(sheetfile "02-main_board[main_board_v1].kicad_sch")
+		(sheetfile "02-main_board[main_board_v2].kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4563,7 +4563,7 @@
 		)
 		(path "/02aed2e9-13fd-4f87-9b90-83963c8356b2")
 		(sheetname "/")
-		(sheetfile "02-main_board[main_board_v1].kicad_sch")
+		(sheetfile "02-main_board[main_board_v2].kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5910,7 +5910,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/0aba836c-0358-430c-9473-5ac1047a2ee1")
 		(sheetname "/")
-		(sheetfile "02-main_board[main_board_v1].kicad_sch")
+		(sheetfile "02-main_board[main_board_v2].kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7339,7 +7339,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/65e8ade3-b4f0-48db-abb3-6baeba3cf31a")
 		(sheetname "/")
-		(sheetfile "02-main_board[main_board_v1].kicad_sch")
+		(sheetfile "02-main_board[main_board_v2].kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9140,7 +9140,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/c9ba0a0e-6bd9-4ab1-9c83-36a1be815325")
 		(sheetname "/")
-		(sheetfile "02-main_board[main_board_v1].kicad_sch")
+		(sheetfile "02-main_board[main_board_v2].kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -10922,7 +10922,7 @@
 		)
 		(path "/223d5043-8503-47a0-8010-0a0efa1ccdad")
 		(sheetname "/")
-		(sheetfile "02-main_board[main_board_v1].kicad_sch")
+		(sheetfile "02-main_board[main_board_v2].kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -12161,7 +12161,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -90 0 0)
 			)
 		)
 		(model "${KIPRJMOD}/3d models/TEENSY_4.1.step"
@@ -12172,7 +12172,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -16873,7 +16873,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -19280,7 +19280,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/32f31d29-f1ad-4af2-adf9-7e2179a38b71")
 		(sheetname "/")
-		(sheetfile "02-main_board[main_board_v1].kicad_sch")
+		(sheetfile "02-main_board[main_board_v2].kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -27785,7 +27785,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -90 0 0)
 			)
 		)
 	)

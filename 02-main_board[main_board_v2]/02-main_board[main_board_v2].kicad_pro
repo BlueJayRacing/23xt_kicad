@@ -510,7 +510,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "02-main_board[main_board_v1].kicad_pro",
+    "filename": "02-main_board[main_board_v2].kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -939,8 +939,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "02-main_board[main_board_v1].kicad_sch",
-        "name": "02-main_board[main_board_v1]",
+        "filename": "02-main_board[main_board_v2].kicad_sch",
+        "name": "02-main_board[main_board_v2]",
         "uuid": "0ba8c130-372e-4349-9fc9-4ef188509568"
       }
     ],
