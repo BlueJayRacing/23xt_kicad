@@ -644,7 +644,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "02-main_board[main_board_v2].step",
       "svg": "",
       "vrml": ""
     },
@@ -886,6 +886,12 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Name",
+          "name": "Manufacturer_Name",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -944,13 +950,13 @@
         "uuid": "0ba8c130-372e-4349-9fc9-4ef188509568"
       }
     ],
-    "used_designators": "#PWR17-20,#PWR60,#PWR62,#PWR65,#PWR70,#PWR72,#PWR74,#PWR77,#PWR80,#PWR82,#PWR84,#PWR86,#PWR91-103,C2-4,C34,J1-2,J4,L1,R3-5,R25-27,U2,U9",
+    "used_designators": "#PWR17-20,#PWR60,#PWR62,#PWR65,#PWR70,#PWR72,#PWR74,#PWR77,#PWR80-82,#PWR84,#PWR86,#PWR91-103,C2-4,C34,D1,D3-4,J1-2,J4,L1,R3-5,R25-27,U2,U9",
     "variants": []
   },
   "sheets": [
     [
       "0ba8c130-372e-4349-9fc9-4ef188509568",
-      "02-main_board[main_board_v1]"
+      "02-main_board[main_board_v2]"
     ],
     [
       "02e3daba-7757-4a30-ac30-9fc5cd45a7ce",

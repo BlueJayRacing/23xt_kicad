@@ -3233,7 +3233,7 @@
 	)
 	(rectangle
 		(start 161.29 102.87)
-		(end 257.81 161.29)
+		(end 275.59 161.29)
 		(stroke
 			(width 0)
 			(type default)
@@ -3291,7 +3291,7 @@
 	)
 	(text "Vout = Vin*(r2/(r1+r2))\n3.226V = 5V*(2000/(2000+1100))"
 		(exclude_from_sim no)
-		(at 231.14 143.51 0)
+		(at 254 130.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3376,6 +3376,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a5dd5f54-9c75-40ef-be48-c12881306858")
+	)
+	(junction
+		(at 229.87 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5fd629c-5880-44d5-b687-4cbe9d4110f1")
 	)
 	(junction
 		(at 223.52 81.28)
@@ -3779,6 +3785,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 142.24) (xy 229.87 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7eb869e-13b7-49e5-a7db-9b49b6d783a6")
+	)
+	(wire
+		(pts
 			(xy 44.45 48.26) (xy 59.69 48.26)
 		)
 		(stroke
@@ -3929,6 +3945,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 142.24) (xy 229.87 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f85721c8-d273-4588-90f9-c88255dcfeb6")
+	)
+	(wire
+		(pts
 			(xy 44.45 43.18) (xy 44.45 48.26)
 		)
 		(stroke
@@ -3985,6 +4011,30 @@
 			)
 		)
 	)
+	(global_label "HFX_5V_5"
+		(shape input)
+		(at 237.49 142.24 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "09edd1bd-6b7e-4ea0-ab67-04b1a4dedeca")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 249.5466 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "5V"
 		(shape input)
 		(at 43.18 138.43 180)
@@ -3998,6 +4048,30 @@
 		(uuid "0fb03a63-970a-4b69-95af-8385ca67c9e6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 37.8967 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "HFX_3.3V_5"
+		(shape output)
+		(at 227.33 142.24 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1f256c18-4a8f-4c73-965c-34d9d6074451")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.4591 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4081,7 +4155,7 @@
 			)
 		)
 	)
-	(global_label "HFX_3.3V_3"
+	(global_label "HFX_3.3V_4"
 		(shape output)
 		(at 227.33 118.11 180)
 		(fields_autoplaced yes)
@@ -4393,7 +4467,7 @@
 			)
 		)
 	)
-	(global_label "HFX_5V_3"
+	(global_label "HFX_5V_4"
 		(shape input)
 		(at 237.49 118.11 0)
 		(fields_autoplaced yes)
@@ -5893,6 +5967,110 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 229.87 148.59 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d781b83-02dc-43c3-a27f-6605e647d343")
+		(property "Reference" "R26"
+			(at 232.41 147.3199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2k"
+			(at 232.41 149.8599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 231.648 148.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 229.87 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-072KL"
+			(at 229.87 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 229.87 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b1d1ae21-a957-4ac5-969f-37cedcdabf88")
+		)
+		(pin "1"
+			(uuid "d38da07f-1391-4200-a55c-c9191380c7f3")
+		)
+		(instances
+			(project "02-main_board[main_board_v2]"
+				(path "/0ba8c130-372e-4349-9fc9-4ef188509568/03cafb34-d16a-431c-852a-9b04c88f44e1"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDD")
 		(at 223.52 43.18 90)
 		(unit 1)
@@ -7258,6 +7436,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDD")
+		(at 229.87 152.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d0184fe4-59bb-4141-82a2-e9c4cb702d6d")
+		(property "Reference" "#PWR072"
+			(at 229.87 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 229.87 156.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 229.87 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7095023b-b6cf-4966-9061-c94c635522ef")
+		)
+		(instances
+			(project "02-main_board[main_board_v2]"
+				(path "/0ba8c130-372e-4349-9fc9-4ef188509568/03cafb34-d16a-431c-852a-9b04c88f44e1"
+					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 229.87 124.46 180)
 		(unit 1)
@@ -7752,6 +8008,108 @@
 			(project "02-main_board[main_board_v2]"
 				(path "/0ba8c130-372e-4349-9fc9-4ef188509568/03cafb34-d16a-431c-852a-9b04c88f44e1"
 					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 233.68 142.24 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec29071d-cef7-40ef-abcb-c4327a47bdde")
+		(property "Reference" "R27"
+			(at 233.68 135.89 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.1k"
+			(at 233.68 138.43 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 233.68 144.018 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 233.68 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RT0603BRD071K1L"
+			(at 233.68 142.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 233.68 142.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a80dbbd7-b976-49b1-a889-d07adc909cfd")
+		)
+		(pin "1"
+			(uuid "d4b07499-2f95-4b8e-b570-e44f2a2cd446")
+		)
+		(instances
+			(project "02-main_board[main_board_v2]"
+				(path "/0ba8c130-372e-4349-9fc9-4ef188509568/03cafb34-d16a-431c-852a-9b04c88f44e1"
+					(reference "R27")
 					(unit 1)
 				)
 			)
