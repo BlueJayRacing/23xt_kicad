@@ -2611,14 +2611,6 @@
 		(uuid "47dee529-62cd-41a2-9566-88748a64c77a")
 	)
 	(no_connect
-		(at 186.69 52.07)
-		(uuid "59531118-698b-4bfe-a923-b9601c7352d5")
-	)
-	(no_connect
-		(at 186.69 59.69)
-		(uuid "618686b6-490a-45b1-8ac2-4f98044b943b")
-	)
-	(no_connect
 		(at 186.69 90.17)
 		(uuid "653a57c5-2602-4930-bccb-260a47c260dc")
 	)
@@ -2631,20 +2623,12 @@
 		(uuid "734ff670-7bcd-47bf-9409-6a058983fa98")
 	)
 	(no_connect
-		(at 242.57 54.61)
-		(uuid "807225ec-135d-4f3d-9176-c3b0e9ee2f60")
-	)
-	(no_connect
 		(at 242.57 82.55)
 		(uuid "854679f1-7576-4465-8d25-005a832d63f7")
 	)
 	(no_connect
 		(at 210.82 124.46)
 		(uuid "86de91d1-e674-4a75-8d8f-76f6abda2a0a")
-	)
-	(no_connect
-		(at 242.57 57.15)
-		(uuid "91cb13d3-8734-4657-8e57-fba0273b5ff7")
 	)
 	(no_connect
 		(at 242.57 52.07)
@@ -2899,6 +2883,54 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "UART_RX"
+		(shape input)
+		(at 186.69 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1af64cc8-b286-4b8b-bb30-891e0810ac15")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 175.601 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "UART_TX"
+		(shape input)
+		(at 186.69 59.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1dcbdae9-3791-45f5-93be-aa90d372bfb5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 175.9034 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -3190,6 +3222,30 @@
 			)
 		)
 	)
+	(global_label "HFX_3.3V_4"
+		(shape input)
+		(at 242.57 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "89bd5437-436c-4896-bbf6-0d4ef1110372")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 256.4409 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "TXD"
 		(shape output)
 		(at 186.69 41.91 180)
@@ -3240,7 +3296,7 @@
 	)
 	(global_label "LED_CONTROL"
 		(shape output)
-		(at 186.69 57.15 180)
+		(at 186.69 52.07 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3248,9 +3304,9 @@
 			)
 			(justify right)
 		)
-		(uuid "9d71e383-49bb-4039-b380-9e61a320515a")
+		(uuid "9bf7f7e9-a95c-4640-a200-809396476684")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 170.7629 57.15 0)
+			(at 170.7629 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3283,6 +3339,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "HFX_3.3V_5"
+		(shape input)
+		(at 242.57 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b1dacf58-dc6a-4e49-a3d2-352ebe761f9c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 256.4409 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)

@@ -5419,7 +5419,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 110.49 58.42 0)
+		(at 110.49 58.42 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5439,7 +5439,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 115.57 60.96 0)
+			(at 115.57 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5449,7 +5449,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 111.4552 62.23 0)
+			(at 109.5248 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
