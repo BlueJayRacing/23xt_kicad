@@ -1769,17 +1769,17 @@
 	)
 	(global_label "CS_DAC"
 		(shape input)
-		(at 77.47 68.58 180)
+		(at 118.11 124.46 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "1fe9428c-b383-4925-8959-001d9f350b16")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 68.0633 68.58 0)
+			(at 127.5167 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1787,7 +1787,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -2164,7 +2164,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 72.39 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -2244,7 +2244,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DEV-16771:MODULE_DEV-16771"
+		(property "Footprint" "Crashtest:MODULE_DEV-16771"
 			(at 97.79 88.9 0)
 			(hide yes)
 			(show_name no)
