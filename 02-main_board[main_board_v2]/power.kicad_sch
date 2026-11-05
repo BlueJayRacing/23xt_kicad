@@ -2237,7 +2237,7 @@
 		)
 		(uuid "d266d735-8a47-4d8e-9eb3-6c1466578ce0")
 	)
-	(text "Resistor Divider:\nVout = Vin*(r2/(r1+r2))\n5V = 11.1V*(10000/(10000+12000))"
+	(text "Resistor Divider:\nVen = Vin*(Rlow/(Rhigh+Rlow))\n5V = 11.1V*(10000/(10000+12000))"
 		(exclude_from_sim no)
 		(at 49.53 82.55 0)
 		(effects
@@ -2246,6 +2246,16 @@
 			)
 		)
 		(uuid "107d5b03-a060-4adc-af0e-8e517e0389f1")
+	)
+	(text "Vout Math:\nVout = 0.8*(1+Rhigh/Rlow)\n5.2 = 0.8*(1+165k/30k)"
+		(exclude_from_sim no)
+		(at 139.065 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1a858bda-e04d-4f2c-804a-e4e25e2dc593")
 	)
 	(text "5v usb and buck supply switcher"
 		(exclude_from_sim no)
@@ -3447,7 +3457,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "345k"
+		(property "Value" "165k"
 			(at 125.73 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3491,7 +3501,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW0603215KFKEA"
+		(property "MPN" "RNCF0603DTE165K"
 			(at 123.19 57.15 90)
 			(hide yes)
 			(show_name no)
@@ -4052,11 +4062,13 @@
 		)
 		(property "LCSC" "C14663"
 			(at 46.99 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4141,7 +4153,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW0603215KFKEA"
+		(property "MPN" "TFAS0603R3002F-T5"
 			(at 123.19 64.77 90)
 			(hide yes)
 			(show_name no)
@@ -4310,6 +4322,17 @@
 		)
 		(property "Description" "Inductor"
 			(at 116.84 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "NRS4018T3R3MDGJ"
+			(at 116.84 53.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4667,11 +4690,13 @@
 		)
 		(property "LCSC" "C14663"
 			(at 181.61 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5092,7 +5117,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL10A475KO8NNNC"
+		(property "MPN" "GMC10X5R106M16NT"
 			(at 62.23 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -5116,11 +5141,13 @@
 		)
 		(property "LCSC" "C96446"
 			(at 58.42 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5699,11 +5726,13 @@
 		)
 		(property "LCSC" "C15849"
 			(at 233.68 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5812,11 +5841,13 @@
 		)
 		(property "LCSC" "C25804"
 			(at 71.12 63.4999 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6000,11 +6031,13 @@
 		)
 		(property "LCSC" "C14663"
 			(at 115.57 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6113,11 +6146,13 @@
 		)
 		(property "LCSC" "C59461"
 			(at 139.7 55.8799 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6225,11 +6260,13 @@
 		)
 		(property "LCSC" "C14663"
 			(at 166.37 139.6999 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6337,11 +6374,13 @@
 		)
 		(property "LCSC" "C15849"
 			(at 194.31 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6528,11 +6567,13 @@
 		)
 		(property "LCSC" "C22790"
 			(at 71.12 55.8799 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6640,11 +6681,13 @@
 		)
 		(property "LCSC" "C14663"
 			(at 168.91 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
