@@ -1610,6 +1610,15 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 97.79 52.0701 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "57925198-294c-4727-bcc8-7260c485c564")
 		)
@@ -1711,6 +1720,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C25804"
+			(at 36.83 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
