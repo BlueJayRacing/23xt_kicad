@@ -1,5 +1,5 @@
-# 22xt_kicad, JHU Blue Jay Racing Repository
-This is the KiCad Repository for the JHU 22XT DAQ Sub-team.
+# 23xt_kicad, JHU Blue Jay Racing Repository
+This is the KiCad Repository for the JHU 23XT DAQ Sub-team.
 
 
 ## Installation and User Guide

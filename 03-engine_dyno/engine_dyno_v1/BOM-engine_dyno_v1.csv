@@ -1,0 +1,20 @@
+Item # ,Designator,DNP,Qty,Manufacturer,LCSC,Mfg Part #,Description/Value,Package/Footprint,Type
+1,"C1,C6,C38",,3,,,,"Ceramic capacitor, 10uF, 0402",0402 (1005 Metric),SMD
+2,C2,,1,,,,"Ceramic capacitor, 47uF, 0402",0402 (1005 Metric),SMD
+3,"C3,C4,C5",,3,,,,"Ceramic capacitor, 1uF, 0402",0402 (1005 Metric),SMD
+4,"C7,C8,Cb1,C9,C10,C11,C12,C13,C14,C17,C18,C19,C20,C21,C22,C23,C24,C25,C27,C28,C29,C32,C33,C34,C35,C37",,26,,,,"Ceramic capacitor, 100nF, 0402",0402 (1005 Metric),SMD
+5,"C15,C31",,2,,,,"Ceramic capacitor, 68nF, 0402",0402 (1005 Metric),SMD
+6,"C16,C30",,2,,,,"Ceramic capacitor, 150nF, 0402",0402 (1005 Metric),SMD
+7,"C26,C36",,2,,,,"Ceramic capacitor, 1nF, 0402",0402 (1005 Metric),SMD
+8,"R1,R2,R5,R6,R8,R14",,6,,,,"Chip resistor, 100kΩ, 0402",0402 (1005 Metric),SMD
+9,R3,,1,,,,"Chip resistor, 13.7kΩ, 0402",0402 (1005 Metric),SMD
+10,R4,,1,,,,"Chip resistor, 500Ω, 0402",0402 (1005 Metric),SMD
+11,R7,,1,,,,"Chip resistor, 1.5kΩ, 0402",0402 (1005 Metric),SMD
+12,"R9,R13,R23,R24",,4,,,,"Chip resistor, 16kΩ, 0402",0402 (1005 Metric),SMD
+13,"R10,R25",,2,,,,"Chip resistor, 1kΩ, 0402",0402 (1005 Metric),SMD
+14,R11,,1,,,,"Chip resistor, 390Ω, 0402",0402 (1005 Metric),SMD
+15,"R12,R17,R18,R26",,4,,,,"Chip resistor, 4.7kΩ, 0402",0402 (1005 Metric),SMD
+16,"R15,R16",,2,,,,"Chip resistor, 20kΩ, 0402",0402 (1005 Metric),SMD
+17,"R19,R20",,2,,,,"Chip resistor, 47kΩ, 0402",0402 (1005 Metric),SMD
+18,"R21,R22",,2,,,,"Chip resistor, 33kΩ, 0402",0402 (1005 Metric),SMD
+19,L1,,1,Würth Elektronik,,74438336100,3.0 × 3.0 × 2.0 mm power inductor; IRP 1.65A; Isat 1.55A at 10% / 3.0A at 30%.,WE-MAPI 3020,SMD
