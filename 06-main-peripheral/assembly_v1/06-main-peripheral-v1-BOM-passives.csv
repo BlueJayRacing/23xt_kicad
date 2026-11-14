@@ -1,0 +1,6 @@
+Item,Designator,Qty,Value,Package,Type,Manufacturer Part Number,Manufacturer,Description / Specs
+1,C1,1,22nF,603,SMD,,,"22nF, 0603, X7R, 50V, 10%"
+2,C2,1,47uF,5.0x5.5mm,SMD,,,"47uF, alum. electrolytic, 5.0x5.5mm SMD, >=25V"
+3,"C3,C4,C5",3,100nF,603,SMD,,,"100nF, 0603, X7R, 50V, 10%"
+4,R1,1,500,603,SMD,,,"500 ohm, 0603, 1%, 1/10W"
+5,R2,1,10k,603,SMD,,,"10k ohm, 0603, 1%, 1/10W"
