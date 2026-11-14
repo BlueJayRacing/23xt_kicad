@@ -650,7 +650,7 @@
         "uuid": "d37bea93-286f-4b16-8fb5-bff0aad4794c"
       }
     ],
-    "used_designators": "",
+    "used_designators": "TP1-3,U2-3,U11-13,U22-48,R4,R6,R10,R45,R58-153,C20-38,C51-57,C61-124,#PWR9,#PWR15,#PWR59,#PWR62-76,#PWR79-197",
     "variants": []
   },
   "sheets": [
@@ -721,6 +721,106 @@
     [
       "9c6453c5-a84f-40e4-abfd-2a309d1504c5",
       "Instument App + Bridge11"
+    ],
+    [
+      "9568feeb-038d-4be7-9bf8-4c5303c0dde5",
+      "ADCS"
+    ],
+    [
+      "60fbfc2f-7e5f-480b-b486-9303fa082f94",
+      "Instument App + Bridge12"
+    ],
+    [
+      "c80da426-0d49-458e-a457-15e0f7142aa5",
+      "Instument App + Bridge13"
+    ],
+    [
+      "d9024e6c-dc4c-4a45-90ca-a19933ca9305",
+      "Instument App + Bridge14"
+    ],
+    [
+      "276914c1-f5c0-41d4-a538-5936bf7987bd",
+      "Instument App + Bridge15"
+    ],
+    [
+      "0497217f-9e15-4bb2-be2f-6c400264a2e8",
+      "Instument App + Bridge16"
+    ],
+    [
+      "ae5d106f-6a61-45d0-b0cd-6e1d63c1b85a",
+      "Instument App + Bridge17"
+    ],
+    [
+      "99e40079-35d9-45e3-8bed-bf08646fa9d4",
+      "Instument App + Bridge18"
+    ],
+    [
+      "8cd03610-6449-47c6-a1c9-883bb2323e39",
+      "Instument App + Bridge19"
+    ],
+    [
+      "934b95e6-5780-499a-9230-05c486af415c",
+      "Instument App + Bridge20"
+    ],
+    [
+      "53b14603-a183-48a4-b9d3-2919a5d6dbd9",
+      "Instument App + Bridge21"
+    ],
+    [
+      "ce08784e-eb49-4e6c-a910-51074b7afee3",
+      "Instument App + Bridge22"
+    ],
+    [
+      "1c0198a8-70c3-4924-8a3c-b3d49866ba2a",
+      "Instument App + Bridge23"
+    ],
+    [
+      "06031385-bbf9-4ff2-97a2-a8003d634bb3",
+      "Instument App + Bridge24"
+    ],
+    [
+      "5af70e43-e95d-4178-bb2a-ab7003946c4b",
+      "Instument App + Bridge25"
+    ],
+    [
+      "d292470e-e204-4030-81ef-120285cccc7f",
+      "Instument App + Bridge26"
+    ],
+    [
+      "753241b2-759f-46c1-be3e-5436fe5f765f",
+      "Instument App + Bridge27"
+    ],
+    [
+      "82743ec5-c3e2-4d42-8a80-f18b30c40257",
+      "Instument App + Bridge28"
+    ],
+    [
+      "f674c148-8b3b-4e7a-98aa-e2d58b40e25c",
+      "Instument App + Bridge29"
+    ],
+    [
+      "55c1cb3a-7912-4584-8768-63e861c7285f",
+      "Instument App + Bridge30"
+    ],
+    [
+      "67452610-6985-42bf-a212-527b78e975fc",
+      "Instument App + Bridge31"
+    ],
+    [
+      "b0acab92-86e8-4e88-a32d-5acadbd7cdc2",
+      "Instument App + Bridge32"
+    ],
+    [
+      "4c8a3e62-f4f7-4366-bcaa-e5f503740dca",
+      "Instument App + Bridge33"
+    ],
+    [
+      "3c8a9adf-6f42-486c-b4d3-c173d0c45701",
+      "Instument App + Bridge34"
+    ],
+    [
+      "e738ebe2-4b9a-462d-af45-3a5c06181252",
+      "Instument App + Bridge35"
     ]
   ],
   "text_variables": {},
