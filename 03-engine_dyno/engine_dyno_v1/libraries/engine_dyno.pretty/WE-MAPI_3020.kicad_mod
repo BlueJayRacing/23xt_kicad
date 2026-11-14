@@ -1,0 +1,134 @@
+(footprint "WE-MAPI_3020"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Wurth Elektronik WE-MAPI 3020, 3.0 x 3.0 x 2.0 mm; land pattern per 74438336100 datasheet")
+	(tags "inductor power Wurth WE-MAPI 3020")
+	(property "Reference" "L1"
+		(at 0 -2.45 180)
+		(layer "F.SilkS")
+		(uuid "aa7718d9-7fd5-49bb-bedd-2326de7c27a8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "10uH"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "508c965c-7ea7-4f30-9b57-b0a2c9919dfa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.we-online.com/components/products/datasheet/74438336100.pdf"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6ad1331e-95af-4e6a-9d1e-15869b5be163")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Wurth Elektronik WE-MAPI 3020, 10uH, IRP 1.65A, Isat 1.55A at 10% / 3.0A at 30%"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8a77ab46-1b46-439f-b7e0-9fe9188606d4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.61 -1.96)
+		(end 1.61 -1.96)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "23e1e024-83c8-4f88-a51a-8aa36e774e36")
+	)
+	(fp_line
+		(start 1.61 1.96)
+		(end -1.61 1.96)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "827f9b1b-beb0-4899-bdad-b280476eab23")
+	)
+	(fp_rect
+		(start -1.75 -1.75)
+		(end 1.75 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "4982dde8-650c-4408-8e30-0db239d4b061")
+	)
+	(fp_rect
+		(start -1.5 -1.5)
+		(end 1.5 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "7f018d77-63c7-4892-9e38-565a62f468ce")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "37722e29-8399-4315-9ada-1307401b99bb")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.05 0)
+		(size 1.3 3.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.077)
+		(uuid "a06f53b9-85f4-458c-9e8d-3225ab03b167")
+	)
+	(pad "2" smd roundrect
+		(at 1.05 0)
+		(size 1.3 3.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.077)
+		(uuid "495c41a6-518c-455e-85ce-4bbc468c3b51")
+	)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Wuerth_MAPI-3020.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(embedded_fonts no)
+)
